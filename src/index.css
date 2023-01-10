@@ -1,0 +1,37 @@
+
+
+/*crear fuente*/
+@font-face {
+  font-family:'webfont';
+  src: local('fontawesome-webfont'), 
+       url(../src/assets/fonts/fontawesome-webfont.ttf) 
+       format(truetype)
+}
+
+@font-face {
+  font-family:'glyphicons';
+  src: local('glyphicons-halflings-regular'), 
+       url(../src/assets/fonts/glyphicons-halflings-regular.ttf) 
+       format(truetype)
+}
+
+@font-face {
+  font-family:'themify';
+  src: local('themify'), 
+       url(../src/assets/fonts/themify.ttf) 
+       format(truetype)
+}
+
+@font-face {
+  font-family:'lanenar';
+  src:  
+       url(../src/assets/fonts/lanenar_Lane.ttf)
+       format(truetype)
+}
+
+h1 {
+  font-family: 'lanenar';
+}
+
+
+
