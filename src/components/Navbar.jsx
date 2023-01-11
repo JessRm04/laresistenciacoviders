@@ -1,34 +1,23 @@
 import React from 'react'
-import Navbar from '../components/NavbarComponents'
+import Drawer from '@mui/material/Drawer';
+import useState from 'react'
+import {List, ListItem} from './NavbarItems'
 
-function NavbarComponents ({src}) {
-    return (
-        <div>
-            <img src={src} width="40px" alt="navbar components"/>
-        </div>
-    )};
+function Navbar() {
+  const [open, setOpen] = useState(false);
 
-
-
-function Navbar () {
-    return (
-        <>
-        <div className="navbar">
-            <ul>
-                <NavbarComponents src={} alt="option"/>
-                <NavbarComponents src={} alt="option"/>
-                <NavbarComponents src={} alt="option"/>
-                <NavbarComponents src={} alt="option"/>
-                <NavbarComponents src={} alt="option"/>
-                <NavbarComponents src={} alt="option"/>
-                <NavbarComponents src={} alt="option"/>
-                <NavbarComponents src={} alt="option"/>
-            </ul>
-
-        </div>
-        </>
-    )
+  return (
+    <div>
+      <button onClick={() => setOpen(!open)}>Toggle Drawer</button>
+      <Drawer open={open} onClose={() => setOpen(false)}>
+        <List>
+          <ListItem>Item 1</ListItem>
+          <ListItem>Item 2</ListItem>
+          <ListItem>Item 3</ListItem>
+        </List>
+      </Drawer>
+    </div>
+  );
 }
 
 export default Navbar;
-export default NavbarComponents;
