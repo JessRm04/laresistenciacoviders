@@ -1,3 +1,4 @@
+
 .virus-h{
     display: flex;
     justify-content: flex-start;
@@ -48,6 +49,7 @@ body{
 
   .div1 {
     background-color: white;
+    overflow: hidden;
     color: blue;
     margin: 10px;
     grid-column: 1 / 2;

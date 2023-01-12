@@ -6,6 +6,7 @@ import covidgreen from '../assets/img/covidgreen.svg';
 import telephone from '../assets/img/telephone.svg';
 import '../css/trackerdos.css';
 
+
 const Trackerdos = () => {
   return (
 <body> 

@@ -27,8 +27,16 @@
        format(truetype)
 }
 
-h1 {
-  font-family: 'lanenar';
+
+@font-face {
+  font-family: 'Poppins';
+  src: 
+    url(../src/assets/fonts/Poppins-Light.ttf)
+    format(truetype)
+}
+
+body {
+  font-family: 'Poppins';
 }
 
 
