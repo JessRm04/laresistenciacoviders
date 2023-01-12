@@ -21,8 +21,7 @@ class DataContainer extends React.Component {
       return "Loading ...";
     }
     return;
-    country.map((country) => (<TrackerTres country={country.displayCountry} key={country.countryInfo._id} />
-    ));
+    country.map((country) => <TrackerTres {...country} key={country.countryInfo._id} />);
   }
 }
 export default DataContainer;

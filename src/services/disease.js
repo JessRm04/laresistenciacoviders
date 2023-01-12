@@ -1,11 +1,13 @@
-export async function disease(country) {
+const baseUrl = 'https://disease.sh/v3/covid-19/'
+
+export async function disease(props) {
 
     const config = {
         headers: {
           Accept: 'application/json',
         },
       }
-      const response = await fetch(`https://disease.sh/docs/#/COVID-19%3A%20Worldometers/get_v3_covid_19_countries__${country}_`, config)
+      const response = await fetch(`${baseUrl}countries/usa`, config)
       const responseJson = await response.json()
       return responseJson;
 }

@@ -1,9 +1,15 @@
 import React from 'react';
-import PropTypes, { string } from 'prop-types';
+import PropTypes from 'prop-types';
 
-const TrackerTres = ({country}) => <h2>{country}</h2>
+const TrackerTres = ({}) => {
+  <>
+  <h2>{country}</h2>
+  <img src={bags} alt={country}></img>
+  </>
+ }
     TrackerTres.propTypes = {
-        country:PropTypes.string.isRequired
+        country:PropTypes.string.isRequired,
+        bags: PropTypes.string.isRequired,
   }
 
 
