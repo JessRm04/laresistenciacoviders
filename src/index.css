@@ -27,8 +27,13 @@
        format(truetype)
 }
 
-h1 {
-  font-family: 'lanenar';
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kanit:wght@300&family=Mulish&family=Poppins:wght@200;300;400&display=swap');
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
 }
 
 

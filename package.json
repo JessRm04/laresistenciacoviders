@@ -18,12 +18,8 @@
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
-=======
-    "react-scripts": "^5.0.1",
->>>>>>> fa8c588be21976b40fe47ac61126d280377d03f5
     "web-vitals": "^2.1.4"
   },
   "scripts": {

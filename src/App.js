@@ -1,21 +1,17 @@
 import './App.css';
-<<<<<<< HEAD
-import Layout from './components/Navbar'
-=======
+import Layout from './components/moleculas/Navbar'
 import {Tracker_seis, data, options} from './components/Tracker_seis';
+import CasesComponent from './components/covid19tracker';
 
->>>>>>> fa8c588be21976b40fe47ac61126d280377d03f5
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>COVIDERS</h1>
-<<<<<<< HEAD
         <Layout/>
-=======
-        <Tracker_seis />
->>>>>>> fa8c588be21976b40fe47ac61126d280377d03f5
+        <Tracker_seis/>
+        <CasesComponent/>
       </header>
     </div>
   );    
