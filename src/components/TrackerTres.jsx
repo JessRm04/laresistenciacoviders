@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TrackerTres = ({}) => {
+const TrackerTres = ({country, bag}) => {
   <>
   <h2>{country}</h2>
   <img src={bag} alt={country}></img>
