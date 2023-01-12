@@ -2,9 +2,19 @@ import Disease from "../../../services/disease";
 import '../table/table_tracker.css'
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import order from '../../../assets/fonts/icons/order.png'
+import order from '../../../assets/fonts/icons/order.png';
+import Pagination from 'react-paginate';
+import React, { useState } from 'react';
 
 const Table_tracker = () => {  
+    const [currentPage, setCurrentPage] = useState(0);
+    const [pageSize, setPageSize] = useState(10);
+
+    const handlePageChange = ({ selected }) => {
+        setCurrentPage(selected);
+    };
+
+    const paginatedData = Disease().slice(currentPage * pageSize, (currentPage + 1) * pageSize);
 
     return (
         <div className="tableContainer">
@@ -42,7 +52,7 @@ const Table_tracker = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {Disease().map(country => (
+                    {paginatedData.map(country => (
                     <tr key={country.country}>
                         <td><img src={country.countryInfo.flag} alt className='flagImg'></img></td>
                         <td>{country.country}</td>
@@ -58,6 +68,10 @@ const Table_tracker = () => {
                     ))}
                 </tbody>
             </Table>
+            <Pagination className="pagination"
+                pageCount={Math.ceil(Disease().length / pageSize)}
+                onPageChange={handlePageChange}
+            />
         </div>
     );
 };
