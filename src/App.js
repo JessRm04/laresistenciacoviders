@@ -1,7 +1,9 @@
 import './App.css';
 import Layout from './components/moleculas/Navbar'
 // import {Tracker_seis, data, options} from './components/Tracker_seis';
-import CasesComponent from './components/covid19tracker';
+// import CasesComponent from './components/covid19tracker';
+import Top10 from './components/moleculas/top10';
+
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
         <h1>COVIDERS</h1>
         <Layout/>
         {/* <Tracker_seis/> */}
-        <CasesComponent/>
+        {/* <CasesComponent/> */}
+        <Top10/>
       </header>
     </div>
   );    

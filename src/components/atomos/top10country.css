@@ -1,0 +1,6 @@
+.top10container{
+    display: flex;
+    width: 360px;
+    background: white;
+    color: black;
+}
