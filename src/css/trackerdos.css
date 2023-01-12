@@ -1,0 +1,112 @@
+.virus-h{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.container-casos-h{
+    background-color: white;
+    max-width: 12%;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+}
+
+.confirmed{
+    max-width: 200px;
+}
+
+h6{
+    margin: -10px;
+}
+
+body{
+    background-color: rgb(234, 232, 232);
+}
+.virus-v{
+    position: relative;
+    opacity: 40%;
+    padding-left: 80%;
+}
+
+.casos{
+    position: absolute;
+}
+
+.container-colum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .div1 {
+    background-color: white;
+    color: blue;
+    margin: 10px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div2 {
+    background-color: white;
+    color: red;
+    margin: 10px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div3 {
+    background-color: white;
+    color: green;
+    margin: 10px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div4 {
+    background-color: white;
+    color: rgb(0, 157, 255);
+    margin: 10px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div5 {
+    background-color: white;
+    color: orangered;
+    margin: 10px;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div6 {
+    background-color: white;
+    color: rgb(170, 6, 6);
+    margin: 10px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-colum-h{
+    display: flex;
+    justify-content:center;
+  }

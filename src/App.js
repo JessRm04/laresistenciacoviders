@@ -1,12 +1,14 @@
 import './App.css';
+import Trackerdos from '../src/components/Trackerdos';
+import Desplegable from '../src/components/Desplegable';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>COVIDERS</h1>
-        
+        <Desplegable />
+        <Trackerdos />
       </header>
     </div>
   );
