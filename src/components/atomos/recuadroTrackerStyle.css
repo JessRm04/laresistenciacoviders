@@ -1,0 +1,15 @@
+.containerStyle{
+    width: 370px;    
+}
+
+.recuadroStyle{
+    display: flex;
+    height: 65px;
+    background-color: aqua;
+    font-size: medium;
+    margin: 10px;
+    border: solid 1px transparent;
+    justify-content: space-around;
+    border-radius: 2px;
+    align-items: center;
+}
