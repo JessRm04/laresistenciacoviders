@@ -15,21 +15,6 @@ function GetData() {
       const responseJson = await response.json();
       setResponseData(responseJson);
       console.log(responseJson);
-      // const data = (setResponseData) => {
-      //   setResponseData
-      //     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-      //     .slice(0, 10)
-      //     .map((element) => {
-      //       element.countryInfo._id,
-      //         element.countryInfo.flag,
-      //         element.country,
-      //         element.cases,
-      //         element.active,
-      //         element.deaths,
-      //         element.recovered;
-      //     });
-      //     console.log(data);
-      // };
     }
     fetchData();
   }, []);
