@@ -1,0 +1,64 @@
+
+@media only screen and (max-width: 575px) {
+    #TopCountryStats {
+      margin-right: -8px;
+      margin-left: -8px; } }
+  @media only screen and (max-width: 575px) {
+    #TopCountryStats .col-6 {
+      padding-right: 8px;
+      padding-left: 8px; } }
+  #TopCountryStats h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600; }
+  #TopCountryStats .item {
+    background: #fff;
+    box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
+    display: block;
+    padding: 10px 10px 10px 55px;
+    position: relative;
+    color: #121158;
+    margin-bottom: 15px;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s; }
+    #TopCountryStats .item:hover {
+      transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2); }
+    @media only screen and (max-width: 1199px) {
+      #TopCountryStats .item {
+        padding: 10px 10px 10px 42px; } }
+    #TopCountryStats .item img {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      left: 15px;
+      top: 50%;
+      margin-top: -15px;
+      border-radius: 30px; }
+      @media only screen and (max-width: 1199px) {
+        #TopCountryStats .item img {
+          width: 25px;
+          height: 25px;
+          left: 10px;
+          top: 50%;
+          margin-top: -12px; } }
+    #TopCountryStats .item span {
+      display: block;
+      width: 100%;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 5px; }
+    #TopCountryStats .item span:last-child {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 0; }
+  
