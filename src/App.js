@@ -1,8 +1,7 @@
 import './App.css';
-import DataContainer from './components/DataContainer';
-import Drawer from './components/moleculas/Drawer';
+import Drawer from './components/moleculas/Mol-drawer';
 import CasesComponent from './components/covid19tracker';
-//import TrackerCuatro from './components/Tracker-cuatro';
+import TrackerCuatro from './components/tracker-cuatro/Tracker-cuatro';
  import GetData from './services/Get-data';
 
 
@@ -14,7 +13,6 @@ function App() {
         <Drawer/>
         <CasesComponent/>
         <TrackerCuatro />
-        <GetData />
       </header>
     </div>
   );    
