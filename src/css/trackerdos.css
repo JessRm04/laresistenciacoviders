@@ -27,7 +27,7 @@ h6{
     margin: -10px;
 }
 
-body{
+.track2{
     background-color: rgb(234, 232, 232);
 }
 .virus-v{
@@ -60,6 +60,7 @@ body{
 
   .div2 {
     background-color: white;
+    overflow: hidden;
     color: red;
     margin: 10px;
     grid-column: 2 / 3;
@@ -70,16 +71,19 @@ body{
 
   .div3 {
     background-color: white;
+    overflow: hidden;
     color: green;
     margin: 10px;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     display: flex;
     justify-content: center;
+    max-width: 500px;
   }
 
   .div4 {
     background-color: white;
+    overflow: hidden;
     color: rgb(0, 157, 255);
     margin: 10px;
     grid-column: 2 / 3;
@@ -90,6 +94,7 @@ body{
 
   .div5 {
     background-color: white;
+    overflow: hidden;
     color: orangered;
     margin: 10px;
     grid-column: 1 / 2;
@@ -100,6 +105,7 @@ body{
 
   .div6 {
     background-color: white;
+    overflow: hidden;
     color: rgb(170, 6, 6);
     margin: 10px;
     grid-column: 2 / 3;
@@ -111,4 +117,22 @@ body{
   .container-colum-h{
     display: flex;
     justify-content:center;
+  }
+
+  .girar {
+    transform: rotate(90deg);
+    transition: transform 0.3s;
+  }
+  
+  @keyframes spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .virus{
+    animation: spinning 6s linear infinite;
   }

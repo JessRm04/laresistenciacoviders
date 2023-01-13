@@ -1,0 +1,36 @@
+.pie-de-pagina{
+    margin-top: 10%;
+    margin-right:20%;
+    margin-left: 20%;
+}
+
+.fa-brands{
+    font-size: 25px;
+    background-color: rgba(8, 7, 96, 0.914);
+    border-radius: 100%;
+    color: white;
+    padding: 10px;
+   
+}
+  .botonesbajos{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .texto{
+    text-align: center;
+  }
+ 
+  footer{
+    background-color: rgba(8, 7, 96, 0.914);
+    color: white;
+  }
+
+  .piepag{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .container-1{
+    padding: 100px;
+  }
