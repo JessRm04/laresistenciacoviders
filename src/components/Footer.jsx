@@ -12,7 +12,7 @@ function footer() {
             <div className="col-md-4">
               <p className="h6"><i class="fa-solid fa-virus-covid"></i><b> COVIMAP</b></p>
               <p className="text-secondary">These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.</p>
-              <div className="col-sm">
+              <div className="icons col-sm">
                 <i className="fa-brands fa-facebook"></i>
                 <i className="fa-brands fa-twitter"></i>
                 <i className="fa-brands fa-linkedin"></i>
@@ -64,7 +64,7 @@ function footer() {
             <p className="text-secondary">© Copyright 2020. All Rights Reserved</p>
           </div>
           <div>
-            <p>Design by <b>DesignZone</b></p>
+            <p className="text-secondary">Design by <b className="text-light">DesignZone</b></p>
           </div>
         </div>
 

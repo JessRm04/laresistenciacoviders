@@ -12,6 +12,12 @@
     padding: 10px;
    
 }
+.fa-brands:hover{
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.26);
+  cursor: pointer;
+}
+
   .botonesbajos{
     display: flex;
     justify-content: center;
