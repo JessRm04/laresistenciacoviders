@@ -1,5 +1,5 @@
 import React from 'react';
-import DataApi from "../../services/Data-api";
+import DataApi from "../../services/Services-data-api";
 
 const MolTrackCuatroDeathDiez = () => {
     const responseData = DataApi();
