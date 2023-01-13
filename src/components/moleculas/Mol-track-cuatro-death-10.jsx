@@ -1,8 +1,8 @@
 import React from 'react';
 import DataApi from "../../services/Data-api";
 
-const MolTrackCuatro = () => {
-   const responseData = DataApi();
+const MolTrackCuatroDeathDiez = () => {
+    const responseData = DataApi();
     return responseData
       .sort((a, b) => b.responseData - a.responseData)
       .slice(0, 10)
@@ -14,9 +14,9 @@ const MolTrackCuatro = () => {
               width="30"
             />
             <span>{item.country}</span>
-            <span>{item.cases}</span>
+            <span>{item.deaths}</span>
           </div>
   ));
 }
 
-export default MolTrackCuatro
+export default MolTrackCuatroDeathDiez
