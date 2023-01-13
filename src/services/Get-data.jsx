@@ -14,7 +14,7 @@ function GetData() {
       const response = await fetch(`${baseUrl}countries/usa`, config);
       const responseJson = await response.json();
       setResponseData(responseJson);
-      console.log(responseJson);
+      console.log(responseJson); 
     }
     fetchData();
   }, []);
