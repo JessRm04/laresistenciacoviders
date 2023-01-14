@@ -9,7 +9,7 @@ const top10 = ({img, country, numbers}) => {
             <p>{country}</p>
         </div>
         <div>
-            <h5>{numbers}</h5>
+            <div>{numbers}</div>
         </div>
     </div>
 
