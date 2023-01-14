@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const DataApi = () => {
+const DataApiAll = () => {
     const [allData, setAllData] = useState([]);
     useEffect(() => {
         async function fetchData() {
@@ -15,4 +15,4 @@ const DataApi = () => {
   );
 }
 
-export default DataApi;
+export default DataApiAll;
