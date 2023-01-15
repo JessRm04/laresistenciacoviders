@@ -1,0 +1,35 @@
+.pageContainer {
+    color:rgb(56, 72, 143);
+    background-color: rgb(223, 223, 223);
+}
+
+.card{
+    width: 450px;
+    height: 130px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.iconA{
+    width: 50px;
+	height: 50x;
+    margin-bottom: 35px;
+}
+
+.hexagon{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+
+.iconImage{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 20px 0px 0px 30px;
+}
+
+
+
