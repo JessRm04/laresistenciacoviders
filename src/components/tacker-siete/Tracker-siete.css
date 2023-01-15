@@ -1,0 +1,16 @@
+.App {
+    text-align: center;
+  }
+  
+  .App > div{
+    height: 94vh !important;
+  }
+  
+  rect{
+    height: 65px;
+  }
+  
+  .App > div> p{
+    font-size: 17px;
+    font-weight: bold;
+  }
