@@ -5,7 +5,7 @@ import Top10Component from "../atomos/Top10Component.jsx"
 
 
 function Top10() {
-     const [data, setData] = useState(null);
+     const [data, setData] = useState();
      const country = "spain/"
    
      useEffect(() => {
@@ -15,13 +15,22 @@ function Top10() {
          setData(json);
        }
        fetchData();
-     });
+     },[]);
    
      return (
        <div>
          {data && (
           <div>
-          <Top10Component img={"https://disease.sh/assets/img/flags/es.png"} country={data.country} numbers={data.country}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
+          <Top10Component flag={data.countryInfo.flag} country={data.country} numbers={data.cases}/>
          </div>
           )}
        </div>

@@ -1,6 +1,37 @@
 .top10container{
     display: flex;
-    width: 360px;
+    justify-content: space-between;
+    width: 370px;
     background: white;
     color: black;
+    height: 42px;
+    align-items: center;
+    border-radius: 3px;
+    margin: 6px 0px 6px 0px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.leftContainer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.flag{
+    border-radius: 27%;
+    width: 35px;
+    height: 25px;
+    padding: 10px;
+}
+
+.country{
+    font-size: small;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+.numbers{
+    font-size: small;
+    color: #2b2c8b;
+    padding-right: 10px;
 }
