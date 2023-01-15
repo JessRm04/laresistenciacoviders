@@ -4,7 +4,7 @@ import './App.css';
 //import Layout from './components/moleculas/Navbar'
 //import {Tracker_seis, data, options} from './components/Tracker_seis';
 //import CasesComponent from './components/covid19tracker';
-import Table_tracker from './components/moleculas/table/Table_tracker';
+import TableTracker from './components/moleculas/table/TableTracker';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Layout/>
         <Tracker_seis/>
         <CasesComponent/>*/}
-        <Table_tracker/>
+        <TableTracker/>
       </header>
     </div>
   );    

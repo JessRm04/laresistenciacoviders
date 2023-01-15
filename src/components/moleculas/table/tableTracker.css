@@ -57,3 +57,23 @@ p{
     justify-content: space-around;
     font-size: 11px;
 }
+
+
+@media screen and (max-width: 576px) {
+    .tableContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    p{
+        grid-column: 1/1;
+    }
+
+    .search{
+        grid-column: 1/4;
+    }
+    
+    .show{
+        grid-column: 1/1;
+    }
+}
