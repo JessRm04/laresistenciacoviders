@@ -1,5 +1,5 @@
-import React from 'react'
-//import Drawer from '@mui/material/Drawer';
+import React from 'react';
+import { Drawer } from '@mui/material';
 import { flexbox } from '@mui/system';
 import List from '@mui/material/List'; //ul
 import ListItem from '@mui/material/ListItem'; //li
@@ -58,7 +58,7 @@ const menuItems = [
     },
 ]
 
-export default function Drawer({children}) {
+export default function Layout({children}) {
     const classes = {
         drawer: {
           width: drawerWidth,

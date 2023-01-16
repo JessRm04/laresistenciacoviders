@@ -1,5 +1,5 @@
 import React from 'react'
-//import '../atomos/recuadroTrackerStyle.css'
+//import '../atomos/recuadroTrackerStyle.css';
 import Recuadro from './atomos/RecuadroTracker';
 import DataApiAll from '../services/Services-data-api-all';
 
