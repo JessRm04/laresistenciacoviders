@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import covidred from '../../../assets/img/covidred.svg';
-import covidblue from '../../../assets/img/covidblue.svg';
-import covidorange from '../../../assets/img/covidorange.svg';
-import covidgreen from '../../../assets/img/covidgreen.svg';
-import telephone from '../../../assets/img/telephone.svg';
-import '../css/trackerdos.css';
-import Desplegable from './Mol-trackerdos-desplegable';
+import covidred from '../../../../assets/img/covidred.svg';
+import covidblue from '../../../../assets/img/covidblue.svg';
+import covidorange from '../../../../assets/img/covidorange.svg';
+import covidgreen from '../../../../assets/img/covidgreen.svg';
+import telephone from '../../../../assets/img/telephone.svg';
+import '../tracker-dos/trackerdos.css';
+import Desplegable from '../tracker-dos/Mol-trackerdos-desplegable';
 
 
 const Trackerdos = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Trackerdos from './components/trackerdos/moleculas/Mol-trackerdos';
-import Desplegable from './components/trackerdos/moleculas/Mol-trackerdos-desplegable';
+import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
+import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
 //import Drawer from './components/moleculas/Mol-drawer';
 import CasesComponent from './components/covid19tracker';
 import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
