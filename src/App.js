@@ -5,6 +5,7 @@ import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos
 //import Drawer from './components/moleculas/Mol-drawer';
 import CasesComponent from './components/covid19tracker';
 import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
+import Symptom from './components/moleculas/symptom/symptom';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <header className="App-header">
         <h1>COVIDERS</h1>
         {/* <Drawer/> */}
+        <Symptom />
         <Desplegable />
         <Trackerdos />
         <CasesComponent/> 
