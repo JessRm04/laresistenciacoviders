@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/trackerdos.css';
 import { useState, useEffect } from 'react';
 
-function desplegable() {
+function Desplegable() {
   const [data, setData] = useState([]);
     
     useEffect(() => {
@@ -25,4 +25,4 @@ function desplegable() {
   )
 }
 
-export default desplegable;
+export default Desplegable;

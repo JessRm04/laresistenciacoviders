@@ -10,6 +10,7 @@
 .container-casos-h{
     background-color: white;
     max-width: 12%;
+    padding: 25px;
     padding-top: 20px;
     padding-bottom: 2px;
     color: blue;
@@ -119,10 +120,6 @@ h6{
     justify-content:center;
   }
 
-  .girar {
-    transform: rotate(90deg);
-    transition: transform 0.3s;
-  }
   
   @keyframes spinning {
     from {
@@ -133,6 +130,16 @@ h6{
     }
   }
 
+  
   .virus{
-    animation: spinning 6s linear infinite;
-  }
+    transition: transform 1s;
+}
+
+  .virus:hover {
+    transform: rotate(180deg);
+}
+
+h2{
+  margin-top: 10px;
+}
+  

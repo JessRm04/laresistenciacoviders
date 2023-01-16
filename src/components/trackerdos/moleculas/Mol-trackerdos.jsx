@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import covidred from '../assets/img/covidred.svg';
-import covidblue from '../assets/img/covidblue.svg';
-import covidorange from '../assets/img/covidorange.svg';
-import covidgreen from '../assets/img/covidgreen.svg';
-import telephone from '../assets/img/telephone.svg';
+import covidred from '../../../assets/img/covidred.svg';
+import covidblue from '../../../assets/img/covidblue.svg';
+import covidorange from '../../../assets/img/covidorange.svg';
+import covidgreen from '../../../assets/img/covidgreen.svg';
+import telephone from '../../../assets/img/telephone.svg';
 import '../css/trackerdos.css';
-import Desplegable from './Desplegable';
+import Desplegable from './Mol-trackerdos-desplegable';
 
 
 const Trackerdos = () => {
@@ -30,7 +30,9 @@ const Trackerdos = () => {
     <div className='div1'>
         <div className='casos'>
             <h5>Total Cases</h5>
-            <hr />
+        <div className="linea" >
+            <hr width="100%" />
+        </div>
             <h2>{data.cases}</h2>
         </div>
         <div className='virus-v'>

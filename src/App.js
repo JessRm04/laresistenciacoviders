@@ -1,6 +1,7 @@
 import './App.css';
-import Trackerdos from '../src/components/Trackerdos';
-import Desplegable from '../src/components/Desplegable';
+import Trackerdos from './components/trackerdos/moleculas/Mol-trackerdos';
+import Desplegable from './components/trackerdos/moleculas/Mol-trackerdos-desplegable';
+
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Desplegable />
-        <Trackerdos />
+         <Trackerdos />
+
       </header>
     </div>
   );
