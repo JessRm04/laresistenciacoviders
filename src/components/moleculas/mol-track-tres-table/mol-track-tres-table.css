@@ -58,8 +58,11 @@ p{
     font-size: 11px;
 }
 
+.tableText{
+    color: #7A7A9F;
+}
 
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
     .tableContainer{
         display: grid;
         grid-template-columns: 1fr;
@@ -76,4 +79,4 @@ p{
     .show{
         grid-column: 1/1;
     }
-}
+}*/

@@ -1,5 +1,6 @@
 import React from 'react'
-import '../table/tableTracker.css'
+import '../../moleculas/mol-track-tres-table/mol-track-tres-table.css'
+
 
 function SelecOption() {
   return (

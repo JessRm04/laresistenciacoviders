@@ -1,12 +1,12 @@
-import Disease from "../../../services/disease";
-import '../table/tableTracker.css'
+import DataApi from '../../../services/Services-data-api-countries';
+import '../mol-track-tres-table/mol-track-tres-table.css'
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import order from '../../../assets/fonts/icons/order.png';
 import Pagination from 'react-paginate';
 import React, { useState } from 'react';
-import InputSearch from "./InputSearch";
-import SelecOption from "./SelecOption";
+import InputSearch from "../../atomos/atom-track-tres-table/Atom-track-tres-input-table";
+import SelecOption from "../../atomos/atom-track-tres-table/Atom-track-tres-option-table";
 
 const TableTracker = () => {  
     const [currentPage, setCurrentPage] = useState(0);
@@ -16,7 +16,7 @@ const TableTracker = () => {
         setCurrentPage(selected);
     };
 
-    const paginatedData = Disease().slice(currentPage * pageSize, (currentPage + 1) * pageSize);
+    const paginatedData = DataApi().slice(currentPage * pageSize, (currentPage + 1) * pageSize);
 
     return (
         <div className="tableContainer">
@@ -60,7 +60,7 @@ const TableTracker = () => {
                 </tbody>
             </Table>
             <Pagination className="pagination"
-                pageCount={Math.ceil(Disease().length / pageSize)}
+                pageCount={Math.ceil(DataApi().length / pageSize)}
                 onPageChange={handlePageChange}
             />
         </div>

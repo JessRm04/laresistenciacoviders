@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import '../table/tableTracker.css'
-import {paginatedData} from "../table/TableTracker"
-import { Component } from 'react';
+import '../../moleculas/mol-track-tres-table/mol-track-tres-table.css'
+//import {paginatedData} from "../../moleculas/mol-track-tres-table/Mol-track-tres-table"
+//import { Component } from 'react';
 
 function InputSearch() {
   return (
