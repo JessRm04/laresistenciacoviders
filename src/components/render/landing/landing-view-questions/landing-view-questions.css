@@ -8,8 +8,8 @@
 
 .questionCards{
     display: grid;
-    grid-column: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 1fr 1fr;
+    grid-column: repet(6, 1fr);
+    grid-row: repet (2, 1fr);
 }
 
 .questionCardsLeft{
@@ -56,7 +56,7 @@ h5, h4{
 .title{
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    grid-template-columns: repet(4, 1fr);  
 }
 
 .titleQuestionsFaqs{
