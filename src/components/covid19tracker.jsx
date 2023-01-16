@@ -2,10 +2,9 @@ import React from 'react'
 import Recuadro from './atomos/RecuadroTracker';
 import DataApiAll from '../services/Services-data-api-all'
 
-
-
 const CasesComponent = ()=>{
     const responseData = DataApiAll();
+
     return(
        <div className="containerStyle">
             <Recuadro texto="Total Case" numeros={responseData.todayCases}/>
