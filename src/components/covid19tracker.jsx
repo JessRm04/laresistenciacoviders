@@ -1,12 +1,11 @@
 import React from 'react'
 //import '../atomos/recuadroTrackerStyle.css'
 import Recuadro from './atomos/RecuadroTracker';
-import DataApi from '../services/Services-data-api-countries';
+import DataApiAll from '../services/Services-data-api-all';
 
 const CasesComponent = ()=>{
-    const responseData = DataApi();
+    const responseData = DataApiAll();
     return responseData
-    .slice(0, 4)
     .map((item)=>(
         <div className="containerStyle" key={item.countryInfo._id}>
             <Recuadro texto="Total Case" numeros={item.totals}/>
