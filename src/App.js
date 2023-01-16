@@ -1,9 +1,9 @@
+import React from 'react';
 import './App.css';
-//import {Tracker_seis, data, options} from './components/Tracker_seis';
-//import DataContainer from './components/DataContainer';
-//import Layout from './components/moleculas/Navbar'
+//import Drawer from './components/moleculas/Mol-drawer';
 //import CasesComponent from './components/covid19tracker';
-import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
+//import TrackerCuatro from './components/tracker-cuatro/Tracker-cuatro';
+ 
 
 
 function App() {
