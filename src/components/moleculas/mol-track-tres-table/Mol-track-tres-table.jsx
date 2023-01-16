@@ -10,7 +10,7 @@ import SelecOption from "../../atomos/atom-track-tres-table/Atom-track-tres-opti
 
 const TableTracker = () => {  
     const [currentPage, setCurrentPage] = useState(0);
-    const [pageSize, setPageSize] = useState(10);
+    const [pageSize] = useState(10);
 
     const handlePageChange = ({ selected }) => {
         setCurrentPage(selected);
@@ -18,14 +18,17 @@ const TableTracker = () => {
 
     const paginatedData = DataApi().slice(currentPage * pageSize, (currentPage + 1) * pageSize);
 
+  
     return (
         <div className="tableContainer">
             <div>
                 <p>Ajax Data Table - Covid-19 Country Wise State</p>
             </div>
             <div className="options">
-                <SelecOption/>
-                <InputSearch/>
+                <form>
+                    <SelecOption/>
+                    <InputSearch/>                
+                </form>
             </div>
             <Table striped hover size="sm" >
                 <thead>

@@ -15,4 +15,4 @@ const DataApi = () => {
   );
 }
 
-export default DataApi;
+export default DataApi; 

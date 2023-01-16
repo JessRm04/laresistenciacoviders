@@ -1,35 +1,44 @@
-import React, { useState } from 'react'
-import '../../moleculas/mol-track-tres-table/mol-track-tres-table.css'
-//import {paginatedData} from "../../moleculas/mol-track-tres-table/Mol-track-tres-table"
-//import { Component } from 'react';
+import '../../moleculas/mol-track-tres-table/mol-track-tres-table.css';
+import React from 'react';
+import DataApi from '../../../services/Services-data-api-countries';
+import { render } from '@testing-library/react';
 
-function InputSearch() {
-  return (
-    <div className="search" type="submit">
+function InputSearch(props) {
+  return(
+    <div className="search">
+      <form >
         <label className="labelThree">Search:</label>
         <input type="text"/>
-    </div>
-  );
-
+      </form>
+    </div> 
+  )
 };
 
-export default InputSearch;
+export default InputSearch; 
 
-/*const [search, setSearch] = useState('');
-const handleChange = ({e}) => {
-  setSearch (e.target.value);
-}
+/*const Data = () => {
+    const [data, setData] = useState([]);
+    const [displayData, setDisplayData] = useState([]);
+    
+    const handleChange = (e) => {
+        const value = e.target.value;
+        const searchData = data.filter(data => data.country.toLowerCase().includes(value.toLowerCase()));
+        setDisplayData(searchData);
+    };*/
 
-const filterCountry = paginatedData.filter(data => key={data.country})*/
-/*class Search extends Component{
-    constructor(props){
-      super(props);
-      this.state = {filter: ''};
+    /*  handleSubmit = event => {
+    event.preventDefault();
     }
-    handleChange(value, e){
-      this.setState({filter: value});
-    }
-    render(){
-      const ciudad = this.props.paginatedData.filter(data => key={data.country});
-    }
-  }*/
+
+    handleCountry = event => {
+    this.setState(event.target.value);
+    };
+
+    function filtrar(nextProps) {
+        if (nextProps.searchValue !== this.props.searchValue){
+            this.setState({
+                filterData: this.props.paginatedData.filter(country => country.country(nextProps))
+            });
+        };
+    };
+*/
