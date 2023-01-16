@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-// import Drawer from './components/moleculas/Mol-drawer';
-// import CasesComponent from './components/covid19tracker.jsx'
+import Layout from './components/Layout';
+
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>COVIDERS</h1>
-        {/* <Drawer/> */}
+        <Layout/>
         {/* <CasesComponent/> */}
         
       </header>
