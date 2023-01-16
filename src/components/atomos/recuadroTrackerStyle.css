@@ -3,7 +3,7 @@
     background:white;
 }
 
-.recuadroStyle{
+.recuadroStyle{ 
     display: flex;
     height: 65px;
     font-size: medium;
@@ -15,6 +15,11 @@
     background-color: #fff2f2;
     color:#ff0000;
     padding: 0px 20px 0px 20px;
+    transition: transform 0.3s;
+}
+
+.recuadroStyle:hover{
+    transform: scale(1.1); 
 }
 
 .recuadroStyle2{
@@ -29,8 +34,12 @@
     background-color: #fff9f1;
     color:#ff6a07;
     padding: 0px 20px 0px 20px;
+    transition: transform 0.3s;
 }
 
+.recuadroStyle2:hover{
+    transform: scale(1.1); 
+}
 
 .recuadroStyle3{
     display: flex;
@@ -44,8 +53,12 @@
     background-color: #edffec;
     color:#82c519;
     padding: 0px 20px 0px 20px;
+    transition: transform 0.3s;
 }
 
+.recuadroStyle3:hover{
+    transform: scale(1.1); 
+}
 
 .recuadroStyle4{
     display: flex;
@@ -59,6 +72,11 @@
     background-color: #eefbff;
     color:#3639ae;
     padding: 0px 20px 0px 20px;
+    transition: transform 0.3s;
+}
+
+.recuadroStyle4:hover{
+    transform: scale(1.1); 
 }
 
 .textoStyle{
