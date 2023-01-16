@@ -3,7 +3,7 @@ import Layout from './components/moleculas/Navbar'
 // import {Tracker_seis, data, options} from './components/Tracker_seis';
 // import CasesComponent from './components/covid19tracker';
 // import Top10 from './components/moleculas/top10';
-import PreventLanding from './components/moleculas/Landing-prevent';
+import PreventLanding from './components/moleculas/Mol-Landing-prevent';
 
 
 
