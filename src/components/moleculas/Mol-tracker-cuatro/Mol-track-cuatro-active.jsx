@@ -1,10 +1,10 @@
 import React from 'react';
-import DataApi from "../../services/Services-data-api-countries";
+import DataApi from "../../../services/Services-data-api-countries";
 
-const MolTrackCuatroRecover = () => {
+const MolTrackCuatroActive = () => {
     const responseData = DataApi();
     return responseData
-      .sort((a, b) => b.recovered - a.recovered)
+      .sort((a, b) => b.active - a.active)
       .slice(0, 10)
       .map((item) =>(
         <div className="item" key={item.countryInfo._id}>
@@ -14,8 +14,8 @@ const MolTrackCuatroRecover = () => {
             width="30"
           />
           <span>{item.country}</span>
-          <span>{item.recovered}</span>
+          <span>{item.active}</span>
         </div>
 ))};
 
-export default MolTrackCuatroRecover
+export default MolTrackCuatroActive
