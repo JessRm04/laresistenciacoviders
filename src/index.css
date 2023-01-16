@@ -34,7 +34,7 @@
 
 
 body {
-  margin: 0;
+  margin-left: 1000;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -45,10 +45,20 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
   color: #121158;
 }
 
+h1, .h1 {
+  font-size: 2.25rem; }
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  
+    

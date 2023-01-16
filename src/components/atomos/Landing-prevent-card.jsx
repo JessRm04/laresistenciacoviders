@@ -10,8 +10,8 @@ const PreventLandingCard = ({image, title, paragraph}) => {
             <img className="iconImage" src={image} alt="icon"></img>
         </div>
         <div className="text">
-            <h4>{title}</h4>
-            <h5>{paragraph}</h5>
+            <h2 className='title'>{title}</h2>
+            <h4 className="paragraph">{paragraph}</h4>
         </div>
     </div>
     );
