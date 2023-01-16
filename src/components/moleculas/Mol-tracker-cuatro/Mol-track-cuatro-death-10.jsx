@@ -1,10 +1,10 @@
 import React from 'react';
-import DataApi from "../../services/Services-data-api-countries";
+import DataApi from "../../../services/Services-data-api-countries";
 
-const MolTrackCuatroDiez = () => {
-   const responseData = DataApi();
+const MolTrackCuatroDeathDiez = () => {
+    const responseData = DataApi();
     return responseData
-      .sort((a, b) => b.cases - a.cases)
+      .sort((a, b) => b.responseData - a.responseData)
       .slice(0, 10)
       .map((item) =>(
         <div className="item" key={item.countryInfo._id}>
@@ -14,9 +14,9 @@ const MolTrackCuatroDiez = () => {
               width="30"
             />
             <span>{item.country}</span>
-            <span>{item.cases}</span>
+            <span>{item.deaths}</span>
           </div>
   ));
 }
 
-export default MolTrackCuatroDiez
+export default MolTrackCuatroDeathDiez

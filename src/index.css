@@ -28,6 +28,13 @@
 }
 
 
+@font-face {
+  font-family: 'Poppins';
+  src: 
+    url(../src/assets/fonts/Poppins-Light.ttf)
+    format(truetype)
+}
+
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kanit:wght@300&family=Mulish&family=Poppins:wght@200;300;400&display=swap');
 
 
@@ -40,6 +47,7 @@ body {
   color: #515184;
   text-align: left;
   background-color: #fff; 
+
 }
 
 
