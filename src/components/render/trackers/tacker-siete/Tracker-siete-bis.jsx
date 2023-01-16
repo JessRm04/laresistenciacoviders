@@ -1,7 +1,7 @@
 import WorldMap from "react-svg-worldmap";
 import "./App.css";
 
-function App() {
+function Apper() {
   const data = [
     { country: "cn", value: 1389618778 }, // china
     { country: "in", value: 1311559204 }, // india

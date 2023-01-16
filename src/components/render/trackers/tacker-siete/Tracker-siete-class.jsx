@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import WorldMap from "react-svg-worldmap";
 
-export default class App extends Component {
+export default class Apper extends Component {
   render() {
     // ...
     const data = [
