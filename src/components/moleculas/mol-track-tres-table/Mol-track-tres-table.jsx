@@ -4,9 +4,16 @@ import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import order from '../../../assets/fonts/icons/order.png';
 import Pagination from 'react-paginate';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import InputSearch from "../../atomos/atom-track-tres-table/Atom-track-tres-input-table";
 import SelecOption from "../../atomos/atom-track-tres-table/Atom-track-tres-option-table";
+
+function searchingTerm(term){
+    return function(x){
+        return x.country.toLowerCase(term) || !term;
+    };
+};
+
 
 const TableTracker = () => {  
     const [currentPage, setCurrentPage] = useState(0);
@@ -18,7 +25,13 @@ const TableTracker = () => {
 
     const paginatedData = DataApi().slice(currentPage * pageSize, (currentPage + 1) * pageSize);
 
-  
+    const [data, setData] = useState([]);
+    const [term, setTerm] = useState("");
+    
+    useEffect(() =>{
+        setData(paginatedData);
+    },[paginatedData])
+
     return (
         <div className="tableContainer">
             <div>
@@ -27,7 +40,9 @@ const TableTracker = () => {
             <div className="options">
                 <form>
                     <SelecOption/>
-                    <InputSearch/>                
+                    {data && (
+                        <InputSearch name="term" onChange={e => setTerm(e.target.value)} />
+                    )}                
                 </form>
             </div>
             <Table striped hover size="sm" >
@@ -46,7 +61,7 @@ const TableTracker = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {paginatedData.map(country => (
+                    {data.filter(searchingTerm(term)).map(country => (
                     <tr key={country.country}>
                         <td><img src={country.countryInfo.flag} alt="flag" className='flagImg'></img></td>
                         <td>{country.country}</td>
