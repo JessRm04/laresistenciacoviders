@@ -1,34 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import './atomos/recuadroTrackerStyle.css'
+import React from 'react'
+//import '../atomos/recuadroTrackerStyle.css'
 import Recuadro from './atomos/RecuadroTracker';
-// import ApiData from './atomos/Tracker19function';
+import DataApi from '../services/Services-data-api-countries';
 
 
+const api_totals = "API números"
+const api_active = "API números"
+const api_recovered = "API números"
+const api_deaths = "API números"
 
-function CasesComponent() {
-    const [data, setData] = useState(null);
-  
-    useEffect(() => {
-      async function fetchData() {
-        const response = await fetch(`https://disease.sh/v3/covid-19/all`);
-        const json = await response.json();
-        setData(json);
-      }
-      fetchData();
-    });
-  
-    return (
-      <div>
-        {data && (
-            <div className="containerStyle">
-            <Recuadro texto="Total Case" numeros={data.cases} clase="recuadroStyle" />
-            <Recuadro texto="Active Case" numeros={data.active} clase="recuadroStyle2"/>
-            <Recuadro texto="Recovered Case" numeros={data.recovered} clase="recuadroStyle3"/>
-            <Recuadro texto="Deaths Case" numeros={data.deaths} clase="recuadroStyle4"/>
-            </div>
+function CasesComponent ({texto, numeros}){
+    return(
+        <div className="containerStyle">
+            <Recuadro texto="Total Case" numeros={api_totals}/>
+            <Recuadro texto="Active Case" numeros={api_active}/>
+            <Recuadro texto="Recovered Case" numeros={api_recovered}/>
+            <Recuadro texto="Deaths Case" numeros={api_deaths}/>
+        </div>
         )}
-      </div>
-    );
-  }
-  
-  export default CasesComponent;
+
+export default CasesComponent;
