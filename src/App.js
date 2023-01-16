@@ -8,7 +8,10 @@ import CasesComponent from './components/covid19tracker'
 // import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
 // import Layout from './components/moleculas/Mol-layout';
 // import CasesComponent from './components/covid19tracker';
+// import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
+// //import Layout from './components/moleculas/Mol-layout';
 // import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
+import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
 
 
 function App() {
@@ -18,10 +21,13 @@ function App() {
         <Layout/>
         {/* <Top10/> */}
         {/* <PreventLanding/> */}
-        {/* <Desplegable />
-        <Trackerdos /> */}
+        {/* <Desplegable /> */}
         <CasesComponent/> 
-        {/* <TrackerCuatro /> */}
+        {/* <TrackerCuatro />
+        {/* <Layout/>
+        <Top10/>
+        <PreventLanding/>
+        {/* <Trackerdos /> */}
         <covid19tracker/>
       </header>
     </div>
