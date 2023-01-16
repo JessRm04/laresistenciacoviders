@@ -1,21 +1,17 @@
 import React from 'react'
-// import '../atomos/recuadroTrackerStyle.css'
 import Recuadro from './atomos/RecuadroTracker';
+import DataApiAll from '../services/Services-data-api-all'
 
+const CasesComponent = ()=>{
+    const responseData = DataApiAll();
 
-const api_totals = "API números"
-const api_active = "API números"
-const api_recovered = "API números"
-const api_deaths = "API números"
-
-function CasesComponent ({texto, numeros}){
     return(
-        <div className="containerStyle">
-            <Recuadro texto="Total Case" numeros={api_totals}/>
-            <Recuadro texto="Active Case" numeros={api_active}/>
-            <Recuadro texto="Recovered Case" numeros={api_recovered}/>
-            <Recuadro texto="Deaths Case" numeros={api_deaths}/>
-        </div>
-        )}
-
+       <div className="containerStyle">
+            <Recuadro clase="recuadroStyle" texto="Total Case" numeros={responseData.todayCases}/>
+            <Recuadro clase="recuadroStyle2" texto="Active Case" numeros={responseData.active}/>
+            <Recuadro clase="recuadroStyle3" texto="Recovered Case" numeros={responseData.recovered}/>
+            <Recuadro clase="recuadroStyle4" texto="Deaths Case" numeros={responseData.todayDeaths}/>
+        </div> 
+   );
+}
 export default CasesComponent;

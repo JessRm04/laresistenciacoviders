@@ -1,12 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "../tracker-cuatro/Tracker-cuatro.css";
-import MolTrackCuatroDiez from "../moleculas/Mol-track-cuatro-case-10";
-import MolTrackCuatroTodayCases from "../moleculas/Mol-track-cuatro-todayCases";
-import MolTrackCuatroDeathDiez from "../moleculas/Mol-track-cuatro-death-10";
-import MolTrackCuatroTodayDeaths from "../moleculas/Mol-track-cuatro-todayDeath";
-import MolTrackCuatroActive from "../moleculas/Mol-track-cuatro-active";
-import MolTrackCuatroRecover from "../moleculas/Mol-track-cuatro-recover";
+import "./Tracker-cuatro.css";
+import MolTrackCuatroDiez from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-case-10";
+import MolTrackCuatroTodayCases from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-todayCases";
+import MolTrackCuatroDeathDiez from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-death-10";
+import MolTrackCuatroTodayDeaths from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-todayDeath";
+import MolTrackCuatroActive from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-active";
+import MolTrackCuatroRecover from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-recover";
 
 
 const TrackerCuatro = () => {

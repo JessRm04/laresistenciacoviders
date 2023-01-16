@@ -1,11 +1,11 @@
 import React from 'react';
-import DataApi from "../../services/Services-data-api-countries";
+import DataApi from "../../../services/Services-data-api-countries";
 
-const MolTrackCuatroTodayDeaths = () => {
-    const responseData = DataApi();
+const MolTrackCuatroDiez = () => {
+   const responseData = DataApi();
     return responseData
-      .sort((a, b) => b.todayDeaths - a.todayDeaths)
-      .slice(10, 20)
+      .sort((a, b) => b.cases - a.cases)
+      .slice(0, 10)
       .map((item) =>(
         <div className="item" key={item.countryInfo._id}>
             <img
@@ -14,9 +14,9 @@ const MolTrackCuatroTodayDeaths = () => {
               width="30"
             />
             <span>{item.country}</span>
-            <span>{item.deaths}</span>
+            <span>{item.cases}</span>
           </div>
   ));
 }
 
-export default MolTrackCuatroTodayDeaths
+export default MolTrackCuatroDiez
