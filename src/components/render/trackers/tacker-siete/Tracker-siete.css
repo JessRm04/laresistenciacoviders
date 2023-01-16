@@ -1,16 +1,22 @@
+html {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+}
+
+.div-container {
+  margin: 0;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mapa {
+  fill: #2a354d;
+}
+
 .App {
-    text-align: center;
-  }
-  
-  .App > div{
-    height: 94vh !important;
-  }
-  
-  rect{
-    height: 65px;
-  }
-  
-  .App > div> p{
-    font-size: 17px;
-    font-weight: bold;
-  }
+  font-family: sans-serif;
+  text-align: center;
+}

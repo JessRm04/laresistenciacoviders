@@ -1,56 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { csv } from "d3-fetch";
-import { scaleLinear } from "d3-scale";
-import {
-  ComposableMap,
-  Geographies,
-  Geography,
-  Sphere,
-  Graticule
-} from "react-simple-maps";
+import React from 'react';
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import './Tracker-siete.css';
 
-const geoUrl = "/features.json";
-
-const colorScale = scaleLinear()
-  .domain([0.29, 0.68])
-  .range(["#ffedea", "#ff5233"]);
-
-const MapChart = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    csv(`/vulnerability.csv`).then((data) => {
-      setData(data);
-    });
-  }, []);
-
+const TrackerSiete = () => {
   return (
-    <ComposableMap
-      projectionConfig={{
-        rotate: [-10, 0, 0],
-        scale: 147
-      }}
-    >
-      <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
-      <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-      {data.length > 0 && (
-        <Geographies geography={geoUrl}>
-          {({ geographies }) =>
-            geographies.map((geo) => {
-              const d = data.find((s) => s.ISO3 === geo.id);
-              return (
-                <Geography
-                  key={geo.rsmKey}
-                  geography={geo}
-                  fill={d ? colorScale(d["2017"]) : "#F5F4F6"}
-                />
-              );
-            })
-          }
-        </Geographies>
-      )}
+    <div className='div-container'>
+        <h3>Mapa</h3>
+         <ComposableMap className='mapa'>
+      <Geographies geography="/features.json">
+        {({ geographies }) =>
+          geographies.map((geo) => (
+            <Geography key={geo.rsmKey} geography={geo} />
+          ))
+        }
+      </Geographies>
     </ComposableMap>
-  );
-};
+    </div>
+  )
+}
 
-export default MapChart;
+export default TrackerSiete;

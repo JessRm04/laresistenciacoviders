@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import WorldMap from "react-svg-worldmap";
+import WorldMap from "https://cdn.skypack.dev/react-world-map@2.3.0";
+import './mapa.css';
 
-export default class Apper extends Component {
-  render() {
-    // ...
-    const data = [
-      { country: "cn", value: 1389618778 }, // china
-      { country: "in", value: 1311559204 }, // india
-    ];
-    // ...
-    return (
-      <div id="root">
-        <WorldMap color="green" title="This is My Map" size="lg" data={data} />
-      </div>
-    );
-  }
+function Mapa() {
+  const [selected, onSelect] = React.useState('na');
+  return (
+    <>
+      <h2>example of controlled component</h2>
+      <span>starting value: north america</span>
+      <WorldMap selected={ selected } onSelect={ onSelect } />
+      <h2>example of uncontrolled component</h2>
+      <WorldMap />
+      <h2>example of uncontrolled component with multiple selection</h2>
+      <WorldMap multiple={ true } />
+    </>
+  );
 }
+export default Mapa
