@@ -7,10 +7,10 @@ const CasesComponent = ()=>{
 
     return(
        <div className="containerStyle">
-            <Recuadro texto="Total Case" numeros={responseData.todayCases}/>
-            <Recuadro texto="Active Case" numeros={responseData.active}/>
-            <Recuadro texto="Recovered Case" numeros={responseData.recovered}/>
-            <Recuadro texto="Deaths Case" numeros={responseData.todayDeaths}/>
+            <Recuadro clase="recuadroStyle" texto="Total Case" numeros={responseData.todayCases}/>
+            <Recuadro clase="recuadroStyle2" texto="Active Case" numeros={responseData.active}/>
+            <Recuadro clase="recuadroStyle3" texto="Recovered Case" numeros={responseData.recovered}/>
+            <Recuadro clase="recuadroStyle4" texto="Deaths Case" numeros={responseData.todayDeaths}/>
         </div> 
    );
 }
