@@ -1,5 +1,5 @@
 import React from 'react'
-import Drawer from '@mui/material/Drawer';
+//import Drawer from '@mui/material/Drawer';
 import { flexbox } from '@mui/system';
 import List from '@mui/material/List'; //ul
 import ListItem from '@mui/material/ListItem'; //li
@@ -12,9 +12,9 @@ import DynamicFeedOutlinedIcon from '@mui/icons-material/DynamicFeedOutlined';
 import MovingOutlinedIcon from '@mui/icons-material/MovingOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-// import {useNavigate} from 'react-router-dom';
+//import {useNavigate} from 'react-router-dom';
 import '../NavbarStyles.css' 
-import coronavirus from '../../img/coronavirus.png'
+import coronavirus from '../../assets/img/coronavirus.png';
 import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
 const drawerWidth = 80;
@@ -58,7 +58,7 @@ const menuItems = [
     },
 ]
 
-export default function Layout({children}) {
+export default function Drawer({children}) {
     const classes = {
         drawer: {
           width: drawerWidth,
@@ -77,7 +77,7 @@ export default function Layout({children}) {
         },
       }
 
-    //   const navigate = useNavigate();
+      //const navigate = useNavigate();
 
     return (
         <div className={classes.root}>
@@ -94,7 +94,7 @@ export default function Layout({children}) {
                     {menuItems.map(item => (
                     <ListItem className='listItem'
                     button
-                    // onClick={() => navigate(item.path)}
+                   // onClick={() => navigate(item.path)}
                     >
                         <ListItemIcon className='icon'>{item.icon}</ListItemIcon>
                     </ListItem>
