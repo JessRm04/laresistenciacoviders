@@ -1,9 +1,9 @@
 import React from "react"
 import CasesComponent from "../../../moleculas/Mol-tracker-covid19/covid19tracker.jsx"
 import Top10 from "../../../moleculas/Mol-top10.jsx"
-import "./TrackerCovid19.css"
+import "./tracker-covid-diecinueve.css"
 
-function Tracker19() {
+function TrackerDiecinueve() {
         return (
             <div className="tracker19container">
                 <h1>COVID-19 Tracker</h1>
@@ -14,4 +14,4 @@ function Tracker19() {
         )
     };
 
-export default Tracker19;
+export default TrackerDiecinueve;
