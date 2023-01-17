@@ -30,7 +30,7 @@
 
 h1{
     font-size: 3em;
-    font-weight: 800;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -48,5 +48,11 @@ h2{
     text-transform: uppercase;
     letter-spacing: 1px;
     width: 130px;
+}
+
+.buttom:hover{
+    color: white;
+    cursor: pointer;
+    transition: color 1s;
 }
 
