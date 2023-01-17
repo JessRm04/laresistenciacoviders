@@ -1,12 +1,12 @@
 import React from 'react';
-import '../spreads/spreads.css';
+import '../landing-spreads/spreads.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import spreadsdesinfec from '../../../assets/img/spreadsdesinfec.jpg';
-import spreadsmask from '../../../assets/img/spreadsmask.jpg';
-import spreadsmedica from '../../../assets/img/spreadsmedica.jpg';
-import spreadsmedicarub from '../../../assets/img/spreadsmedicarub.jpg';
-import spreadsmocos from '../../../assets/img/spreadsmocos.jpg';
-import spreadstos from '../../../assets/img/spreadstos.jpg';
+import spreadsdesinfec from '../../../../img/icons/spreadsdesinfec.jpg';
+import spreadsmask from '../../../../img/icons/spreadsmask.jpg';
+import spreadsmedica from '../../../../img/icons/spreadsmedica.jpg';
+import spreadsmedicarub from '../../../../img/icons/spreadsmedicarub.jpg';
+import spreadsmocos from '../../../../img/icons/spreadsmocos.jpg';
+import spreadstos from '../../../../img/icons/spreadstos.jpg';
 
 
 const spreads = () => {
