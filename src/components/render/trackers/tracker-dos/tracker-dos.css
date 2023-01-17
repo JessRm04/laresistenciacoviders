@@ -1,145 +1,229 @@
-
-.virus-h{
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+.containerTracker {
+  max-width: 80vw;
+  margin-left: 15vw;
+}
+.virus-h {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
-.container-casos-h{
-    background-color: white;
-    max-width: 12%;
-    padding: 25px;
-    padding-top: 20px;
-    padding-bottom: 2px;
-    color: blue;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    position: relative;
+.container-casos-h {
+  background-color: white;
+  max-width: 16%;
+  padding: 20px;
+  color: #121158;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
-.confirmed{
-    max-width: 200px;
+.confirmed {
+  max-width: 200px;
 }
 
-h6{
-    margin: -10px;
+h6 {
+  margin: -10px;
 }
 
-.track2{
-    background-color: rgb(234, 232, 232);
-}
-.virus-v{
-    position: relative;
-    opacity: 40%;
-    padding-left: 80%;
+h5 {
+  color: #121158;
+  font-size: 15px;
+  padding: 12px 15px;
+  margin: -12px -15px 10px -15px;
+ 
 }
 
-.casos{
-    position: absolute;
+.track2 {
+  width: 100vw;
+}
+.virus-v {
+  position: relative;
+  padding-left: 80%;
+  opacity: 0.1;
+}
+
+.casos {
+  position: absolute;
 }
 
 .container-colum {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 30%;
-    padding-right: 30%;
-  }
-
-  .div1 {
-    background-color: white;
-    overflow: hidden;
-    color: blue;
-    margin: 10px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    display: flex;
-    justify-content: center;
-  }
-
-  .div2 {
-    background-color: white;
-    overflow: hidden;
-    color: red;
-    margin: 10px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    display: flex;
-    justify-content: center;
-  }
-
-  .div3 {
-    background-color: white;
-    overflow: hidden;
-    color: green;
-    margin: 10px;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    display: flex;
-    justify-content: center;
-    max-width: 500px;
-  }
-
-  .div4 {
-    background-color: white;
-    overflow: hidden;
-    color: rgb(0, 157, 255);
-    margin: 10px;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    display: flex;
-    justify-content: center;
-  }
-
-  .div5 {
-    background-color: white;
-    overflow: hidden;
-    color: orangered;
-    margin: 10px;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    display: flex;
-    justify-content: center;
-  }
-
-  .div6 {
-    background-color: white;
-    overflow: hidden;
-    color: rgb(170, 6, 6);
-    margin: 10px;
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    display: flex;
-    justify-content: center;
-  }
-
-  .container-colum-h{
-    display: flex;
-    justify-content:center;
-  }
-
-  
-  @keyframes spinning {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  
-  .virus{
-    transition: transform 1s;
+  display: grid;
+  grid-template-columns: fit-content(600px) fit-content(600px) 1fr;
+  width: 50vw;
+  padding-right: 30%;
+  justify-content: center;
+  align-items: center;
 }
 
-  .virus:hover {
-    transform: rotate(180deg);
+.div1 {
+  background-color: white;
+  width: 15rem;
+  overflow: hidden;
+  color: blue;
+  margin: 10px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgb(20 50 90 / 5%);
+  border-radius: 4px;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
-h2{
-  margin-top: 10px;
+.div2 {
+  background-color: white;
+  width: 15rem;
+  overflow: hidden;
+  color: red;
+  margin: 10px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgb(20 50 90 / 5%);
+  border-radius: 4px;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
-  
+
+.div3 {
+  background-color: white;
+  width: 15rem;
+  overflow: hidden;
+  color: green;
+  margin: 10px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgb(20 50 90 / 5%);
+  border-radius: 4px;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.div4 {
+  background-color: white;
+  width: 15rem;
+  overflow: hidden;
+  color: rgb(0, 157, 255);
+  margin: 10px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgb(20 50 90 / 5%);
+  border-radius: 4px;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.div5 {
+  background-color: white;
+  width: 15rem;
+  overflow: hidden;
+  color: orangered;
+  margin: 10px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgb(20 50 90 / 5%);
+  border-radius: 4px;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.div6 {
+  background-color: white;
+  width: 15rem;
+  overflow: hidden;
+  color: rgb(170, 6, 6);
+  margin: 10px;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgb(20 50 90 / 5%);
+  border-radius: 4px;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.container-colum-h {
+  display: flex;
+  justify-content: center;
+}
+.img-geo {
+  width: 35vw;
+  height: auto;
+}
+.container-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.virus {
+  transition: transform 1s;
+}
+
+.virus:hover {
+  transform: rotate(180deg);
+}

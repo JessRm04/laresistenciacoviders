@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Desplegable from './Mol-tracker-dos-desplegable';
+import MolTrackerDosCountry from './Mol-tracker-dos-country';
+import MolTrackerDosWorld from './Mol-tracker-dos-world'; 
+import DosCountry from './Dos-country';
+
 
 const TrackerDos = () => {
   return (
-    <div>Tracker-dos</div>
+    <div className='containerTracker'>
+      <Desplegable/>
+      <MolTrackerDosCountry/>
+      <MolTrackerDosWorld/>
+    </div>
   )
 }
 

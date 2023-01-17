@@ -11,7 +11,7 @@ import MolTrackCuatroRecover from "../../../moleculas/Mol-tracker-cuatro/Mol-tra
 
 const TrackerCuatro = () => {
   return( 
-    <>
+    <div className="container ml-5">
     <h1 className="stat-head">Top 10 Country wise Covid-19 Updates - Tiles</h1>
     <hr/>
       <div className="row" id="TopCountryStats">
@@ -41,7 +41,7 @@ const TrackerCuatro = () => {
           <MolTrackCuatroRecover/>
         </div>
       </div>
-      </>
+      </div>
   )
 };
 
