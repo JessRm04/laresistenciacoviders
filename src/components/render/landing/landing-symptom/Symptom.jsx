@@ -5,7 +5,7 @@ import bannerright from '../../../../img/icons/bannerright.png';
 import cough from '../../../../img/icons/cough.png';
 import sore from '../../../../img/icons/sore.png';
 
-const symptom = () => {
+const Symptom = () => {
   return (
     <>
       <section class="symptom mt-5 mb-5 container">
@@ -66,4 +66,4 @@ const symptom = () => {
   )
 }
 
-export default symptom
+export default Symptom;

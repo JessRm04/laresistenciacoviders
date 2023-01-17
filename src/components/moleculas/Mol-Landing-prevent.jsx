@@ -1,7 +1,7 @@
 import React from 'react'
-import "../atomos/landing_prevent.css"
-import PreventLandingCard from '../atomos/Landing-prevent-card';
-import bannerright from "../../img/prevent/bannerright.png"
+import "../render/landing/landing-prevent/landing-prevent.css";
+import PreventLandingCard from '../render/landing/landing-prevent/Landing-prevent-card';
+import bannerright from "../../img/prevent/banner-right.png"
 import icon2 from "../../img/prevent/icon2.png"
 import icon4 from "../../img/prevent/icon4.png"
 import icon5 from "../../img/prevent/icon5.png"
