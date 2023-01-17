@@ -1,9 +1,8 @@
 import React from 'react';
-import '../css/trackerdos.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../css/footer.css';
+import './footer.css';
 
-function footer() {
+function Footer() {
   return (
     <>
       <footer className="pie-de-pagina">
@@ -73,4 +72,4 @@ function footer() {
   )
 }
 
-export default footer;
+export default Footer;

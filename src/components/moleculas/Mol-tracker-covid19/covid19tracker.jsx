@@ -12,6 +12,6 @@ const CasesComponent = ()=>{
             <Recuadro clase="recuadroStyle3" texto="Recovered Case" numeros={responseData.recovered}/>
             <Recuadro clase="recuadroStyle4" texto="Deaths Case" numeros={responseData.todayDeaths}/>
         </div> 
-   );
-}
+   )}
+
 export default CasesComponent;
