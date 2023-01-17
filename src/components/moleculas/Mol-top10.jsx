@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Top10Component from "../atomos/Top10Component.jsx"
+import Top10Component from "../moleculas/Mol-tracker-covid19/Top10Component.jsx"
 
 
 

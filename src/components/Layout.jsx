@@ -15,7 +15,7 @@ import MovingOutlinedIcon from '@mui/icons-material/MovingOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 // import {useNavigate} from 'react-router-dom';
-import './NavbarStyles.css' 
+import './LayoutStyles.css' 
 import coronavirus from '../img/icons/coronavirus.png'
 import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 

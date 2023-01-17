@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import Recuadro from './atomos/RecuadroTracker';
-import "../components/atomos/recuadroTrackerStyle.css"
+import Recuadro from '../../atomos/RecuadroTracker';
+import "../../atomos/recuadroTrackerStyle.css"
 // import DataApiAll from '../services/Services-data-api-all'
 
 
