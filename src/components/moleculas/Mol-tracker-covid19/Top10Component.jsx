@@ -2,6 +2,7 @@ import React from 'react'
 import "./top10country.css"
 
 
+
 const top10 = ({flag, country, numbers}) => {
     return <div className="top10container">
         <div className="leftContainer">
