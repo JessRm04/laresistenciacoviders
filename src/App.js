@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Layout from './components/moleculas/Mol-layout';
+import Layout from './components/render/trackers/tracker-layout/Layout';
 import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
 import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
 import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
