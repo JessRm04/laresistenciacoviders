@@ -7,7 +7,7 @@ function Washed() {
     <div className='containerWashed'>
         <div className='title'>
             <h5>Wash</h5>
-            <p className='titleWashed'>Wash Your Hangs min 20 Second</p>
+            <h2 className='titleWashed'>Wash Your Hangs min 20 Second</h2>
         </div>    
         <div className='imgWashed'>
             <img src={Wash} alt="hand washing"/>
