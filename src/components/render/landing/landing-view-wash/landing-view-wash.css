@@ -3,13 +3,6 @@
     font-weight: 900;
     color: #293f73;
     text-align: center;
-    margin-top: -4%;
-}
-
-h5{
-    text-align: center;
-    color: #293f73;
-    font-weight: bold;
 }
 
 .containerWashed{
@@ -18,9 +11,15 @@ h5{
     grid-template-rows: repeat(2, 1fr);
 }
 
-.title{
+.titlesWash{
     grid-column: 3/7;
     grid-row: 1/2;
+}
+
+.subtitle{
+    text-align: center;
+    color: #293f73;
+    font-weight: bold;
 }
 
 .imgWashed{

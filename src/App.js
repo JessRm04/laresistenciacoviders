@@ -6,7 +6,7 @@ import './App.css';
 //import Layout from './components/moleculas/Mol-layout';
 //import CasesComponent from './components/covid19tracker';
 //import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
-//import Question from './components/render/landing/landing-view-questions/landing-view-question';
+import Question from './components/render/landing/landing-view-questions/landing-view-question';
 import Washed from './components/render/landing/landing-view-wash/landing-view-wash';
 
 // import Layout from './components/Layout';
@@ -29,8 +29,8 @@ function App() {
         <Desplegable />
         <Trackerdos />
         {/*<CasesComponent />
-        <TrackerCuatro />
-        <Question/>*/}
+        <TrackerCuatro />*/}
+        <Question/>
         <Washed/>
         <News />
 
