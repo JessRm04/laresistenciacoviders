@@ -10,21 +10,32 @@
     display: block;
     float: right;
     overflow: scroll;
+    background-color: #F6F7FB;
+}
+
+.titleTable{
+    background-color: var(--white);
+    padding: 0px 20px;
+}
+
+.infoTable{
+    background-color: var(--white);
 }
 
 .options{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    color: #515184;;
+    color: #515184;
+    background-color: var(--white);
+    padding: 15px 20px;
 }
 
 .search{
-    grid-column: 6/7;
+    grid-column: 5/7;
 }
 
 .show{
     grid-column: 1/3;
-    gap: 5px
 }
 
 select{

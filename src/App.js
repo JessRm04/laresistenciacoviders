@@ -17,7 +17,8 @@ import './App.css';
 //import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
 // import News from './components/render/landing/landing-news/News';
 //import Symptom from './components/render/landing/landing-symptom/Symptom';
-import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
+//import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
+import InputSearch from './components/atomos/atom-track-tres-table/Atom-track-tres-input-table';
 
 
 function App() {
@@ -41,8 +42,9 @@ function App() {
         <Symptom />
         <Trackerdos />
          <CasesComponent/> 
-        <TrackerCuatro /> */}
-        <TableTracker/>
+        <TrackerCuatro /> 
+        <TableTracker/>*/}
+        <InputSearch></InputSearch>
         <covid19tracker/>
 
       </header>

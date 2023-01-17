@@ -1,44 +1,36 @@
-import '../../moleculas/mol-track-tres-table/mol-track-tres-table.css';
-import React from 'react';
-//import DataApi from '../../../services/Services-data-api-countries';
-//import { render } from '@testing-library/react';
+import "../../moleculas/mol-track-tres-table/mol-track-tres-table.css";
+import React, { useState } from "react";
+import TableTracker from "../../moleculas/mol-track-tres-table/Mol-track-tres-table";
+import DataApi from "../../../services/Services-data-api-countries";
 
-function InputSearch(props) {
-  return(
-    <div className="search">
-      <form >
-        <label className="labelThree">Search:</label>
-        <input type="text"/>
-      </form>
-    </div> 
-  )
-};
+function InputSearch() {
+  const data = DataApi();
+console.log("input");
+  const [displayReports, setDisplayReports] = useState([]);
 
-export default InputSearch; 
+  const handleInputChange = (e) => {
+    const value = e.target.value;
+    const matchedReports = data.filter((data) =>
+      data.country.toLowerCase().includes(value.toLowerCase())
+    );
+    setDisplayReports(matchedReports);
+  };
 
-/*const Data = () => {
-    const [data, setData] = useState([]);
-    const [displayData, setDisplayData] = useState([]);
-    
-    const handleChange = (e) => {
-        const value = e.target.value;
-        const searchData = data.filter(data => data.country.toLowerCase().includes(value.toLowerCase()));
-        setDisplayData(searchData);
-    };*/
+  return (
+    <div>
+      <input
+        onChange={handleInputChange}
+        id="search-field"
+        type="text"
+        className="form-control"
+        placeholder="Search your Country..."
+        aria-label=""
+        aria-describedby="button-addon2"
+      ></input>
 
-    /*  handleSubmit = event => {
-    event.preventDefault();
-    }
+      <TableTracker data={displayReports} />
+    </div>
+  );
+}
 
-    handleCountry = event => {
-    this.setState(event.target.value);
-    };
-
-    function filtrar(nextProps) {
-        if (nextProps.searchValue !== this.props.searchValue){
-            this.setState({
-                filterData: this.props.paginatedData.filter(country => country.country(nextProps))
-            });
-        };
-    };
-*/
+export default InputSearch;
