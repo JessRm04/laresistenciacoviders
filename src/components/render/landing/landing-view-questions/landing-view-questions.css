@@ -14,7 +14,7 @@
 
 .questionCardsLeft{
     grid-column: 2/4;
-    margin-left: 18%;
+    margin-left: 12%;
 }
 
 .questionCardsRight{
@@ -24,31 +24,31 @@
 
 .question{
     background-color: rgba(30, 12, 157, 0.5);
-    width: 32rem;
+    width: 35rem;
     height: 4rem;
-    color: #FFFFFF;
+    color: var(--white);
     border-radius: 10px;
-    padding: 5px;
+    padding: 2% 2%;
     margin-top: 12px;
     margin-bottom: 5%;
 }
 
 .question2{
     background-color: rgba(30, 12, 157, 0.5);
-    width: 32rem;
+    width: 35rem;
     height: 12rem;
-    color: #FFFFFF;
+    color: var(--white);
     border-radius: 10px;
-    padding: 5px;
+    padding: 2% 2%;
     margin-top: 15px;
-    margin-bottom: 7%;
+    margin-bottom: 6%;
 }
 
 p{
-    color: #FFFFFF;
+    color: var(--white);
 }
 
-h5, h4{
+h4{
     color: var(--white);
     font-weight: bold;
 }
@@ -62,10 +62,12 @@ h5, h4{
 .titleQuestionsFaqs{
     grid-column: 2/4;
     justify-content: center;
+    color: var(--white);
+    font-weight: bold;
 }
 
 .titleQuestions{
-    color: #FFFFFF;
+    color: var(--white);
     font-size: 4rem;
     font-weight: bolder;
     grid-column: 2/4;
