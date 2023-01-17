@@ -1,9 +1,9 @@
 import React from 'react';
-import '../symptom/symptom.css';
+import '../landing-symptom/symptom.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import bannerright from '../../../assets/img/bannerright.png';
-import cough from '../../../assets/img/cough.png';
-import sore from '../../../assets/img/sore.png';
+import bannerright from '../../../../img/icons/bannerright.png';
+import cough from '../../../../img/icons/cough.png';
+import sore from '../../../../img/icons/sore.png';
 
 const symptom = () => {
   return (
