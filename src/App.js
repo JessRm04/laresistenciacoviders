@@ -17,6 +17,7 @@ import Washed from './components/render/landing/landing-view-wash/landing-view-w
 // //import Layout from './components/moleculas/Mol-layout';
 // import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
 import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
+import News from './components/render/landing/landing-news/News';
 
 
 function App() {
@@ -27,10 +28,11 @@ function App() {
         <Drawer/> 
         <Desplegable />
         <Trackerdos />
-        {/*<CasesComponent />*/}
+        {/*<CasesComponent />
         <TrackerCuatro />
         <Question/>*/}
         <Washed/>
+        <News />
 
         {/* <Layout/>
         <Top10/>

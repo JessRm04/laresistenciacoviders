@@ -1,5 +1,6 @@
 import React from 'react';
 import '../symptom/symptom.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import bannerright from '../../../assets/img/bannerright.png';
 import cough from '../../../assets/img/cough.png';
 import sore from '../../../assets/img/sore.png';
