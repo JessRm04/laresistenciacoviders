@@ -44,7 +44,7 @@ function App() {
          <CasesComponent/> 
         <TrackerCuatro /> 
         <TableTracker/>*/}
-        <InputSearch></InputSearch>
+        <InputSearch/>
         <covid19tracker/>
 
       </header>

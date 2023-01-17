@@ -5,14 +5,11 @@ import DataApi from "../../../services/Services-data-api-countries";
 
 function InputSearch() {
   const data = DataApi();
-console.log("input");
   const [displayReports, setDisplayReports] = useState([]);
-
+  
   const handleInputChange = (e) => {
     const value = e.target.value;
-    const matchedReports = data.filter((data) =>
-      data.country.toLowerCase().includes(value.toLowerCase())
-    );
+    const matchedReports = data.filter(data => data.country.toLowerCase().includes(value.toLowerCase()));
     setDisplayReports(matchedReports);
   };
 

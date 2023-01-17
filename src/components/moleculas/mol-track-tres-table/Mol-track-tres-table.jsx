@@ -1,29 +1,27 @@
 import DataApi from '../../../services/Services-data-api-countries';
 import '../mol-track-tres-table/mol-track-tres-table.css'
-import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import order from '../../../assets/fonts/icons/order.png';
-import Pagination from 'react-paginate';
 import React, {useState } from 'react';
 import InputSearch from "../../atomos/atom-track-tres-table/Atom-track-tres-input-table";
 import SelecOption from "../../atomos/atom-track-tres-table/Atom-track-tres-option-table";
+import { Pagination, Table } from 'react-bootstrap';
 
 
 const TableTracker = ({data}) => {  
-    if (data.length === 0) {
-        data = DataApi();
-      }
+
+    if (data.length === 0){
+        data= DataApi();
+       }
+        console.log(data);
+        //const [displayReports, setDisplayReports] = useState([]);
+        const [currentPage, setCurrentPage] = useState(0);
+        const [pageSize, setPageSize] = useState(10);
+        const handlePageChange = ({ selected }) => {
+            setCurrentPage(selected);
+        };
+        const paginatedData = data.slice(currentPage * pageSize, (currentPage + 1) * pageSize);
       
-console.log("table");
-    const [currentPage, setCurrentPage] = useState(0);
-    const [pageSize] = useState(10);
-
-    const handlePageChange = ({ selected }) => {
-        setCurrentPage(selected);
-    };
-
-    const paginatedData = data.slice(currentPage * pageSize, (currentPage + 1) * pageSize);
-
     return (
         <div className="tableContainer">
             <div className='titleTable'>
