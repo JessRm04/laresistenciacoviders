@@ -9,7 +9,8 @@ import Layout from './components/render/trackers/tracker-layout/Layout';
 // import PreventLanding from './components/moleculas/Mol-Landing-prevent';
 // import Top10 from './components/moleculas/Mol-top10';
 // import CasesComponent from './components/moleculas/Mol-tracker-covid19/covid19tracker'
-import TrackerDiecinueve from './components/render/trackers/tracker-covid19/Tracker-covid-diecinueve';
+// import TrackerDiecinueve from './components/render/trackers/tracker-covid19/Tracker-covid-diecinueve';
+import LandingMobile from './components/render/landing/landing-mobile/Landing-mobile';
 // import News from './components/render/landing/landing-news/News';
 
 
@@ -22,10 +23,11 @@ function App() {
         {/* <Desplegable /> */}
         {/* <TrackerCuatro />
         {/* <Trackerdos /> */}
-        <TrackerDiecinueve/>
+        {/* <TrackerDiecinueve/> */}
         {/* <Question/>  */} 
         {/* <Washed/>
         <News /> */}
+        <LandingMobile/>
       </header>
     </div>
   );    
