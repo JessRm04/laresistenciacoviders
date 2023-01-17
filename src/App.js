@@ -15,7 +15,7 @@ function App() {
         {/* <Drawer/> */}
         <Desplegable />
         <Trackerdos />
-        <CasesComponent/> 
+        {/*<CasesComponent />*/}
         <TrackerCuatro />
       </header>
     </div>
