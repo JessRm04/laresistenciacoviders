@@ -1,6 +1,6 @@
 import React from 'react'
 import Recuadro from './atomos/RecuadroTracker';
-import DataApiAll from '../services/Services-data-api-all'
+import DataApiAll from '../services/Services-data-api-all';
 
 const CasesComponent = ()=>{
     const responseData = DataApiAll();

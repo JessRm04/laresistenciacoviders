@@ -1,5 +1,5 @@
 import React from 'react';
-import '../tracker-dos/trackerdos.css';
+import '../tracker-dos/tracker-dos.css';
 import { useState, useEffect } from 'react';
 
 function Desplegable() {

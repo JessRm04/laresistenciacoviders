@@ -4,22 +4,13 @@ import covidblue from '../../../../assets/img/covidblue.svg';
 import covidorange from '../../../../assets/img/covidorange.svg';
 import covidgreen from '../../../../assets/img/covidgreen.svg';
 import telephone from '../../../../assets/img/telephone.svg';
-import '../tracker-dos/trackerdos.css';
-import Desplegable from '../tracker-dos/Mol-trackerdos-desplegable';
+import '../tracker-dos/tracker-dos.css';
+import Desplegable from './Mol-tracker-dos-desplegable';
 import DataApiAll from '../../../../services/Services-data-api-all';
 
 
-const Trackerdos = () => {
-    // const [data, setData] = useState([]);
-    
-    // useEffect(() => {
-    //     async function fetchData() {
-    //         const response = await fetch('https://disease.sh/v3/covid-19/all');
-    //         const json = await response.json();
-    //         setData(json);
-    //     }
-    //     fetchData();
-    //     },[]);
+const TrackerDosWorld = () => {
+
     const responseData = DataApiAll();
 
     return (
@@ -155,7 +146,7 @@ const Trackerdos = () => {
   );
 }
 
-export default Trackerdos;
+export default TrackerDosWorld;
 
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import TrackerDos from './components/render/trackers/tracker-dos/Mol-tracker-dos-country';
 
 //import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
 //import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
@@ -7,7 +8,7 @@ import './App.css';
 //import CasesComponent from './components/covid19tracker';
 //import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
 //import Question from './components/render/landing/landing-view-questions/landing-view-question';
-import Washed from './components/render/landing/landing-view-wash/landing-view-wash';
+//import Washed from './components/render/landing/landing-view-wash/landing-view-wash';
 
 // import Layout from './components/Layout';
 // import PreventLanding from './components/moleculas/Mol-Landing-prevent';
@@ -16,7 +17,7 @@ import Washed from './components/render/landing/landing-view-wash/landing-view-w
 // import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
 // //import Layout from './components/moleculas/Mol-layout';
 // import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
-import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
+
 
 
 function App() {
@@ -30,13 +31,13 @@ function App() {
         <CasesComponent/> 
         <TrackerCuatro />
         <Question/>*/}
-        <Washed/>
+        {/* <Washed/> */}
 
         {/* <Layout/>
         <Top10/>
         <PreventLanding/>
         <Desplegable /> */}
-        <Trackerdos />
+        <TrackerDos />
         {/* <CasesComponent/> 
         <TrackerCuatro /> */}
         <covid19tracker/>
