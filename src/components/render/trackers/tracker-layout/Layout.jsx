@@ -16,7 +16,7 @@ import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 // import {useNavigate} from 'react-router-dom';
 import './layout-styles.css' 
-import coronavirus from '../../../../img/icons/coronavirus.png';
+import coronavirus from '../../../../assets/img/img/icons/coronavirus.png';
 import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
 const drawerWidth = 80;

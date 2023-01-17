@@ -12,14 +12,15 @@ import News from "./components/render/landing/landing-news/News";
 import Symptom from "./components/render/landing/landing-symptom/Symptom";
 import Spreads from "./components/render/landing/landing-spreads/Spreads";
 import Footer from "./components/render/landing/footer/Footer";
+import Buttons from "./components/atomos/buttons/Buttons.jsx"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>COVIDERS</h1>
         <Symptom />
-        <PreventLanding />
+        <Buttons/>
+        <PreventLanding/>
         <Spreads />
         <Question />
         <Washed />

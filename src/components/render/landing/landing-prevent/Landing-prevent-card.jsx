@@ -1,6 +1,6 @@
 import React from 'react';
 import "./landing-prevent.css";
-import hexagon from "../../../../img/icons/hexagon.png"
+import hexagon from "../../../../assets/img/img/icons/hexagon.png"
 
 const PreventLandingCard = ({image, title, paragraph}) => {
     return (
