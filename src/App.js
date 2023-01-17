@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>COVIDERS</h1>
         {/*<Layout/>
         <Tracker_seis />
         <DataContainer />
