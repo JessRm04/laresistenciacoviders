@@ -5,9 +5,9 @@ import '../../landing/landing-view-wash/landing-view-wash.css'
 function Washed() {
   return (
     <div className='containerWashed'>
-        <div className='title'>
-            <h5>Wash</h5>
-            <p className='titleWashed'>Wash Your Hangs min 20 Second</p>
+        <div className='titlesWash'>
+            <h5 className='subtitle'>Wash</h5>
+            <h2 className='titleWashed'>Wash Your Hangs min 20 Second</h2>
         </div>    
         <div className='imgWashed'>
             <img src={Wash} alt="hand washing"/>

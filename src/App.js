@@ -1,9 +1,9 @@
-import React from "react";
-import "./App.css";
-import Layout from "./components/render/trackers/tracker-layout/Layout";
+import React from 'react';
+import './App.css';
+import Layout from './components/moleculas/Mol-layout';
+import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
 import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
 import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
-import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
 import Question from './components/render/landing/landing-view-questions/landing-view-question';
 import Washed from './components/render/landing/landing-view-wash/landing-view-wash';
 import PreventLanding from './components/moleculas/Mol-Landing-prevent';
