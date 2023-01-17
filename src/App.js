@@ -16,9 +16,10 @@ import Washed from './components/render/landing/landing-view-wash/landing-view-w
 // import Desplegable from './components/render/trackers/tracker-dos/Mol-trackerdos-desplegable';
 // //import Layout from './components/moleculas/Mol-layout';
 // import TrackerCuatro from './components/render/trackers/tracker-cuatro/Tracker-cuatro';
-import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
+//import Trackerdos from './components/render/trackers/tracker-dos/Mol-trackerdos';
 // import News from './components/render/landing/landing-news/News';
-import Symptom from './components/render/landing/landing-symptom/Symptom';
+//import Symptom from './components/render/landing/landing-symptom/Symptom';
+import Buttons from './components/atomos/buttons/Buttons';
 
 
 function App() {
@@ -38,13 +39,13 @@ function App() {
         /* <Layout/>
         <Top10/>
         <PreventLanding/>
-        <Desplegable /> */}
+        <Desplegable /> 
         <Symptom />
-        <Trackerdos />
+        <Trackerdos />*/}
         {/* <CasesComponent/> 
-        <TrackerCuatro /> */}
-        <covid19tracker/>
-
+        <TrackerCuatro /> 
+        <covid19tracker/>*/}
+        <Buttons/>
       </header>
     </div>
   );    
