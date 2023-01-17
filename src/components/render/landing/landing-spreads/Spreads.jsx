@@ -9,7 +9,7 @@ import spreadsmocos from '../../../../img/icons/spreadsmocos.jpg';
 import spreadstos from '../../../../img/icons/spreadstos.jpg';
 
 
-const spreads = () => {
+const Spreads = () => {
   return (
 
 <>
@@ -110,4 +110,4 @@ const spreads = () => {
   )
 }
 
-export default spreads
+export default Spreads;
