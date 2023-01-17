@@ -1,7 +1,7 @@
 import '../../moleculas/mol-track-tres-table/mol-track-tres-table.css';
 import React from 'react';
-import DataApi from '../../../services/Services-data-api-countries';
-import { render } from '@testing-library/react';
+//import DataApi from '../../../services/Services-data-api-countries';
+//import { render } from '@testing-library/react';
 
 function InputSearch(props) {
   return(
