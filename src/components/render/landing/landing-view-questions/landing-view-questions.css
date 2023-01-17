@@ -56,7 +56,7 @@ h5, h4{
 .title{
     text-align: center;
     display: grid;
-    grid-template-columns: repet(4, 1fr);  
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
 }
 
 .titleQuestionsFaqs{

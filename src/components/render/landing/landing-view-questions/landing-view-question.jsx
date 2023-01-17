@@ -6,7 +6,7 @@ function Question() {
     <div className='contenedorQuestions'>
         <div className='title'>
             <h5 className='titleQuestionsFaqs'>Faqs</h5>
-            <h1 className='titleQuestions'>Frequently Asked Questions</h1>
+            <h2 className='titleQuestions'>Frequently Asked Questions</h2>
         </div>
         <div className='questionCards'>
             <div className='questionCardsLeft'>
