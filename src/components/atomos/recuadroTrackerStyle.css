@@ -20,6 +20,7 @@
 
 .recuadroStyle:hover{
     transform: scale(1.1); 
+    border-color: #FF0000;
 }
 
 .recuadroStyle2{
@@ -39,6 +40,7 @@
 
 .recuadroStyle2:hover{
     transform: scale(1.1); 
+    border-color: #FF6A07; 
 }
 
 .recuadroStyle3{
@@ -58,6 +60,7 @@
 
 .recuadroStyle3:hover{
     transform: scale(1.1); 
+    border-color: #82C519; 
 }
 
 .recuadroStyle4{
@@ -77,6 +80,7 @@
 
 .recuadroStyle4:hover{
     transform: scale(1.1); 
+    border-color: #3639AE; 
 }
 
 .textoStyle{
