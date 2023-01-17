@@ -27,7 +27,7 @@ function App() {
         <Drawer/> 
         <Desplegable />
         <Trackerdos />
-        <CasesComponent/> 
+        {/*<CasesComponent />*/}
         <TrackerCuatro />
         <Question/>*/}
         <Washed/>
