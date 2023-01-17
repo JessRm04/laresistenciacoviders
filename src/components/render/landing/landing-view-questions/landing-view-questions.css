@@ -49,7 +49,7 @@ p{
 }
 
 h5, h4{
-    color: #FFFFFF;
+    color: var(--white);
     font-weight: bold;
 }
 
