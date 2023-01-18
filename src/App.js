@@ -20,6 +20,7 @@ import './App.css';
 //import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
 //import InputSearch from './components/atomos/atom-track-tres-table/Atom-track-tres-input-table';
 import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
+import DataApi from './services/Services-data-api-countries';
 
 
 
@@ -48,7 +49,7 @@ function App() {
          <CasesComponent/> 
         <TrackerCuatro /> 
         <covid19tracker/>*/}
-        <TableTracker/>
+        <TableTracker data= {DataApi()}/>
       </header>
     </div>
   );    
