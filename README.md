@@ -1,3 +1,21 @@
+#COVIDERS
+**
+#Motivation
+##Build status**
+**Code style**
+**Screenshots**
+![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
+**Tech/framework used**
+**Code Example**
+**Installation**
+**API Reference**
+**Tests**
+**How to use?**
+**Contribute**
+**Credits**
+**License**
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

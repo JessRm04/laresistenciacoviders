@@ -1,6 +1,6 @@
-import React from 'react'
-import "../landing-mobile/landingmobile.css"
-import phone from "../../../../img/prevent/phone-1.png"
+import React from 'react';
+import "../landing-mobile/landingmobile.css";
+import phone from "../../../../assets/img/img/prevent/phone-1.png";
 
 const LandingMobile = () => {
     return (
