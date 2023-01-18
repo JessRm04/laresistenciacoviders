@@ -1,4 +1,4 @@
-# COVIDERS
+# COVIDERS :boom:
 ***
 ## Motivation
 ## Build status
