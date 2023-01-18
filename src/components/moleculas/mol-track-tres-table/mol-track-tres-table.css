@@ -22,18 +22,19 @@
     background-color: var(--white);
 }
 
-.options{
+.form{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     color: #515184;
     background-color: var(--white);
     padding: 15px 20px;
 }
-.options .search{
+
+.form .search{
     grid-column: 5/7;
 }
 
-.show{
+.option{
     grid-column: 1/3;
 }
 
@@ -59,7 +60,7 @@ input{
     width: 8rem;
 }
 
-.order{
+.iconArrow{
     width: 13px;
     height: 15px;
 }

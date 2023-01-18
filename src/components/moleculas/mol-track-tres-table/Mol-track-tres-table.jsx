@@ -2,7 +2,7 @@ import DataApi from "../../../services/Services-data-api-countries";
 import "../mol-track-tres-table/mol-track-tres-table.css";
 import Table from "react-bootstrap/Table";
 import "bootstrap/dist/css/bootstrap.min.css";
-import order from "../../../assets/fonts/icons/order.png";
+import IconsArrow from "../../../assets/fonts/icons/order.png";
 import { useState } from "react";
 import Pagination from "react-paginate";
 
@@ -42,8 +42,8 @@ function TableTracker() {
         <p>Ajax Data Table - Covid-19 Country Wise State</p>
       </div>
 
-      <form className="options">
-        <div className="show">
+      <form className="form">
+        <div className="option">
           <label className="labelOne">Show</label>
           <select onChange={handleRowsPerPageChange}>
             <option value={10}>10</option>
@@ -66,43 +66,43 @@ function TableTracker() {
         <thead>
           <tr>
             <th>
-              Flag <img src={order} className="order" alt="order" />
+              Flag <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               Country
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               Cases
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               New Cases
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               Deaths
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               New Deaths
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               Recoverd
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               Active
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               Critical
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
             <th>
               Tested
-              <img src={order} className="order" alt="order" />
+              <img src={IconsArrow} className="iconsArrow" alt="IconsArrow" />
             </th>
           </tr>
         </thead>
