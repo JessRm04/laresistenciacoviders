@@ -18,10 +18,14 @@ import './App.css';
 // import News from './components/render/landing/landing-news/News';
 //import Symptom from './components/render/landing/landing-symptom/Symptom';
 //import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
-import InputSearch from './components/atomos/atom-track-tres-table/Atom-track-tres-input-table';
+//import InputSearch from './components/atomos/atom-track-tres-table/Atom-track-tres-input-table';
+import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
+
+
 
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -34,7 +38,7 @@ function App() {
         <Question/>*/}
        { /*<Washed/>
         <News />
-}
+
         /* <Layout/>
         <Top10/>
         <PreventLanding/>
@@ -43,10 +47,8 @@ function App() {
         <Trackerdos />
          <CasesComponent/> 
         <TrackerCuatro /> 
-        <TableTracker/>*/}
-        <InputSearch/>
-        <covid19tracker/>
-
+        <covid19tracker/>*/}
+        <TableTracker/>
       </header>
     </div>
   );    

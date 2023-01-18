@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 
 const DataApi = () => {
-  
-console.log("api");
+
   const [responseData, setResponseData] = useState([]);
   useEffect(() => {
     async function fetchData() {
