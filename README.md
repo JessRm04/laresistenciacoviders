@@ -8,10 +8,17 @@
 ## Tech/framework used :electric_plug:
 ## Code Example :eye_speech_bubble:
 ## Installation :mechanic:
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser
+
 ## API Reference 👩‍💻
 ## Tests 📝
 ## How to use? :key:
-## Contribute :family_woman_woman_girl_girl:
+## Contributors :family_woman_woman_girl_girl:
 * [Diana Borrajo](https://github.com/Dianab177)
 * [Sharon Infante](https://github.com/SharonInfante)
 * [Natalia Iriarte](https://github.com/Natalia-irlo)
