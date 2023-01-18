@@ -11,10 +11,10 @@ const TrackerRaiz = () => {
       <Layout />
       <TrackerDiecinueve />
       <Routes>
-        <Route path='/Trackerdos'>
+        <Route path='/'>
           <Trackerdos />
         </Route>
-        <Route path='/TrackerCuatro'>
+        <Route path= '/TrackerCuatro'>
           <TrackerCuatro />
         </Route>
       </Routes>
