@@ -1,19 +1,19 @@
 # COVIDERS :boom:
 ***
-## Motivation
-## Build status
-## Code style
-## Screenshots
+## Motivation :brain:
+## Build status :page_facing_up:
+## Code style :keyboard:
+## Screenshots :desktop_computer:
 ![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
-## Tech/framework used
-## Code Example 
-## Installation
-## API Reference
-## Tests
-## How to use?
-## Contribute
-## Credits 
-## License
+## Tech/framework used :electric_plug:
+## Code Example :eye_speech_bubble:
+## Installation :mechanic:
+## API Reference 👩‍💻
+## Tests 📝
+## How to use? :key:
+## Contribute :family_woman_woman_girl_girl:
+## Credits 📌
+## License :closed_lock_with_key:
 
 
 # Getting Started with Create React App
