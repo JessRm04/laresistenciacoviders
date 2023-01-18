@@ -12,6 +12,11 @@
 ## Tests 📝
 ## How to use? :key:
 ## Contribute :family_woman_woman_girl_girl:
+* [Diana Borrajo](https://github.com/Dianab177)
+* [Sharon Infante](https://github.com/SharonInfante)
+* [Natalia Iriarte](https://github.com/Natalia-irlo)
+* [Jéssica Ríos](https://github.com/JessRm04)
+* [Aida Sousa](https://github.com/AidaSousa)
 ## Credits 📌
 ## License :closed_lock_with_key:
 
