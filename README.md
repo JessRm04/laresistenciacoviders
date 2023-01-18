@@ -1,21 +1,21 @@
 # COVIDERS :boom:
 ***
 ## Motivation :brain:
+
 ## Build status :page_facing_up:
 ## Code style :keyboard:
 ## Screenshots :desktop_computer:
 ![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
+
 ## Tech/framework used :electric_plug:
 ## Code Example :eye_speech_bubble:
 ## Installation :mechanic:
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser
+- Create a directory on your computer to store the project
+- Run ***$ git clone https://github.com/JessRm04/laresistenciacoviders***
+- In the project directory run ***$ npm start***
 
 ## API Reference 👩‍💻
+Click [here](https://disease.sh/v3/covid-19) 
 ## Tests 📝
 ## How to use? :key:
 ## Contributors :family_woman_woman_girl_girl:
