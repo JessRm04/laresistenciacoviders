@@ -15,8 +15,11 @@ import Layout from "./components/render/trackers/tracker-layout/Layout";
 // import Buttons from "./components/atomos/buttons/Buttons.jsx";
 // import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
 //import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
+//import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
+//import DataApi from './services/Services-data-api-countries';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -33,10 +36,10 @@ function App() {
         <Desplegable />
         <Layout />
         <Trackerdos />
+        <TableTracker data= {DataApi()}/>
         <TrackerCuatro />
-  <TrackerDiecinueve/>*/}
-   <Layout />
-        
+        <TrackerDiecinueve/>*/}
+        <Layout />        
       </header>
     </div>
   );

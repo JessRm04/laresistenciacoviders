@@ -1,0 +1,95 @@
+.flagImg{
+    width: 30px;
+    height: 25px;
+}
+
+.tableContainer{
+    width: 68vw;
+    margin: 0 auto;
+    padding: 30px;
+    display: block;
+    float: right;
+    overflow: scroll;
+    background-color: #F6F7FB;
+}
+
+.titleTable{
+    background-color: var(--white);
+    padding: 0px 20px;
+}
+
+.infoTable{
+    background-color: var(--white);
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: #515184;
+    background-color: var(--white);
+    padding: 15px 20px;
+}
+
+.form .search{
+    grid-column: 5/7;
+}
+
+.option{
+    grid-column: 1/3;
+}
+
+select{
+    width: 3rem;
+    text-align: center;
+    color: #515184;;
+}
+
+.labelOne{
+   margin-right: 5%;
+}
+
+.labelTwo{
+    margin-left: 5%;
+}
+
+.labelThree{
+    margin-right: 3%;
+}
+
+input{
+    width: 8rem;
+}
+
+.iconArrow{
+    width: 13px;
+    height: 15px;
+}
+
+p{
+    color: #121960;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pagination{
+    font-size: 11px;
+    justify-content: space-around;
+    color: #515184;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    background-color: #E5E6F6 !important;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e5e6f6 !important;
+}
+
+td{
+    color: #515184 !important;
+}
+
+th{
+    color: #121960;
+}
