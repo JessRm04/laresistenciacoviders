@@ -94,12 +94,12 @@ export default function Layout({children}) {
                 </div>
                 <List>
                     {menuItems.map(item => (
-                    <ListItem className='listItem'
-                    button
-                    // onClick={() => navigate(item.path)}
-                    >
-                        <ListItemIcon className='icon'>{item.icon}</ListItemIcon>
-                    </ListItem>
+                        <ListItem className='listItem'
+                        button
+                        onClick={() => navigate(item.path)}
+                        >
+                            <ListItemIcon className='icon'>{item.icon}</ListItemIcon>
+                        </ListItem>
                     )
                 )}
                 </List>
