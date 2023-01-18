@@ -1,19 +1,19 @@
-#COVIDERS
-**
-#Motivation
-##Build status**
-**Code style**
-**Screenshots**
+# COVIDERS :boom:
+***
+## Motivation
+## Build status
+## Code style
+## Screenshots
 ![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
-**Tech/framework used**
-**Code Example**
-**Installation**
-**API Reference**
-**Tests**
-**How to use?**
-**Contribute**
-**Credits**
-**License**
+## Tech/framework used
+## Code Example 
+## Installation
+## API Reference
+## Tests
+## How to use?
+## Contribute
+## Credits 
+## License
 
 
 # Getting Started with Create React App
