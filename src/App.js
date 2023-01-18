@@ -12,7 +12,8 @@ import News from "./components/render/landing/landing-news/News";
 import Symptom from "./components/render/landing/landing-symptom/Symptom";
 import Spreads from "./components/render/landing/landing-spreads/Spreads";
 import Footer from "./components/render/landing/footer/Footer";
-import Buttons from "./components/atomos/buttons/Buttons.jsx"
+import Buttons from "./components/atomos/buttons/Buttons.jsx";
+import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
 
 function App() {
   return (
@@ -25,12 +26,14 @@ function App() {
         <Question />
         <Washed />
         <News />
+        <LandingMobile/>
         <Footer />
         <Desplegable />
         <Layout />
         <Trackerdos />
         <TrackerCuatro />
-        <TrackerDiecinueve />
+        <TrackerDiecinueve/>
+        
       </header>
     </div>
   );
