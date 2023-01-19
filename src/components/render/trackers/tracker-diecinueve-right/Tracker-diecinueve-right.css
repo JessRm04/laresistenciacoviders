@@ -1,61 +1,81 @@
 .main-admin .right-content .chat-content {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -moz-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    display: none;
-    margin: 0 auto;
-    padding: 30px; 
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: none;
+  margin: 0 auto;
+  padding: 30px;
+}
+.main-admin .right-content .chat-content.active {
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  .main-admin .right-content .chat-content {
+    padding: 15px;
   }
-    .main-admin .right-content .chat-content.active {
-      display: block; 
-    }
-    @media only screen and (max-width: 767px) {
-      .main-admin .right-content .chat-content {
-        padding: 15px; } 
-      }
-      .corona-update-in-tab .nav-tabs {
-        border-bottom: 0;
-        margin-bottom: 30px; }
-        .corona-update-in-tab .nav-tabs li a {
-          padding: 10px 15px;
-          display: block;
-          color: #000;
-          background: #fff;
-          border-radius: 4px;
-          margin: 0 14px 15px 0;
-          box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.1);
-          font-weight: 500;
-          transition: all 0.5s;
-          -moz-transition: all 0.5s;
-          -webkit-transition: all 0.5s;
-          -ms-transition: all 0.5s;
-          -o-transition: all 0.5s; }
-          @media only screen and (max-width: 1199px) {
-            .corona-update-in-tab .nav-tabs li a {
-              padding: 10px 10px; } }
-          .corona-update-in-tab .nav-tabs li a img {
-            width: 22px;
-            height: 22px;
-            border-radius: 22px;
-            margin-right: 8px; }
-          .corona-update-in-tab .nav-tabs li a:hover {
-            color: #fff;
-            background: #3639AE; }
-        .corona-update-in-tab .nav-tabs li .active {
-          color: #fff;
-          background: #3639AE; }
-      
+}
+.corona-update-in-tab .nav-tabs {
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+.corona-update-in-tab .nav-tabs li a {
+  padding: 10px 15px;
+  display: block;
+  color: #000;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 14px 15px 0;
+  box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.1);
+  font-weight: 500;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+@media only screen and (max-width: 1199px) {
+  .corona-update-in-tab .nav-tabs li a {
+    padding: 10px 10px;
+  }
+}
+.corona-update-in-tab .nav-tabs li a img {
+  width: 22px;
+  height: 22px;
+  border-radius: 22px;
+  margin-right: 8px;
+}
+.corona-update-in-tab .nav-tabs li a:hover {
+  color: #fff;
+  background: #3639ae;
+}
+.corona-update-in-tab .nav-tabs li .active {
+  color: #fff;
+  background: #3639ae;
+}
+.tableContainer{
+  width: 68vw;
+  margin: 0 auto;
+  padding: 30px;
+  display: block;
+  float: right;
+  overflow: scroll;
+  background-color: #F6F7FB;
+}
+.tab-pane{
+  width: 20vw;
+}
+

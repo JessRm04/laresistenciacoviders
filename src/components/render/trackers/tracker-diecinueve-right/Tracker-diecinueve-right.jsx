@@ -6,7 +6,7 @@ import MolTrackerDiecinuevecases from "./Mol-tracker-diecinueve-cases";
 
 const TrackerDiecinueveRight = () => {
   return(
-  <>
+  <div className="tableContainer">
     <div
       className="chat-content"
       id="country-wise"
@@ -23,7 +23,7 @@ const TrackerDiecinueveRight = () => {
         </div>
       </div>
      </div>
-  </>
+  </div>
   );
 };
 

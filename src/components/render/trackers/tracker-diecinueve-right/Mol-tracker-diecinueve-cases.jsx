@@ -1,6 +1,6 @@
 import React from 'react';
 import DataApi from "../../../../services/Services-data-api-countries";
-//import "./Tracker-diecinueve-right.css";
+import "./Tracker-diecinueve-right.css";
 import '../tracker-dos/dos-country.css';
 import "bootstrap/dist/css/bootstrap.css";
 import covidred from '../../../../assets/img/covidred.svg';
