@@ -1,6 +1,6 @@
 import React from 'react';
 import DataApi from "../../../../services/Services-data-api-countries";
-import "./Tracker-diecinueve-right.css";
+import "./Tracker-cinco.css";
 import '../tracker-dos/tracker-dos.css';
 import "bootstrap/dist/css/bootstrap.css";
 import covidred from '../../../../assets/img/covidred.svg';
@@ -10,7 +10,7 @@ import covidorange from "../../../../assets/img/covidorange.svg";
 import coviddark from "../../../../assets/img/covid-redark.svg";
 import covidefult from "../../../../assets/img/covid-defult.svg";
 
-const MolTrackerDiecinuevecases = () => {
+const MolTrackerCincocases = () => {
     const responseData = DataApi();
   return responseData
         .sort((a, b) => b.cases - a.cases)
@@ -92,4 +92,4 @@ const MolTrackerDiecinuevecases = () => {
   );
 }
 
-export default MolTrackerDiecinuevecases;
+export default MolTrackerCincocases;

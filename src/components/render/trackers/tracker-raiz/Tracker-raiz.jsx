@@ -7,6 +7,7 @@ import Layout from '../tracker-layout/Layout';
 import "./tracker-raiz.css"
 import TrackerSeis from "../tracker-seis/Tracker_seis.jsx"
 import TableTracker from '../../../moleculas/mol-track-tres-table/Mol-track-tres-table';
+import TrackerCinco from '../tracker-cinco/Tracker-cinco';
 
 const TrackerRaiz = () => {
   return (
@@ -17,7 +18,7 @@ const TrackerRaiz = () => {
               <Route path='/'element={<Trackerdos/>}/>
               <Route path='/TrackerTres' element={<TableTracker/>}/>
               <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
-              {/* <Route path='/TrackerCinco'/> */}
+              <Route path='/TrackerCinco'element={<TrackerCinco/>}/>
               <Route path='/TrackerSeis' element={<TrackerSeis/>}/>
               {/* <Route path='/TrackerSiete'/>
               <Route path='/TrackerOcho'/> */}

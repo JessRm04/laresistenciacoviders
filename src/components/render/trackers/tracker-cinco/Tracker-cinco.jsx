@@ -1,10 +1,10 @@
 import React from "react";
-import "./Tracker-diecinueve-right.css";
+import "./Tracker-cinco.css";
 import "bootstrap/dist/css/bootstrap.css";
-import MolTrackerDiecinueveFlags from "./Mol-tracker-diecinueve-flag";
-import MolTrackerDiecinuevecases from "./Mol-tracker-diecinueve-cases";
+import MolTrackerCincoFlags from "./Mol-tracker-cinco-flag";
+import MolTrackerCincocases from "./Mol-tracker-cinco-cases";
 
-const TrackerDiecinueveRight = () => {
+const TrackerCinco = () => {
   return(
   <div className="tableContainer">
     <div
@@ -16,10 +16,10 @@ const TrackerDiecinueveRight = () => {
       <h1 className="stat-head">Covid-19 Country Wise - Tabs</h1>
       <div className="corona-update-in-tab">
         <ul className="nav nav-tabs">
-          <li><MolTrackerDiecinueveFlags /></li>
+          <li><MolTrackerCincoFlags /></li>
         </ul>
         <div className="tab-content">
-          <MolTrackerDiecinuevecases />
+          <MolTrackerCincocases />
         </div>
       </div>
      </div>
@@ -27,4 +27,4 @@ const TrackerDiecinueveRight = () => {
   );
 };
 
-export default TrackerDiecinueveRight;
+export default TrackerCinco;
