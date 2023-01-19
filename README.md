@@ -14,10 +14,9 @@ This project was created to inform about all the data related to COVID-19 from a
 * **HTML** - utilizado para crear la estructura básica de la página web
 * **CSS** - utilizado para estilizar la interfaz de usuario
 * **JavaScript**- utilizado para el desarrollo de página web
-* **React** - utilizado para construir interfaces de usuario
 * **npm** - utilizado para manejar las dependencias
 
-## Technology stack
+## Technology stack :gear:
 * Bootstrap: 5.2.3 [Sitio web oficial](https://getbootstrap.com/)
 * Mui/material: 5.11.4 [Sitio web oficial](https://mui.com/)
 * React: 18.2.0 [Sitio web oficial](https://es.reactjs.org/)
@@ -32,7 +31,8 @@ This project was created to inform about all the data related to COVID-19 from a
 Click [here](https://disease.sh) 
 
 ## How to use? :key:
-* In the project directory run ***$ npm start***
+* First, in te project directory run ***$ npm install***
+* Then, in the project directory run ***$ npm start***
 
 ## Contributors :family_woman_woman_girl_girl:
 * [Diana Borrajo](https://github.com/Dianab177) Scrum Master and Developer
@@ -42,4 +42,4 @@ Click [here](https://disease.sh)
 * [Aida Sousa](https://github.com/AidaSousa) Developer
 
 ## License :closed_lock_with_key:
-MIT © [COVIDERS](aquí va enlace netlify)
+© [COVIDERS](aquí va enlace netlify)
