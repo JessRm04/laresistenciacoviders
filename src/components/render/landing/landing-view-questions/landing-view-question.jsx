@@ -1,5 +1,5 @@
 import React from 'react'
-import '../landing-view-questions/landing-view-questions.css'
+import './landing-view-questions.css'
 
 function Question() {
   return (

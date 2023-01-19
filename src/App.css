@@ -28,3 +28,7 @@
     --breakpoint-xxl: 1440;
     --font-family-monospace: '';
 }
+
+.browsercontainer{
+    display: flex;
+}
