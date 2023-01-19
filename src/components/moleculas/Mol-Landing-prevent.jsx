@@ -1,12 +1,12 @@
 import React from 'react'
-import "../atomos/landing_prevent.css"
-import PreventLandingCard from '../atomos/Landing-prevent-card';
-import bannerright from "../../img/prevent/bannerright.png"
-import icon2 from "../../img/prevent/icon2.png"
-import icon4 from "../../img/prevent/icon4.png"
-import icon5 from "../../img/prevent/icon5.png"
-import icon6 from "../../img/prevent/icon6.png"
-import icon7 from "../../img/prevent/icon7.png"
+import "../render/landing/landing-prevent/landing-prevent.css";
+import PreventLandingCard from '../render/landing/landing-prevent/Landing-prevent-card';
+import bannerright from "../../assets/img/img/icons/bannerright.png"
+import icon2 from "../../assets/img/img/prevent/icon2.png"
+import icon4 from "../../assets/img/img/prevent/icon4.png"
+import icon5 from "../../assets/img/img/prevent/icon5.png"
+import icon6 from "../../assets/img/img/prevent/icon6.png"
+import icon7 from "../../assets/img/img/prevent/icon7.png"
 
 
 const PreventLanding = () => {

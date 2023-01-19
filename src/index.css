@@ -1,55 +1,61 @@
 /*crear fuente*/
 @font-face {
-  font-family:'webfont';
-  src: local('fontawesome-webfont'), 
-       url(../src/assets/fonts/fontawesome-webfont.ttf) 
-       format(truetype)
+  font-family: "webfont";
+  src: local("fontawesome-webfont"),
+    url(../src/assets/fonts/fontawesome-webfont.ttf) format(truetype);
 }
 
 @font-face {
-  font-family:'glyphicons';
-  src: local('glyphicons-halflings-regular'), 
-       url(../src/assets/fonts/glyphicons-halflings-regular.ttf) 
-       format(truetype)
+  font-family: "glyphicons";
+  src: local("glyphicons-halflings-regular"),
+    url(../src/assets/fonts/glyphicons-halflings-regular.ttf) format(truetype);
 }
 
 @font-face {
-  font-family:'themify';
-  src: local('themify'), 
-       url(../src/assets/fonts/themify.ttf) 
-       format(truetype)
+  font-family: "themify";
+  src: local("themify"), url(../src/assets/fonts/themify.ttf) format(truetype);
 }
 
 @font-face {
-  font-family:'lanenar';
-  src:  
-       url(../src/assets/fonts/lanenar_Lane.ttf)
-       format(truetype)
+  font-family: "lanenar";
+  src: url(../src/assets/fonts/lanenar_Lane.ttf) format(truetype);
 }
-
 
 @font-face {
-  font-family: 'Poppins';
-  src: 
-    url(../src/assets/fonts/Poppins-Light.ttf)
-    format(truetype)
+  font-family: "Poppins";
+  src: url(../src/assets/fonts/Poppins-Light.ttf) format(truetype);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kanit:wght@300&family=Mulish&family=Poppins:wght@200;300;400&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kanit:wght@300&family=Mulish&family=Poppins:wght@200;300;400&display=swap");
 
 body {
   margin-left: 1000;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #515184;
+  /* font-size: 1rem; */
+  /*font-weight: 400;*/
+  /*line-height: 1.5;
+  /*color: #515184;*/
   text-align: left;
-  background-color: #fff; 
-
+  background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+/*
+h1, .h1 {
+  font-size: 2.25rem; }
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    font-weight: 800;
+  }
   
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); 
+}*/

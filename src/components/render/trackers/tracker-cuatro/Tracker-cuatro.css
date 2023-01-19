@@ -81,3 +81,13 @@
   font-weight: 700;
   margin-bottom: 0;
 }
+
+.container-tracker-cuatro{
+  width: 68vw;
+  margin: 0 auto;
+  padding: 30px;
+  display: block;
+  float: right;
+  overflow: scroll;
+  background-color: #F6F7FB;
+}

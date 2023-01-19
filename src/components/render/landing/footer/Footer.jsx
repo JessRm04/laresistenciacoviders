@@ -1,16 +1,15 @@
 import React from 'react';
-import '../css/trackerdos.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../css/footer.css';
+import './footer.css';
 
-function footer() {
+function Footer() {
   return (
     <>
       <footer className="pie-de-pagina">
         <div className="container-1">
           <div className="row">
             <div className="col-md-4">
-              <p className="h6"><i class="fa-solid fa-virus-covid"></i><b> COVIMAP</b></p>
+              <p className="h6"><i className="fa-solid fa-virus-covid"></i><b> COVIMAP</b></p>
               <p className="text-secondary">These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.</p>
               <div className="icons col-sm">
                 <i className="fa-brands fa-facebook"></i>
@@ -73,4 +72,4 @@ function footer() {
   )
 }
 
-export default footer;
+export default Footer;
