@@ -11,10 +11,14 @@ import "./App.css";
 // import Symptom from "./components/render/landing/landing-symptom/Symptom";
 // import Spreads from "./components/render/landing/landing-spreads/Spreads";
 // import Footer from "./components/render/landing/footer/Footer";
- //import TrackerDiecinueveRight from './components/render/trackers/tracker-diecinueve-right/Tracker-diecinueve-right';
-// import MolTrackerDiecinueveFlags from "./components/render/trackers/tracker-diecinueve-right/Mol-tracker-diecinueve-flag";
-// import MolTrackerDiecinuevecases from "./components/render/trackers/tracker-diecinueve-right/Mol-tracker-diecinueve-cases";
+// import Buttons from "./components/atomos/buttons/Buttons.jsx";
+// import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
+//import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
+//import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
+//import DataApi from './services/Services-data-api-countries';
+
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -25,14 +29,15 @@ function App() {
         <Question />
         <Washed />
         <News />
-        <Footer /> */}
-        {/* <Layout /> */}
-        {/* <Trackerdos /> */}
-        {/* <TrackerCuatro /> */}
-        {/* <TrackerDiecinueve /> */}
-        {/* <TrackerDiecinueveRight/> */}
-        {/* <MolTrackerDiecinueveFlags /> */}
-        {/* <MolTrackerDiecinuevecases/> */}
+        <LandingMobile/>
+        <Footer />
+        <Desplegable />
+        <Layout />
+        <Trackerdos />
+        <TableTracker data= {DataApi()}/>
+        <TrackerCuatro />
+        <TrackerDiecinueve/>*/}
+        <Layout />        
       </header>
     </div>
   );

@@ -11,11 +11,11 @@ This project was created to inform about all the data related to COVID-19 from a
 ![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
 
 ## Tech/framework used :electric_plug:
-* HTML - utilizado para crear la estructura básica de la página web
-* CSS - utilizado para estilizar la interfaz de usuario
-* JavaScript- utilizado para el desarrollo de página web
-* React - utilizado para construir interfaces de usuario
-* npm - utilizado para manejar las dependencias
+* **HTML** - utilizado para crear la estructura básica de la página web
+* **CSS** - utilizado para estilizar la interfaz de usuario
+* **JavaScript**- utilizado para el desarrollo de página web
+* **React** - utilizado para construir interfaces de usuario
+* **npm** - utilizado para manejar las dependencias
 
 ## Technology stack
 * Bootstrap: 5.2.3 [Sitio web oficial](https://getbootstrap.com/)
@@ -35,11 +35,11 @@ Click [here](https://disease.sh)
 * In the project directory run ***$ npm start***
 
 ## Contributors :family_woman_woman_girl_girl:
-* [Diana Borrajo](https://github.com/Dianab177)
-* [Sharon Infante](https://github.com/SharonInfante)
-* [Natalia Iriarte](https://github.com/Natalia-irlo)
-* [Jéssica Ríos](https://github.com/JessRm04)
-* [Aida Sousa](https://github.com/AidaSousa)
+* [Diana Borrajo](https://github.com/Dianab177) Scrum Master and Developer
+* [Sharon Infante](https://github.com/SharonInfante) Developer
+* [Natalia Iriarte](https://github.com/Natalia-irlo) Product Owner and Developer
+* [Jéssica Ríos](https://github.com/JessRm04) Developer
+* [Aida Sousa](https://github.com/AidaSousa) Developer
 
 ## License :closed_lock_with_key:
 MIT © [COVIDERS](aquí va enlace netlify)
