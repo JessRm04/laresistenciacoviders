@@ -1,6 +1,6 @@
 import React from 'react'
 import Wash from '../../../../assets/img/wash.png'
-import '../../landing/landing-view-wash/landing-view-wash.css'
+import './landing-view-wash.css'
 
 function Washed() {
   return (

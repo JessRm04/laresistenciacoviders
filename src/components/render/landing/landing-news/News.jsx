@@ -1,5 +1,5 @@
 import React from 'react'
-import '../landing-news/news.css';
+import './news.css';
 import blog1 from '../../../../assets/img/img/icons/blog1.jpg';
 import blog2 from '../../../../assets/img/img/icons/blog2.jpg';
 import blog3 from '../../../../assets/img/img/icons/blog3.jpg';
