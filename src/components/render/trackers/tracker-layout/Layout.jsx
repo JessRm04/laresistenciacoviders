@@ -46,22 +46,22 @@ const menuItems = [
     {
     id: 5,
     icon: <DynamicFeedOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/TrackerSeis',
+    path: '/',
     },
     {
     id: 6,
     icon: <MovingOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/TrackerSiete',
+    path: '/TrackerSeis',
     },
     {
     id: 7,
     icon: <LanguageOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/TrackerOcho',
+    path: '/TrackerSiete',
     },
     {
     id: 8,
     icon: <ChatBubbleOutlineOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/TrackerNueve',
+    path: '/',
     },
     {
     id: 9,

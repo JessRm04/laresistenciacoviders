@@ -21,11 +21,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-        <h1>COVIDERS</h1>
-        <Symptom />
+        {/* <Symptom />
         <PreventLanding />
-        
         <Symptom />
         <PreventLanding/>
         <Spreads />
@@ -33,12 +30,12 @@ function App() {
         <Washed />
         <News />
         <LandingMobile/>
-        <Footer />
+        <Footer /> */}
         <TrackerRaiz />
-        <Trackerdos />
+        {/* <Trackerdos />
         <TableTracker data= {DataApi()}/>
         <TrackerCuatro />
-        <TrackerDiecinueve/>       
+        <TrackerDiecinueve/>        */}
       </header>
     </div>
   );

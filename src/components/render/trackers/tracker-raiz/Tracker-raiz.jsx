@@ -7,22 +7,26 @@ import Layout from '../tracker-layout/Layout';
 import "./tracker-raiz.css"
 import TrackerSeis from "../tracker-seis/Tracker_seis.jsx"
 import Trackerdos from '../tracker-dos/Mol-trackerdos';
+import TableTracker from '../../../moleculas/mol-track-tres-table/Mol-track-tres-table';
 
 const TrackerRaiz = () => {
   return (
-    <BrowserRouter>
-        <Layout />
-        <TrackerDiecinueve />
-        <Routes>
-          <Route path='/TrackerDos'element={<Trackerdos/>}/>
-          {/* <Route path='/TrackerTres'/> */}
-          <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
-          {/* <Route path='/TrackerCinco'/> */}
-          <Route path='/TrackerSeis' element={<TrackerSeis/>}/>
-          {/* <Route path='/TrackerSiete'/>
-          <Route path='/TrackerOcho'/> */}
-
-        </Routes>
+    <BrowserRouter className="browsercontainer">
+      <div>
+          <Layout />
+          <TrackerDiecinueve />
+      </div>
+      <div>
+          <Routes>
+            <Route path='/TrackerDos'element={<Trackerdos/>}/>
+            <Route path='/TrackerTres' element={<TableTracker/>}/>
+            <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
+            {/* <Route path='/TrackerCinco'/> */}
+            <Route path='/TrackerSeis' element={<TrackerSeis/>}/>
+            {/* <Route path='/TrackerSiete'/>
+            <Route path='/TrackerOcho'/> */}
+          </Routes>
+      </div>
     </BrowserRouter>
   )
 };

@@ -63,5 +63,11 @@ export const data = {
 };
 
 export default function TrackerSeis() {
-    return <div className='grafica'><Line options={options} data={data} /></div>;  
+    return(
+        <div className="container-grafica">
+            <div className='grafica'>
+                <Line options={options} data={data} />
+            </div>;  
+        </div>
+    )
 }

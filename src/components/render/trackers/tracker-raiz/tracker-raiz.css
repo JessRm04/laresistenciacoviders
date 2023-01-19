@@ -1,4 +1,3 @@
-.browser{
+.browsercontainer{
     display: flex;
-    flex-direction: row;
 }
