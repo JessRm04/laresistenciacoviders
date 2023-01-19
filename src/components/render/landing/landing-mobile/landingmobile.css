@@ -1,12 +1,11 @@
 .landingMobileContainer{
-    width: 900px;
-    height: 300px;
+    width: 80vw;
+    height: 50vh;
     background: linear-gradient(to right, #1e0c9d, #06cdec);
     padding: 100px 130px;
     border-radius: 10px;
     margin-top: 250px;
-    margin-left: 185px;
-    position: relative;
+    margin-left: 10%;
 }
 
 .cuadrado{
@@ -14,22 +13,24 @@
 }
 
 .mobile{
-    position: absolute;
-    margin-left: 650px;
-    margin-top: -510px;
+    margin-top: -25%;
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    margin-left: 15%;
 }
 
 .text{
-    width: 500px;
     font-weight: bold;
     color: white;
     display: flex;
     flex-direction: column;
     margin-top: -50px;
+    width: 38rem;
 }
 
-h1{
-    font-size: 3em;
+h1 b{
+    font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -47,7 +48,7 @@ h2{
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    width: 130px;
+    width: 13rem;
 }
 
 .buttom:hover{
@@ -56,3 +57,7 @@ h2{
     transition: color 1s;
 }
 
+.textParagraph{
+    width: 45rem;
+    font-weight: lighter;
+}

@@ -8,23 +8,22 @@
 
 .questionCards{
     display: grid;
-    grid-column: repet(6, 1fr);
+    grid-column: repet(7, 1fr);
     grid-row: repet (2, 1fr);
 }
 
 .questionCardsLeft{
-    grid-column: 2/4;
-    margin-left: 12%;
+    grid-column: 3/3;
 }
 
 .questionCardsRight{
     grid-column: 4/6;
-    margin-left: -5%;
+  
 }
 
 .question{
     background-color: rgba(30, 12, 157, 0.5);
-    width: 37rem;
+    width: 40rem;
     height: 4rem;
     color: var(--white);
     border-radius: 10px;
@@ -35,7 +34,7 @@
 
 .question2{
     background-color: rgba(30, 12, 157, 0.5);
-    width: 37rem;
+    width: 40rem;
     height: 12rem;
     color: var(--white);
     border-radius: 10px;
@@ -44,8 +43,9 @@
     margin-bottom: 6%;
 }
 
-p{
+.paragraphQuestion{
     color: var(--white);
+    font-size: 1.3rem;
 }
 
 h4{
@@ -53,26 +53,26 @@ h4{
     font-weight: bold;
 }
 
-.title{
+.titleQuestion{
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;  
 }
 
 .titleQuestionsFaqs{
-    grid-column: 2/4;
+    grid-column: 3/5;
     justify-content: center;
     color: var(--white);
     font-weight: bold;
+    margin-top: 5%;
 }
 
-.titleQuestions{
+.titleAsked{
     color: var(--white);
     font-size: 4rem;
     font-weight: bolder;
-    grid-column: 2/4;
+    grid-column: 3/5;
     justify-content: center;
-    margin-top: -2%;
 }
 
 

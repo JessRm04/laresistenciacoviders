@@ -1,14 +1,22 @@
 .symptoncard{
-    color: rgb(48, 48, 158);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    color: #515184;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    width: 25rem;
+    background-color: #FFFFFF !important;
 }
 
 .symptonpeq{
-    color: rgb(48, 48, 158);
+    color: #121158;
 }
 
 .symptonxl{
-    color: rgb(48, 48, 158);
+    color: #121158;
     margin-right: 20%;
     margin-left: 20%;
+}
+
+.symptom{
+    gap: 10rem;
+    width: 100vw;
 }

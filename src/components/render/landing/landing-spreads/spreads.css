@@ -1,14 +1,16 @@
 .spreadscard{
-    color: rgb(48, 48, 158);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    color: #121158;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFFFFF !important;
+    width: 23rem;
 }
 
 .spreadspeq{
-    color: rgb(48, 48, 158);
+    color: #121158;
 }
 
 .spreadsxl{
-    color: rgb(48, 48, 158);
+    color: #121158;
     margin-right: 20%;
     margin-left: 20%;
 }
