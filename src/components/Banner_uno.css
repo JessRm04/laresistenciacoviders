@@ -1,0 +1,146 @@
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    /*filter: hue-rotate(18deg);*/
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    width: 4%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 1%;
+}
+
+.arrow {
+    border-radius: 50%;
+    color: white;
+    background-color: orangered;
+    margin: 15%;
+    width: 50%;
+}
+
+.headset {
+    border-radius: 50%;
+    color: white;
+    background-color: aqua;
+    margin: 15%;
+    width: 50%;
+}
+
+.cartShopping {
+    border-radius: 50%;
+    color: white;
+    background-color: yellowgreen;
+    margin: 15%;
+    width: 50%;
+}
+
+
+.girl {
+    position: absolute;
+    width: 450px;
+    left: 65%;
+    top: 18%;
+}
+
+.content {
+    position: absolute;
+    width:40vw;
+    top: 10%;
+}
+
+.title {
+    position: absolute;
+    top: 14%;
+    left: 22%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 22%;
+    font-size: 1.4em;
+}
+
+.flag {
+    background-color: white;
+    position: absolute;
+    border: 1px, solid, white;
+    border-radius: 2%;
+    top: 74%;
+    left: 9%;
+    width: 28vw;
+    height: 20vh;
+}
+
+.flagSpain {
+    width: 10vw;
+    position: absolute;
+    left: 2%;
+}
+
+.orange {
+    position: absolute;
+    top: 80%;
+    left: 59%;
+    background-color: orange;
+    border: 1px, solid, orange;
+    border-radius: 5%;
+    width: 4vw;
+    height: 2.5vh;
+}
+
+.textOrag {
+    margin-top: 1%;
+    margin-left: 18%;
+    color: white;
+}
+
+.green {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    background-color: rgb(97, 225, 97);
+    border: 1px, solid, rgb(97, 225, 97);
+    border-radius: 5%;
+    width: 4.5vw;
+    height: 2.5vh;
+}
+
+.textGreen {
+    margin-top: 1%;
+    margin-left: 9%;
+    color: white;
+}
+
+.textRed {
+    color: rgb(189, 15, 15);
+    font-size: 2em;
+    position: absolute;
+    left: 67%;
+    top: 20%;
+}
+
+.arrowDos {
+    color: rgb(189, 15, 15);
+    position: absolute;
+    left: 50%;
+    top: 75%;
+}
+
+.line {
+    width: 5%;
+    position: absolute;
+    left: 51%;
+    top: 85%;
+    color: rgb(189, 15, 15);
+}
+
+
