@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Layout from "./components/render/trackers/tracker-layout/Layout";
+//import Layout from "./components/render/trackers/tracker-layout/Layout";
 import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
-import Trackerdos from "./components/render/trackers/tracker-dos/Tracker-dos";
+import Trackerdos from "./components/render/trackers/tracker-dos/Mol-trackerdos";
 import Question from "./components/render/landing/landing-view-questions/landing-view-question";
 import Washed from "./components/render/landing/landing-view-wash/landing-view-wash";
 import PreventLanding from "./components/moleculas/Mol-Landing-prevent";
@@ -31,13 +31,11 @@ function App() {
         <News />
         <LandingMobile/>
         <Footer />
-        <Desplegable />
-        <Layout />
+        {/* <Layout /> */}
         <Trackerdos />
         <TableTracker data= {DataApi()}/>
         <TrackerCuatro />
-        <TrackerDiecinueve/>
-        <Layout />        
+        <TrackerDiecinueve/>      
       </header>
     </div>
   );
