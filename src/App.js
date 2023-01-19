@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
-import Layout from "./components/render/trackers/tracker-layout/Layout";
+// import Layout from "./components/render/trackers/tracker-layout/Layout";
 // import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
-// import Trackerdos from "./components/render/trackers/tracker-dos/Mol-trackerdos";
-// import Desplegable from "./components/render/trackers/tracker-dos/Mol-trackerdos-desplegable";
+// import Trackerdos from "./components/render/trackers/tracker-dos/Tracker-dos";
 // import Question from "./components/render/landing/landing-view-questions/landing-view-question";
 // import Washed from "./components/render/landing/landing-view-wash/landing-view-wash";
 // import PreventLanding from "./components/moleculas/Mol-Landing-prevent";
@@ -12,31 +11,28 @@ import Layout from "./components/render/trackers/tracker-layout/Layout";
 // import Symptom from "./components/render/landing/landing-symptom/Symptom";
 // import Spreads from "./components/render/landing/landing-spreads/Spreads";
 // import Footer from "./components/render/landing/footer/Footer";
-// import Buttons from "./components/atomos/buttons/Buttons.jsx";
-// import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
-//import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
-
+ //import TrackerDiecinueveRight from './components/render/trackers/tracker-diecinueve-right/Tracker-diecinueve-right';
+// import MolTrackerDiecinueveFlags from "./components/render/trackers/tracker-diecinueve-right/Mol-tracker-diecinueve-flag";
+// import MolTrackerDiecinuevecases from "./components/render/trackers/tracker-diecinueve-right/Mol-tracker-diecinueve-cases";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <TrackerRaiz /> */}
-        {/*<Symptom />
-        <Buttons/>
-        <PreventLanding/>
+        <h1>COVIDERS</h1>
+        {/* <Symptom />
+        <PreventLanding />
         <Spreads />
         <Question />
         <Washed />
         <News />
-        <LandingMobile/>
-        <Footer />
-        <Desplegable />
-        <Layout />
-        <Trackerdos />
-        <TrackerCuatro />
-  <TrackerDiecinueve/>*/}
-   <Layout />
-        
+        <Footer /> */}
+        {/* <Layout /> */}
+        {/* <Trackerdos /> */}
+        {/* <TrackerCuatro /> */}
+        {/* <TrackerDiecinueve /> */}
+        {/* <TrackerDiecinueveRight/> */}
+        {/* <MolTrackerDiecinueveFlags /> */}
+        {/* <MolTrackerDiecinuevecases/> */}
       </header>
     </div>
   );
