@@ -37,7 +37,7 @@ h5 {
 }
 
 .track2 {
-  width: 60vw;
+  width: 70vw;
 }
 .virus-v {
   position: relative;
@@ -53,7 +53,7 @@ h5 {
   display: grid;
   grid-template-columns: fit-content(600px) fit-content(600px) 1fr;
   width: 30vw;
-  padding-right: 30%;
+ 
   justify-content: center;
   align-items: center;
 }
@@ -231,11 +231,13 @@ h5 {
   width: 20vw;
 }
 .tableContainer{
-  width: 68vw;
-  margin: 0 auto;
-  padding: 30px;
+  width:65vw;
+  margin: 0 0 0 4rem;
+  padding: 5rem;
   display: block;
   float: right;
   overflow: scroll;
   background-color: #F6F7FB;
+  
+  
 }
