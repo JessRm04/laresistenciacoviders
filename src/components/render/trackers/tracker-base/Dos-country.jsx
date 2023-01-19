@@ -7,7 +7,7 @@ import './dos-country.css';
 const DosCountry = () => {
     const responseData = DataApiAll();
   return (
-    <div>
+    <div className="container-div">
       <div class="col-md-4 col-lg-6 col-6">
         <div class="covid-widget-1 red-bx">
           <div class="icon">

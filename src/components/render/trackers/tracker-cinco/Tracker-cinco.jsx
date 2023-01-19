@@ -2,11 +2,12 @@ import React from "react";
 import "./Tracker-cinco.css";
 import "bootstrap/dist/css/bootstrap.css";
 import MolTrackerCincoFlags from "./Mol-tracker-cinco-flag";
-import MolTrackerCincocases from "./Mol-tracker-cinco-cases";
+import MolTrackerCincoCases from "./Mol-tracker-cinco-cases";
 
 const TrackerCinco = () => {
   return(
   <div className="tableContainer">
+    <div className="main-admin">
     <div
       className="chat-content"
       id="country-wise"
@@ -19,9 +20,11 @@ const TrackerCinco = () => {
           <li><MolTrackerCincoFlags /></li>
         </ul>
         <div className="tab-content">
-          <MolTrackerCincocases />
+          <MolTrackerCincoCases />
         </div>
       </div>
+
+     </div>
      </div>
   </div>
   );

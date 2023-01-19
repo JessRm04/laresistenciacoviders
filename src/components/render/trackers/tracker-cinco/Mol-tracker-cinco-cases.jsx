@@ -10,19 +10,19 @@ import covidorange from "../../../../assets/img/covidorange.svg";
 import coviddark from "../../../../assets/img/covid-redark.svg";
 import covidefult from "../../../../assets/img/covid-defult.svg";
 
-const MolTrackerCincocases = () => {
+const MolTrackerCincoCases = () => {
     const responseData = DataApi();
   return responseData
         .sort((a, b) => b.cases - a.cases)
-        .slice(0, 10)
+        .slice(0, 1)
         .map((item) =>(
-            <div id={item.country} data-country-code="US" className="tab-pane" key={item.countryInfo._id}>
+            <div id={item.country} data-country-code={item.country} key={item.countryInfo._id}>
             <div className="covid-world-widget">
               <div className="updated-time row">
                 <div className="col-md-4 col-lg-3 col-6">
                   <div className="covid-widget-1 defult-bx">
                     <div className="icon">
-                      <img src={covidefult} alt="" />
+                      <img src={covidefult} alt=""/>
                     </div>
                     <div className="info">
                       <h5>Total Cases</h5>
@@ -92,4 +92,4 @@ const MolTrackerCincocases = () => {
   );
 }
 
-export default MolTrackerCincocases;
+export default MolTrackerCincoCases;

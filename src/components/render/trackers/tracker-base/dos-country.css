@@ -1,3 +1,6 @@
+.container-div{
+  width: 50vw;
+}
 .covid-widget-1 {
   background: #fff;
   padding: 15px 15px;
@@ -12,6 +15,7 @@
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  
 }
 .covid-widget-1:hover {
   transform: translateY(-10px);

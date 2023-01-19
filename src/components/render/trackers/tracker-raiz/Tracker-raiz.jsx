@@ -8,6 +8,9 @@ import "./tracker-raiz.css"
 import TrackerSeis from "../tracker-seis/Tracker_seis.jsx"
 import TableTracker from '../../../moleculas/mol-track-tres-table/Mol-track-tres-table';
 import TrackerCinco from '../tracker-cinco/Tracker-cinco';
+//import MolTrackerCincoCases from '../tracker-cinco/Mol-tracker-cinco-cases';
+//import DosCountry from '../tracker-base/Dos-country';
+
 
 const TrackerRaiz = () => {
   return (
@@ -20,8 +23,8 @@ const TrackerRaiz = () => {
               <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
               <Route path='/TrackerCinco'element={<TrackerCinco/>}/>
               <Route path='/TrackerSeis' element={<TrackerSeis/>}/>
-              {/* <Route path='/TrackerSiete'/>
-              <Route path='/TrackerOcho'/> */}
+              {/* <Route path='/TrackerSiete'element={<MolTrackerCincoCases/>}/> */}
+              {/* <Route path='/TrackerOcho' element={<DosCountry/>}/> */}
             </Routes>
       </BrowserRouter>
   )
