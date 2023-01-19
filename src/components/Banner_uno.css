@@ -87,13 +87,13 @@
 
 .orange {
     position: absolute;
-    top: 80%;
+    top: 78%;
     left: 59%;
     background-color: orange;
     border: 1px, solid, orange;
     border-radius: 5%;
     width: 4vw;
-    height: 2.5vh;
+    height: 3.5vh;
 }
 
 .textOrag {
@@ -104,13 +104,13 @@
 
 .green {
     position: absolute;
-    top: 80%;
+    top: 78%;
     left: 75%;
     background-color: rgb(97, 225, 97);
     border: 1px, solid, rgb(97, 225, 97);
     border-radius: 5%;
     width: 4.5vw;
-    height: 2.5vh;
+    height: 3.5vh;
 }
 
 .textGreen {
@@ -138,7 +138,7 @@
     width: 5%;
     position: absolute;
     left: 51%;
-    top: 85%;
+    top: 82%;
     color: rgb(189, 15, 15);
 }
 

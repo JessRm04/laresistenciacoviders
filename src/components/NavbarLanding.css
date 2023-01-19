@@ -1,0 +1,58 @@
+
+.coronavirus {
+    filter: invert(0.9) sepia(1);
+    width: 3vw;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+.covimap {
+    color: white;
+    font-size: medium;
+    margin-top: 0;
+    margin-left: -15%;
+    font-size: 30px;
+}
+
+.home {
+    margin-left: 80%;
+}
+
+.buttontracker {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    border-color: blue;
+    margin-top: 0.5%;
+}
+
+#home {
+    color: white;
+    font-size: larger;
+}
+
+#prevention {
+    color: white;
+    font-size: larger;
+}
+
+#qurantine {
+    color: white;
+    font-size: larger;
+}
+
+#pages {
+    color: white;
+    font-size: larger;
+}
+
+#about {
+    color: white;
+    font-size: larger;
+}
+
+#help {
+    color: white;
+    font-size: larger;
+}

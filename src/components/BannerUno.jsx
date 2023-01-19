@@ -8,20 +8,22 @@ import { faShare } from "@fortawesome/free-solid-svg-icons";
 import { faHeadset } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import "../components/Banner_uno.css";
+import NavbarLanding from "./NavbarLanding";
 
 export default function BannerUno() {
   return (
+
     <div
       className="fondo"
       style={{
         backgroundImage: `url(${fondo_banner_uno})`,
         backgroundRepeat: "no-repeat",
-        width: "4000px",
       }}
     >
+          <NavbarLanding />
       <div className="flag">
         <p className="textRed">9779130</p>
-        <TrendingDownOutlinedIcon className="arrowDos" />
+        <TrendingDownOutlinedIcon className="arrowDos"/>
         <hr className="line" />
         <img className="flagSpain" src={flag_spain} alt="bandera españa" />
         <div className="orange">
