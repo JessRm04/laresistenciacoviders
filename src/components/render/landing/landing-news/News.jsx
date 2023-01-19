@@ -22,7 +22,7 @@ const News = () => {
             <h5 class="card-title"><p>What should I do if I have</p>COVID-19 symptoms</h5>
           </div>
           <div class="p-2">
-            <a href="#" class="card-link">Continue</a>
+            <a href="/#" class="card-link">Continue</a>
           </div>
         </div>
         <div class="p-2">
@@ -34,7 +34,7 @@ const News = () => {
             <h5 class="card-title "><p>What you need to know About</p>Coronavirus</h5>
           </div>
           <div class="p-2">
-            <a href="#" class="card-link">Continue</a>
+            <a href="/#" class="card-link">Continue</a>
           </div>
         </div>
         <div class="p-2">
@@ -46,7 +46,7 @@ const News = () => {
             <h5 class="card-title"><p>Seek immediate care if you</p>have difficulty breathing</h5>
           </div>
           <div class="p-2">
-            <a href="#" class="card-link">Continue</a>
+            <a href="/#" class="card-link">Continue</a>
           </div>
         </div>
     </div>
