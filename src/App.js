@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
+/*import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
 import Trackerdos from "./components/render/trackers/tracker-dos/Mol-trackerdos";
 import Question from "./components/render/landing/landing-view-questions/landing-view-question";
 import Washed from "./components/render/landing/landing-view-wash/landing-view-wash";
@@ -13,7 +13,7 @@ import Footer from "./components/render/landing/footer/Footer";
 import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
 //import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
 import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
-import DataApi from './services/Services-data-api-countries';
+import DataApi from './services/Services-data-api-countries';*/
 import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Symptom />
+        {/*<Symptom />
         <PreventLanding />
         <Symptom />
         <PreventLanding/>
@@ -30,12 +30,14 @@ function App() {
         <Washed />
         <News />
         <LandingMobile/>
-        <Footer />
-        <TrackerRaiz />
-        <Trackerdos />
+        <Footer />*/}
+        <div className="browsercontainer">
+          <TrackerRaiz />
+        </div>
+         {/*<Trackerdos />
         <TableTracker data= {DataApi()}/>
         <TrackerCuatro />
-        <TrackerDiecinueve/>       
+        <TrackerDiecinueve/>*/}
       </header>
     </div>
   );
