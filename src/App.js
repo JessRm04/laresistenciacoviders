@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Layout from "./components/render/trackers/tracker-layout/Layout";
+// import Layout from "./components/render/trackers/tracker-layout/Layout";
 // import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
 // import Trackerdos from "./components/render/trackers/tracker-dos/Mol-trackerdos";
 // import Desplegable from "./components/render/trackers/tracker-dos/Mol-trackerdos-desplegable";
@@ -14,13 +14,13 @@ import Layout from "./components/render/trackers/tracker-layout/Layout";
 // import Footer from "./components/render/landing/footer/Footer";
 // import Buttons from "./components/atomos/buttons/Buttons.jsx";
 // import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
-//import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
+import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <TrackerRaiz /> */}
+        <TrackerRaiz />
         {/*<Symptom />
         <Buttons/>
         <PreventLanding/>
@@ -35,8 +35,8 @@ function App() {
         <Trackerdos />
         <TrackerCuatro />
   <TrackerDiecinueve/>*/}
-   <Layout />
-        
+   {/* <Layout /> */}
+
       </header>
     </div>
   );
