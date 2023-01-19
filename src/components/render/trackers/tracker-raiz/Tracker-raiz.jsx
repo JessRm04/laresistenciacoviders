@@ -11,23 +11,19 @@ import TableTracker from '../../../moleculas/mol-track-tres-table/Mol-track-tres
 
 const TrackerRaiz = () => {
   return (
-    <BrowserRouter className="browsercontainer">
-      <div>
-          <Layout />
-          <TrackerDiecinueve />
-      </div>
-      <div>
-          <Routes>
-            <Route path='/TrackerDos'element={<Trackerdos/>}/>
-            <Route path='/TrackerTres' element={<TableTracker/>}/>
-            <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
-            {/* <Route path='/TrackerCinco'/> */}
-            <Route path='/TrackerSeis' element={<TrackerSeis/>}/>
-            {/* <Route path='/TrackerSiete'/>
-            <Route path='/TrackerOcho'/> */}
-          </Routes>
-      </div>
-    </BrowserRouter>
+      <BrowserRouter>
+            <Layout />
+            <TrackerDiecinueve />
+            <Routes>
+              <Route path='/TrackerDos'element={<Trackerdos/>}/>
+              <Route path='/TrackerTres' element={<TableTracker/>}/>
+              <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
+              {/* <Route path='/TrackerCinco'/> */}
+              <Route path='/TrackerSeis' element={<TrackerSeis/>}/>
+              {/* <Route path='/TrackerSiete'/>
+              <Route path='/TrackerOcho'/> */}
+            </Routes>
+      </BrowserRouter>
   )
 };
 

@@ -31,7 +31,9 @@ function App() {
         <News />
         <LandingMobile/>
         <Footer /> */}
-        <TrackerRaiz />
+        <div className="browsercontainer">
+          <TrackerRaiz />
+        </div>
         {/* <Trackerdos />
         <TableTracker data= {DataApi()}/>
         <TrackerCuatro />
