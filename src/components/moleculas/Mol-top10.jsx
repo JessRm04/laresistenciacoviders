@@ -7,10 +7,8 @@ function Top10() {
      return responseData
        .sort((a, b) => b.active - a.active)
        .slice(0, 10)
-       .map((item) =>(
-          <div>
-          <Top10Component flag={item.countryInfo.flag} country={item.country} numbers={item.cases}/>
-         </div>    
- ))};
+       .map((item) =>
+          <Top10Component id={item.countryInfo._id} flag={item.countryInfo.flag} country={item.country} numbers={item.cases}/>  
+ )};
    
    export default Top10;

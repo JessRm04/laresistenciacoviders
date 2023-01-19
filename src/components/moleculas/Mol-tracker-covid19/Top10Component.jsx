@@ -3,11 +3,11 @@ import "./top10country.css"
 
 
 
-const top10 = ({flag, country, numbers}) => {
+const top10 = ({flag, country, numbers, id}) => {
     return <div className="top10container">
         <div className="leftContainer">
-            <img className="flag" src={flag} alt="bandera"></img>
-            <p className="country">{country}</p>
+            <img className="flag" src={flag} alt="bandera"/>
+            <p key={id} className="country">{country}</p>
         </div>
         <div>
             <h4 className="numbers">{numbers}</h4>
