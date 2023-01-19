@@ -107,7 +107,7 @@ export default function Layout({children}) {
                     <ListItem className='listItem'
                     button
                     key={item.id}
-                     onClick={() => navigate.push(item.path)}
+                    onClick={() => navigate.push(item.path)}
                     >
                         <ListItemIcon className='icon'>{item.icon}</ListItemIcon>
                     </ListItem>
