@@ -1,5 +1,5 @@
 import React from 'react';
-import '../landing-spreads/spreads.css';
+import './spreads.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import spreadsdesinfec from '../../../../assets/img/img/icons/spreadsdesinfec.jpg';
 import spreadsmask from '../../../../assets/img/img/icons/spreadsmask.jpg';

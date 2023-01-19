@@ -11,7 +11,7 @@ import {
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 import { faker } from '@faker-js/faker';
-import '../components/Tracker_seis.css';
+import '../tracker-seis/Tracker_seis.css';
 
 ChartJS.register(
     CategoryScale,
@@ -62,6 +62,12 @@ export const data = {
     ],
 };
 
-export function Tracker_seis() {
-    return <div className='grafica'><Line options={options} data={data} /></div>;  
+export default function TrackerSeis() {
+    return(
+        <div className="container-grafica">
+            <div className='grafica'>
+                <Line options={options} data={data} />
+            </div>;  
+        </div>
+    )
 }

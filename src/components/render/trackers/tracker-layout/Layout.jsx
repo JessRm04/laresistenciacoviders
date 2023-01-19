@@ -26,22 +26,22 @@ const menuItems = [
     { 
     id: 1,
     icon: <PieChartOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerDos',
     },
     { 
     id: 2,
     icon: <MenuOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/TrackerCuatro',
+    path: '/TrackerTres',
     },
     { 
     id: 3,
     icon: <GridViewOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerCuatro',
     },
     {
     id: 4,
     icon: <FolderOpenOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerCinco',
     },
     {
     id: 5,
@@ -51,12 +51,12 @@ const menuItems = [
     {
     id: 6,
     icon: <MovingOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerSeis',
     },
     {
     id: 7,
     icon: <LanguageOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerSiete',
     },
     {
     id: 8,
@@ -107,9 +107,9 @@ export default function Layout({children}) {
                     <ListItem className='listItem'
                     button
                     key={item.id}
-                     onClick={() => navigate.push(item.path)}
+                    onClick={() => navigate.push(item.path)}
                     >
-                        <ListItemIcon className='icon'>{item.icon}</ListItemIcon>
+                        <ListItemIcon className='icon' key={item.id}>{item.icon}</ListItemIcon>
                     </ListItem>
                     )
                 )}

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../landing-symptom/symptom.css';
+import './symptom.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import bannerright from '../../../../assets/img/img/icons/bannerright.png';
 import cough from '../../../../assets/img/img/icons/cough.png';
