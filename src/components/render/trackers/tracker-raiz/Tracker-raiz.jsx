@@ -15,7 +15,7 @@ const TrackerRaiz = () => {
             <Layout />
             <TrackerDiecinueve />
             <Routes>
-              <Route path='/'element={<Trackerdos/>}/>
+              <Route path='/TrackerDos' element={<Trackerdos/>}/>
               <Route path='/TrackerTres' element={<TableTracker/>}/>
               <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
               {/* <Route path='/TrackerCinco'/> */}
