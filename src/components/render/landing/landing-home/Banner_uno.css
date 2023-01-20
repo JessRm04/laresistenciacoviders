@@ -1,7 +1,10 @@
 .fondo {
     width: 100vw;
     height: 100vh;
-    /*filter: hue-rotate(18deg);*/
+}
+.hlc {
+    margin-bottom: 50vh;
+    display: block;
 }
 
 .icons {
