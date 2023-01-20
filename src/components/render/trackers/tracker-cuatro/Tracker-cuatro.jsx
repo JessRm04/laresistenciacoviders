@@ -7,10 +7,17 @@ import MolTrackCuatroDeathDiez from "../../../moleculas/Mol-tracker-cuatro/Mol-t
 import MolTrackCuatroTodayDeaths from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-todayDeath";
 import MolTrackCuatroActive from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-active";
 import MolTrackCuatroRecover from "../../../moleculas/Mol-tracker-cuatro/Mol-track-cuatro-recover";
+import Layout from "../tracker-layout/Layout";
+import TrackerDiecinueve from "../tracker-covid19/Tracker-covid-diecinueve";
 
 
 const TrackerCuatro = () => {
   return( 
+    <>
+    <div>
+        <Layout />
+    <TrackerDiecinueve />
+    </div>
     <div className="container-tracker-cuatro">
       <h1 className="stat-head">Top 10 Country wise Covid-19 Updates - Tiles</h1>
       <hr/>
@@ -42,6 +49,7 @@ const TrackerCuatro = () => {
           </div>
         </div>
       </div>
+      </>
   )
 };
 

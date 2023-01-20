@@ -1,5 +1,4 @@
 import React from "react";
-import fondo_banner_uno from "../../../../assets/images/fondo_banner_uno.png";
 import flag_spain from "../../../../assets/images/flag_spain.png";
 import girl from "../../../../assets/images/girl.png";
 import TrendingDownOutlinedIcon from "@mui/icons-material/TrendingDownOutlined";
@@ -21,14 +20,7 @@ import Footer from "../footer/Footer";
 
 export default function BannerUno() {
   return (
-
-    <div
-      className="fondo"
-      style={{
-        backgroundImage: `url(${fondo_banner_uno})`,
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <div className="fondo">
       <div className="flag">
         <p className="textRed">9779130</p>
         <TrendingDownOutlinedIcon className="arrowDos"/>
@@ -70,14 +62,14 @@ export default function BannerUno() {
           className="cartShopping"
         />
       </div>
-      <div className="hlc"><Symptom /></div>
-      <div className="hlc"><PreventLanding /></div>
-      <div className="hlc"><Spreads /></div>
-      <div className="hlc"><Question /></div>
-      <div className="hlc"><Washed /></div>
-      <div className="hlc"><LandingMobile /></div>
-      <div className="hlc"><News /></div>
-      <div className="hlc"><Footer /></div>
+      <div className="hlc" title="qurantine"><Symptom /></div>
+      <div className="hlc" title="prevention"><PreventLanding /></div>
+      <div className="hlc" title="social-distance"><Spreads /></div>
+      <div className="hlc" title="about"><Question /></div>
+      <div className="hlc" title="hand-wash"><Washed /></div>
+      <div className="hlc" title="blog-details"><LandingMobile /></div>
+      <div className="hlc" title="blog"><News /></div>
+      <div className="hlc" title="help"><Footer /></div>
     </div>
   );
 }

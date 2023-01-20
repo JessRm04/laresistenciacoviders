@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import IconsArrow from "../../../assets/fonts/icons/order.png";
 import { useState } from "react";
 import Pagination from "react-paginate";
+import Layout from "../../render/trackers/tracker-layout/Layout";
+import TrackerDiecinueve from "../../render/trackers/tracker-covid19/Tracker-covid-diecinueve";
 
 function TableTracker() {
 
@@ -38,6 +40,10 @@ function TableTracker() {
 
   return (
     <div className="tableContainer">
+       <>
+            <Layout />
+            <TrackerDiecinueve />
+      </>
       <div className="titleTable">
         <p>Ajax Data Table - Covid-19 Country Wise State</p>
       </div>

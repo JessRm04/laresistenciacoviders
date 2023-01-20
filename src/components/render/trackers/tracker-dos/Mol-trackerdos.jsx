@@ -7,6 +7,8 @@ import telephone from '../../../../assets/img/telephone.svg';
 import '../tracker-dos/trackerdos.css';
 import Desplegable from '../tracker-dos/Mol-trackerdos-desplegable';
 import DataApiAll from '../../../../services/Services-data-api-all';
+import Layout from '../tracker-layout/Layout';
+import TrackerDiecinueve from '../tracker-covid19/Tracker-covid-diecinueve';
 
 
 const Trackerdos = () => {
@@ -23,7 +25,12 @@ const Trackerdos = () => {
     const responseData = DataApiAll();
 
     return (
-<>
+        <>
+        <div>
+            <Layout />
+        <TrackerDiecinueve />
+        </div>
+
 <Desplegable />
     {responseData && (
 <div className='track2'>

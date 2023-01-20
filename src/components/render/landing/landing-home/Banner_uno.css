@@ -1,10 +1,15 @@
 .fondo {
     width: 100vw;
     height: 100vh;
+    background-image: url('../../../../assets/images/fondo_banner_uno.png');
+    position: relative;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
 }
 .hlc {
-    margin-bottom: 50vh;
-    display: block;
+    margin-bottom: 70vh;
+    
 }
 
 .icons {
