@@ -1,0 +1,13 @@
+.grafica {
+    width: 50vw;
+    height: 50vh;
+}
+
+.container-grafica{
+    width: 68vw;
+    margin: 0 auto;
+    padding: 30px;
+    display: block;
+    float: right;
+    background-color: #F6F7FB;
+}

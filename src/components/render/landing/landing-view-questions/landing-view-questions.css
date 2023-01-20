@@ -1,0 +1,78 @@
+.contenedorQuestions{
+    background-image: linear-gradient(to right, #2e1dadf3, #06cdeceb), url(../../../../assets/img/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 150%;
+}
+
+.questionCards{
+    display: grid;
+    grid-column: repet(7, 1fr);
+    grid-row: repet (2, 1fr);
+}
+
+.questionCardsLeft{
+    grid-column: 3/3;
+}
+
+.questionCardsRight{
+    grid-column: 4/6;
+  
+}
+
+.question{
+    background-color: rgba(30, 12, 157, 0.5);
+    width: 40rem;
+    height: 4rem;
+    color: var(--white);
+    border-radius: 10px;
+    padding: 2% 2%;
+    margin-top: 12px;
+    margin-bottom: 5%;
+}
+
+.question2{
+    background-color: rgba(30, 12, 157, 0.5);
+    width: 40rem;
+    height: 12rem;
+    color: var(--white);
+    border-radius: 10px;
+    padding: 2% 2%;
+    margin-top: 15px;
+    margin-bottom: 6%;
+}
+
+.paragraphQuestion{
+    color: var(--white);
+    font-size: 1.3rem;
+}
+
+h4{
+    color: var(--white);
+    font-weight: bold;
+}
+
+.titleQuestion{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;  
+}
+
+.titleQuestionsFaqs{
+    grid-column: 3/5;
+    justify-content: center;
+    color: var(--white);
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.titleAsked{
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: bolder;
+    grid-column: 3/5;
+    justify-content: center;
+}
+
+
