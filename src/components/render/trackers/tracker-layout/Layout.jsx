@@ -100,7 +100,8 @@ export default function Layout({children}) {
             classes={{paper: classes.drawerPaper}}
             >
                 <div>
-                    <img className="covidLogo" src={coronavirus} alt="covidlogo"></img>
+                    <img className="covidLogo" src={coronavirus} alt="covidlogo" path={'/'}></img>
+                    
                 </div>
                 <List>
                     {menuItems.map(item => (

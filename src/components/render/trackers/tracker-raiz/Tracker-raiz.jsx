@@ -15,6 +15,7 @@ const TrackerRaiz = () => {
             <Layout />
             <TrackerDiecinueve />
             <Routes>
+              <Route path='/' /> {/* espacio reservado para vincular la landing*/}
               <Route path='/TrackerDos' element={<Trackerdos/>}/>
               <Route path='/TrackerTres' element={<TableTracker/>}/>
               <Route path= '/TrackerCuatro' element={<TrackerCuatro/>}/>
