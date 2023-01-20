@@ -25,7 +25,7 @@ const PreventLanding = () => {
                 <PreventLandingCard image={icon6} title="Clean And Disinfect" paragraph="Fever is a key symptom, experts say. Don't fixate on a number, but know it's really not a fever until your temperature reaches at least 100"/>
             </div>
             <div>
-                <PreventLandingCard image={icon4} title="Wash Hands" paragraph="aintain at least 1 metre (3 feet) distance between yourself & anyone who is coughing or sneezing. If you are too close, get chance to infected."/>
+                <PreventLandingCard image={icon4} title="Wash Hands" paragraph="Maintain at least 1 metre (3 feet) distance between yourself & anyone who is coughing or sneezing. If you are too close, get chance to infected."/>
                 <PreventLandingCard image={icon7} title="Respiratory hygiene" paragraph="Maintain good respiratory hygiene as covering your mouth & nose with your bent elbow or tissue when cough or sneeze."/>
                 <PreventLandingCard image={bannerright} title="Wear a facemask" paragraph="Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales."/>
             </div>
