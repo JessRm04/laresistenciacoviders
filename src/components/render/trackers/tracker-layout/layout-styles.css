@@ -1,0 +1,29 @@
+@keyframes spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.icon {
+    color: red;
+    padding-left: 10px;;
+}
+
+.listItem {
+    font-size: 80px;
+    height: 60px;
+}
+
+.covidLogo {
+    width: 50px;
+    padding: 17px;;
+
+    animation: spinning 6s linear infinite;
+}
+
+.lastIcon {
+    padding-top: 40px;;
+}

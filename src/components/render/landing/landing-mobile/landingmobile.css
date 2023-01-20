@@ -1,0 +1,63 @@
+.landingMobileContainer{
+    width: 80vw;
+    height: 50vh;
+    background: linear-gradient(to right, #1e0c9d, #06cdec);
+    padding: 100px 130px;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 10%;
+}
+
+.cuadrado{
+    display: flex;
+}
+
+.mobile{
+    margin-top: -25%;
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    margin-left: 15%;
+}
+
+.text{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    width: 38rem;
+}
+
+h1 b{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+.buttom{
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 4px;
+    color: #111;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 13rem;
+}
+
+.buttom:hover{
+    color: white;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.textParagraph{
+    width: 45rem;
+    font-weight: lighter;
+}
