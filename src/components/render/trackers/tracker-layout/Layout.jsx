@@ -26,7 +26,7 @@ const menuItems = [
     { 
     id: 1,
     icon: <PieChartOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/TrackerDos',
+    path: '/',
     },
     { 
     id: 2,

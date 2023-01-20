@@ -9,13 +9,13 @@ const PreventLandingCard = ({image, title, paragraph}) => {
             <img className="hexagon" src={hexagon} alt="hexagon"></img>
             <img className="iconImage" src={image} alt="icon"></img>
         </div>
-        <div className="text">
+        <div className="textPrevent">
             <h2 className='title'>{title}</h2>
-            <h4 className="paragraph">{paragraph}</h4>
+            <h4 className="paragraphPrevent">{paragraph}</h4>
         </div>
     </div>
     );
 }
 
-
 export default PreventLandingCard;
+
