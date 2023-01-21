@@ -66,17 +66,17 @@ export const data = {
 
 export default function TrackerSeis() {
     return(
-        <>
-        <div>
-            <Layout />
-        <TrackerDiecinueve />
+        <div className='browserContainer'>
+            <div>
+                <Layout />
+            <TrackerDiecinueve />
+            </div>
+            <div className="container-grafica">
+                <div className='grafica'>
+                    <Line options={options} data={data} />
+                </div>;  
+            </div>
         </div>
-        <div className="container-grafica">
-            <div className='grafica'>
-                <Line options={options} data={data} />
-            </div>;  
-        </div>
-        </>
     )
 }
 
