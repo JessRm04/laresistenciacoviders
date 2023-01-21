@@ -1,0 +1,26 @@
+.symptoncard{
+    color: #515184;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    width: 26rem;
+    height: 25rem;
+    background-color: #FFFFFF !important;
+}
+
+.symptonpeq{
+    color: #121158;
+}
+
+.symptonxl{
+    color: #121158;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.titleCard{
+    color: #121158;
+}
+.page-nav {
+    padding: 150px 0 100px;
+    background: url(../../../../assets/img/page-nav.jpg) top center/cover no-repeat local;
+}
