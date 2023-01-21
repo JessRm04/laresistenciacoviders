@@ -21,7 +21,7 @@ const MolTrackerCincoCases = () => {
               <div className="updated-time row">
                 <div className="col-md-4 col-lg-3 col-6">
                   <div className="covid-widget-1 defult-bx">
-                    <div className="icon">
+                    <div className="icon totalCase">
                       <img src={covidefult} alt=""/>
                     </div>
                     <div className="info">
@@ -35,7 +35,7 @@ const MolTrackerCincoCases = () => {
                     <div className="icon">
                       <img src={covidred} alt="" />
                     </div>
-                    <div className="info">
+                    <div className="info totalDeaths">
                       <h5>Total Deaths</h5>
                       <h3>{item.deaths}</h3>
                     </div>
@@ -46,7 +46,7 @@ const MolTrackerCincoCases = () => {
                     <div className="icon">
                       <img src={covidgreen} alt="" />
                     </div>
-                    <div className="info">
+                    <div className="info totalRecovered">
                       <h5>Total Recovered</h5>
                       <h3>{item.todayRecovered}</h3>
                     </div>
@@ -57,7 +57,7 @@ const MolTrackerCincoCases = () => {
                     <div className="icon">
                       <img src={covidblue} alt="" />
                     </div>
-                    <div className="info">
+                    <div className="info totalActive">
                       <h5>Total Active</h5>
                       <h3>{item.active}</h3>
                     </div>
@@ -68,7 +68,7 @@ const MolTrackerCincoCases = () => {
                     <div className="icon">
                       <img src={covidorange} alt="" />
                     </div>
-                    <div className="info">
+                    <div className="info newCases">
                       <h5>New Cases</h5>
                       <h3>{item.todayCases}</h3>
                     </div>
@@ -79,7 +79,7 @@ const MolTrackerCincoCases = () => {
                     <div className="icon">
                       <img src={coviddark} alt="" />
                     </div>
-                    <div className="info">
+                    <div className="info newDeaths">
                       <h5>New Deaths</h5>
                       <h3>{item.todayDeaths}</h3>
                     </div>

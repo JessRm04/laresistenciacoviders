@@ -7,7 +7,7 @@
 >
   <h1 class="stat-head">Covid-19 Country Wise - Tabs</h1>
   <div class="corona-update-in-tab">
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs items-flag">
       <li class="nav-item">
         <a data-toggle="tab" href="#USA" class="active">
           <img

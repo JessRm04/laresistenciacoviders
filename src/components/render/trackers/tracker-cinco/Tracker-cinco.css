@@ -1,5 +1,4 @@
 .main-admin .right-content .chat-content {
-  display: flex;
   margin: 0 auto;
   padding: 30px;
 }
@@ -11,14 +10,16 @@
     padding: 15px;
   }
 }
-.corona-update-in-tab .nav-tabs {
+
+.corona-update-in-tab .nav .nav-tabs ul li {
   border-bottom: 0;
   margin-bottom: 30px;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .corona-update-in-tab .nav-tabs li a {
   padding: 10px 15px;
-  display: block;
   color: #000;
   background: #fff;
   border-radius: 4px;
@@ -30,10 +31,14 @@
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  text-decoration: none;
+  display: block;
 }
+
 .covid-world-widget{
   width: 85rem;
 }
+
 .covid-widget-1 {
   background-color: white;
   width: 15rem;
@@ -55,7 +60,9 @@
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  height: 9rem;
 }
+
 .container-casos-h {
   background-color: white;
   padding: 20px;
@@ -84,22 +91,7 @@
   color: #fff;
   background: #3639ae;
 }
-.tableContainer{
-  width: 68vw;
-  margin: 0 auto;
-  padding: 30px;
-  display: block;
-  float: right;
-  overflow: scroll;
-  background-color: #F6F7FB;
-}
-.icon {
-  display: flex;
-  justify-content: flex-start;
-  padding-right: 20px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
+
 .icon {
   transition: transform 1s;
 }
@@ -107,13 +99,55 @@
 .icon:hover {
   transform: rotate(180deg);
 }
-.icon {
+
+.icon img {
   width: 140px;
   height: 140px;
   position: relative;
-  padding-left: 80%;
   opacity: 0.1;
 }
+
 .tab-pane{
   width: 20vw;
+}
+
+.container-tracker-cinco {
+  display: flex;
+  width: 100%;  
+}
+
+.table-Container{
+  width: 68vw;
+  margin: 0 auto;
+  padding: 30px;
+  float: right;
+  background-color: #F6F7FB;
+}
+
+.info{
+  margin-left: -12rem;
+}
+
+.totalCases{
+  color: blue;
+}
+
+.totalDeaths{
+  color: red;
+}
+
+.totalRecovered{
+  color: green;
+}
+
+.totalActive{
+  color: rgb(0, 157, 255);
+}
+
+.newCases{
+  color: orangered;
+}
+
+.newDeaths{
+  color:  rgb(170, 6, 6);
 }
