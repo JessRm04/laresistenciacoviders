@@ -18,7 +18,7 @@ function Desplegable() {
     <div >
       {data && (
         <select id="my-select">
-          <option value="option1">{data.updated}</option>
+          <option value="option1">{data.updated}</option>        
         </select>
       )}
     </div>

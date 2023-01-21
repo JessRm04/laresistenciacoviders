@@ -21,10 +21,12 @@
     width: 155px;
     background-color: #3639AE;
     border-color: #3639AE;
+    height: 3rem;
 }
 
-.buttontracker h5{
+.buttonText{
     font-weight: 400;
+    margin-top: -7%;
 }
 
 #home {

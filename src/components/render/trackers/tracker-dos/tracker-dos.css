@@ -1,6 +1,6 @@
-.containerTracker {
-  max-width: 80vw;
-  margin-left: 15vw;
+.containerTrackerDos {
+  display: flex;
+  width: 100%;
 }
 .virus-h {
   display: flex;
@@ -12,8 +12,9 @@
 
 .container-casos-h {
   background-color: white;
-  max-width: 16%;
+  width: 40rem;
   padding: 20px;
+  margin-left: 0.7%;
   color: #121158;
   display: flex;
   justify-content: center;
@@ -37,8 +38,13 @@ h5 {
 }
 
 .track2 {
-  width: 70vw;
+  width: 68vw;
+  padding: 5rem;
+  float: right;
+  background-color: #F6F7FB; 
+  margin-left: 8rem;
 }
+
 .virus-v {
   position: relative;
   padding-left: 80%;
@@ -53,7 +59,6 @@ h5 {
   display: grid;
   grid-template-columns: fit-content(600px) fit-content(600px) 1fr;
   width: 30vw;
- 
   justify-content: center;
   align-items: center;
 }
@@ -79,6 +84,12 @@ h5 {
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  height: 9rem;
+  transition: transform .2s; 
+}
+
+.div1:hover{
+  transform: scale(1.1); 
 }
 
 .div2 {
@@ -102,6 +113,12 @@ h5 {
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  height: 9rem;
+  transition: transform .2s; 
+}
+
+.div2:hover{
+  transform: scale(1.1); 
 }
 
 .div3 {
@@ -126,6 +143,12 @@ h5 {
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  height: 9rem;
+  transition: transform .2s; 
+}
+
+.div3:hover{
+  transform: scale(1.1); 
 }
 
 .div4 {
@@ -149,6 +172,12 @@ h5 {
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  height: 9rem;
+  transition: transform .2s; 
+}
+
+.div4:hover{
+ transform: scale(1.1); 
 }
 
 .div5 {
@@ -172,6 +201,12 @@ h5 {
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  height: 9rem;
+  transition: transform .2s; 
+}
+
+.div5:hover{
+ transform: scale(1.1); 
 }
 
 .div6 {
@@ -195,12 +230,19 @@ h5 {
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  height: 9rem;
+  transition: transform .2s; 
+}
+
+.div6:hover{
+ transform: scale(1.1); 
 }
 
 .container-colum-h {
   display: flex;
   justify-content: center;
 }
+
 .img-geo {
   width: 35vw;
   height: auto;
@@ -230,12 +272,10 @@ h5 {
 .tab-pane{
   width: 20vw;
 }
-.tableContainer{
-  width:65vw;
-  margin: 0 0 0 4rem;
-  padding: 5rem;
-  display: block;
-  float: right;
-  overflow: scroll;
-  background-color: #F6F7FB;
+
+#my-select{
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 2%;
+  margin-left: 1%;
 }

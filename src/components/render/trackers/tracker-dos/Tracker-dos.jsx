@@ -7,7 +7,7 @@ import './tracker-dos.css';
 
 const TrackerDos = () => {
   return (
-    <div className='containerTracker tableContainer'>
+    <div className='containerTrackerDos'>
       <Desplegable/>
       <MolTrackerDosCountry/>
       <MolTrackerDosWorld/>
