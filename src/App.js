@@ -11,7 +11,7 @@ import Question from "./components/render/landing/landing-view-questions/landing
 import Washed from "./components/render/landing/landing-view-wash/landing-view-wash";
 import PreventLanding from "./components/moleculas/Mol-Landing-prevent";
 import News from "./components/render/landing/landing-news/News";
-import Symptom from "./components/render/landing/landing-symptom/Symptom";
+import Symptom from "./components/render/landing/landing-symptom copy/Symptom";
 import Spreads from "./components/render/landing/landing-spreads/Spreads";
 import Footer from "./components/render/landing/footer/Footer";
 import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
