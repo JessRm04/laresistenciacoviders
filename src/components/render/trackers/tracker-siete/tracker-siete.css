@@ -1,0 +1,34 @@
+.track2{
+    width: 68vw;
+    margin: 0 auto;
+    padding: 30px;
+    display: block;
+    float: right;
+    background-color: #F6F7FB;
+}
+.virus-v{
+    position: relative;
+    opacity: 40%;
+    padding-left: 80%;
+}
+.virus-h{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.div1 {
+    background-color: white;
+    overflow: hidden;
+    color: blue;
+    margin: 10px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+  }
+  .mapamundi{
+    width: 30vw;
+    height: auto;
+  }
