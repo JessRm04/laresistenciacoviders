@@ -4,10 +4,32 @@ import 'bootstrap/dist/css/bootstrap.css';
 import bannerright from '../../../../assets/img/img/icons/bannerright.png';
 import cough from '../../../../assets/img/img/icons/cough.png';
 import sore from '../../../../assets/img/img/icons/sore.png';
+import { Link } from 'react-router-dom';
+import Spreads from '../landing-spreads/Spreads';
+import Question from '../landing-view-questions/landing-view-question';
+import Washed from '../landing-view-wash/landing-view-wash';
+import LandingMobile from '../landing-mobile/Landing-mobile';
+import News from '../landing-news/News';
+import Footer from '../footer/Footer';
 
 const Symptom = () => {
   return (
     <>
+   <div class="page-nav padding-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="section-title text-center">
+                            <h2 class="text-white mb-3">Qurantine</h2>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><Link to="/" class="text-white">Home</Link></li>
+                                <li class="list-inline-item"><Link to="qurantine" class="text-white">Qurantine</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       <section className="symptom mt-5 mb-5 container">
         <h3 className="symptonpeq text-center fs-5">Symptom</h3>
         <h2 className="symptonxl text-center display-3 fw-bold">
@@ -62,6 +84,12 @@ const Symptom = () => {
           </div>
         </div>
       </section>
+      <Spreads />
+        <Question />
+        <Washed />
+        <LandingMobile />
+        <News />
+        <Footer />
 </>
   )
 }

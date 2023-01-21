@@ -1,0 +1,153 @@
+.fondo {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../../assets/images/fondo_banner_uno.png');
+    position: relative;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+.iconsHome {
+    display: flex;
+    flex-direction: column;
+    width: 4%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    z-index: 1;
+}
+
+.arrow {
+    border-radius: 50%;
+    color: white;
+    background-color: orangered;
+    margin: 15%;
+    width: 50%;
+}
+
+.headset {
+    border-radius: 50%;
+    color: white;
+    background-color: aqua;
+    margin: 15%;
+    width: 50%;
+}
+
+.cartShopping {
+    border-radius: 50%;
+    color: white;
+    background-color: yellowgreen;
+    margin: 15%;
+    width: 50%;
+}
+
+.girl {
+    position: absolute;
+    width: 500px;
+    left: 60%;
+    top: 18%;
+}
+
+.contentHome {
+    position: absolute;
+    width:53vw;
+    top: 10%;
+}
+
+.titleHome {
+    position: absolute;
+    left: 25%;
+    color: white;
+    margin-top: 5%;
+    font-size: 4.5em;
+    font-weight: bolder;
+}
+
+.textHome {
+    color: white;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 25%;
+    font-size: 1.4em;
+}
+
+.flagHome {
+    background-color: white;
+    position: absolute;
+    border: 1px, solid, white;
+    border-radius: 2%;
+    top: 74%;
+    left: 13%;
+    width: 25vw;
+    height: 15vh;
+}
+
+.flagSpain {
+    width: 7vw;
+    position: absolute;
+    left: 2%;
+}
+
+.orange {
+    position: absolute;
+    top: 60%;
+    left: 59%;
+    background-color: orange;
+    border: 1px, solid, orange;
+    border-radius: 5%;
+    width: 4vw;
+    height: 3.5vh;
+}
+
+.textOrag {
+    margin-top: 1%;
+    margin-left: 18%;
+    color: white;
+    font-weight: bold;
+}
+
+.green {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    background-color: rgb(97, 225, 97);
+    border: 1px, solid, rgb(97, 225, 97);
+    border-radius: 5%;
+    width: 4.5vw;
+    height: 3.5vh;
+}
+
+.textGreen {
+    margin-top: 1%;
+    margin-left: 9%;
+    color: white;
+    font-weight: bold;
+}
+
+.textRed {
+    color: rgb(189, 15, 15);
+    font-size: 2em;
+    position: absolute;
+    left: 64%;
+    top: 13%;
+    font-weight: bold;
+}
+
+.arrowDos {
+    color: rgb(189, 15, 15);
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+.line {
+    width: 5%;
+    position: absolute;
+    left: 51%;
+    top: 82%;
+    color: rgb(189, 15, 15);
+}
+
+
