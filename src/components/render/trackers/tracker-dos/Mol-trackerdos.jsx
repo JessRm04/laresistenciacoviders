@@ -4,8 +4,8 @@ import covidblue from '../../../../assets/img/covidblue.svg';
 import covidorange from '../../../../assets/img/covidorange.svg';
 import covidgreen from '../../../../assets/img/covidgreen.svg';
 import telephone from '../../../../assets/img/telephone.svg';
-import '../tracker-dos/trackerdos.css';
-import Desplegable from '../tracker-dos/Mol-trackerdos-desplegable';
+import '../tracker-dos/tracker-dos.css';
+import Desplegable from './Mol-tracker-dos-desplegable';
 import DataApiAll from '../../../../services/Services-data-api-all';
 import Layout from '../tracker-layout/Layout';
 import TrackerDiecinueve from '../tracker-covid19/Tracker-covid-diecinueve';
@@ -17,7 +17,7 @@ const Trackerdos = () => {
 
     return (
         <div className='containerTrackerDos'>
-            <div>
+            <div className='layout-trackers'>
                 <Layout />
                 <TrackerDiecinueve />
             </div>

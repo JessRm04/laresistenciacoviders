@@ -92,6 +92,7 @@ export default function Layout({children}) {
        const navigate = useNavigate();
 
     return (
+        <div className='left-aling'>
         <div className={classes.root}>
             <Drawer
             sx={classes.drawer}
@@ -118,6 +119,7 @@ export default function Layout({children}) {
             <div className={classes.page}>
                 {children}
             </div>
+        </div>
         </div>
     )
 }
