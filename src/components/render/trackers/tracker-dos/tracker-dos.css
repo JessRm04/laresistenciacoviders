@@ -278,4 +278,9 @@ h5 {
   height: 3rem;
   margin-bottom: 2%;
   margin-left: 1%;
+  border: none;
+}
+
+.desplegable{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }

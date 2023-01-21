@@ -87,7 +87,7 @@ function NavbarLanding() {
               </NavDropdown>
               <Nav.Link as={Link} to="about" id='abouts' className={`navbar-text ${navText ? 'navbar-text-scrolled' : ''}`}>About</Nav.Link>
               <Nav.Link as={Link} to="help" id='helps' className={`navbar-text ${navText ? 'navbar-text-scrolled' : ''}`}>Help</Nav.Link>
-            <Nav.Link as={Link} to="Trackerdos"><Button className={`buttontracker navbar-text ${navText ? 'navbar-text-scrolled' : ''}`}><h5 className='buttonText'>Tracker</h5></Button></Nav.Link>
+            <Nav.Link as={Link} to="Trackerdos"><Button className='buttontracker'><h5 className='buttonText'>Tracker</h5></Button></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
