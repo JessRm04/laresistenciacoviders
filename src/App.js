@@ -3,6 +3,7 @@ import "./App.css";
 //import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
 import Trackerdos from "./components/render/trackers/tracker-dos/Mol-trackerdos";
 import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
+import TrackerCinco from "./components/render/trackers/tracker-cinco/Tracker-cinco";
 import TrackerSeis from "./components/render/trackers/tracker-seis/Tracker_seis";
 import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
 // import DataApi from './services/Services-data-api-countries';
@@ -39,7 +40,7 @@ function App() {
             <Route path="/Trackerdos" element={<Trackerdos />} />
             <Route path="/TrackerTres" element={<TableTracker />} />
             <Route path="/TrackerCuatro" element={<TrackerCuatro />} />
-            {/* <Route path='/TrackerCinco'/> */}
+            <Route path='/TrackerCinco' element={<TrackerCinco/>}/>
             <Route path="/TrackerSeis" element={<TrackerSeis />} />
             {/* <Route path='/TrackerSiete'/>
             <Route path='/TrackerOcho'/> */}

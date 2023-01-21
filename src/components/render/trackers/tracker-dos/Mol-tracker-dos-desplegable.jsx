@@ -1,5 +1,5 @@
 import React from 'react';
-import '../tracker-dos/trackerdos.css';
+import '../tracker-dos/tracker-dos.css';
 import { useState, useEffect } from 'react';
 
 function Desplegable() {
@@ -18,7 +18,7 @@ function Desplegable() {
     <div >
       {data && (
         <select id="my-select">
-          <option value="option1">{data.updated}</option>
+          <option value="option1">{data.updated}</option>        
         </select>
       )}
     </div>
