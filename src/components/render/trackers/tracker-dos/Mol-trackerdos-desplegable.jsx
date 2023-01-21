@@ -15,7 +15,7 @@ function Desplegable() {
         },[]);
         
   return (
-    <div id="my-select">
+    <div >
       {data && (
         <select id="my-select">
           <option value="option1">{data.updated}</option>
