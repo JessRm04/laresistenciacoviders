@@ -6,6 +6,7 @@ import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-c
 // import TrackerCinco from "./components/render/trackers/tacker-cinco/Tracker-cinco";
 import TrackerSeis from "./components/render/trackers/tracker-seis/Tracker_seis";
 import TrackerSiete from "./components/render/trackers/tracker-siete/Tracker-siete";
+import TrackerSieteBis from "./components/render/trackers/tracker-siete/Tracker-siete-bis";
 import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
 // import DataApi from './services/Services-data-api-countries';
 // import TrackerDiecinueve from "./components/render/trackers/tracker-covid19/Tracker-covid-diecinueve";
@@ -42,7 +43,7 @@ function App() {
             <Route path="/Trackerdos" element={<Trackerdos />} />
             <Route path="/TrackerTres" element={<TableTracker />} />
             <Route path="/TrackerCuatro" element={<TrackerCuatro />} />
-            {/* <Route path='/TrackerCinco' element={<TrackerCinco/>}/> */}
+            <Route path='/TrackerSieteBis' element={<TrackerSieteBis/>}/>
             <Route path="/TrackerSeis" element={<TrackerSeis />} />
             <Route path='/TrackerSiete' element={<TrackerSiete/>}/>
             {/* <Route path='/TrackerOcho'/> */}

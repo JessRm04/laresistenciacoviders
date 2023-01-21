@@ -46,7 +46,7 @@ const menuItems = [
     {
     id: 5,
     icon: <DynamicFeedOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerSieteBis',
     },
     {
     id: 6,

@@ -1,23 +1,24 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./tracker-siete.css";
-import geo from "../../../../assets/img/img/geo.png";
+import geo from "../../../../assets/images/geo.png";
 import covidblue from "../../../../assets/img/covidblue.svg";
 import covidred from "../../../../assets/img/covidred.svg";
 import covidorange from "../../../../assets/img/covidorange.svg";
 import covidgreen from "../../../../assets/img/covidgreen.svg";
 import Layout from "../tracker-layout/Layout";
 import TrackerDiecinueve from "../tracker-covid19/Tracker-covid-diecinueve";
-import DataApi from "../../../../services/Services-data-api-countries";
+import DataApiUsa from "../../../../services/Servives-data-api-usa";
 
 const TrackerSiete = () => {
-  const responseData = DataApi();
+  const responseData = DataApiUsa();
   return (
     <div className="browserContainer">
       <div>
         <Layout />
         <TrackerDiecinueve />
       </div>
+      <div className="container-tracker-siete">
       <div>
         <img src={geo} className='mapamundi' alt='imagen mapa-mundi'/>
       </div>
@@ -61,7 +62,7 @@ const TrackerSiete = () => {
               <div className="casos">
                 <h5>Total Deaths</h5>
                 <hr />
-                <h2>{responseData.todayDeaths}</h2>
+                <h2>{responseData.deaths}</h2>
               </div>
               <div className="virus-v">
                 <img
@@ -171,6 +172,7 @@ const TrackerSiete = () => {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 };

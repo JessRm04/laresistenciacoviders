@@ -1,34 +1,214 @@
-.track2{
-    width: 68vw;
-    margin: 0 auto;
-    padding: 30px;
-    display: block;
-    float: right;
-    background-color: #F6F7FB;
+.track2 {
+  width: 68vw;
+  margin: 0 auto;
+  padding: 30px;
+  display: block;
+  float: right;
+  background-color: #f6f7fb;
 }
-.virus-v{
-    position: relative;
-    opacity: 40%;
-    padding-left: 80%;
+
+.mapamundi {
+  width: 60vw;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
 }
-.virus-h{
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+#continet {
+  overflow: hidden;
+  outline: none;
 }
-.div1 {
-    background-color: white;
-    overflow: hidden;
-    color: blue;
-    margin: 10px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    display: flex;
-    justify-content: center;
+.container-tracker-siete {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 30px;
+  display: block;
+  float: right;
+  overflow: scroll;
+  background-color: #f6f7fb;
+}
+.main-admin .right-content .chat-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: none;
+  margin: 0 auto;
+  padding: 30px;
+}
+.main-admin .right-content .chat-content.active {
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  .main-admin .right-content .chat-content {
+    padding: 15px;
   }
-  .mapamundi{
-    width: 30vw;
-    height: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.covid-widget-1 {
+  background: #fff;
+  padding: 15px 15px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
+  border-radius: 4px;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.covid-widget-1:hover {
+  transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+@media only screen and (max-width: 1199px) {
+  .covid-widget-1 {
+    padding: 12px 15px 15px 15px;
   }
+}
+@media only screen and (max-width: 575px) {
+  .covid-widget-1 {
+    margin-bottom: 15px;
+  }
+}
+.covid-widget-1 .icon {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.1;
+}
+.covid-widget-1 .icon img {
+  width: 100%;
+}
+  
+@keyframes spinning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+  .covid-widget-1 .icon img{
+    transition: transform 1s;
+}
+
+.covid-widget-1 .icon img:hover {
+    transform: rotate(180deg);
+}
+.covid-widget-1 .info h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  margin: -15px -20px 10px -20px;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 1199px) {
+  .covid-widget-1 .info h5 {
+    font-size: 15px;
+    padding: 12px 15px;
+    margin: -12px -15px 10px -15px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .covid-widget-1 .info h5 {
+    font-size: 13px;
+  }
+}
+.covid-widget-1 .info h3 {
+  font-size: 35px;
+  margin-bottom: 0;
+  color: #000;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1199px) {
+  .covid-widget-1 .info h3 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .covid-widget-1 .info h3 {
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+
+.blue-bx {
+  border-color: #2c6dff;
+}
+
+.orange-bx {
+  border-color: #ff6a07;
+}
+
+.defult-bx {
+  border-color: #3639ae;
+}
+
+.red-bx {
+  border-color: #ff0000;
+}
+
+.green-bx {
+  border-color: #82c519;
+}
+
+.redark-bx {
+  border-color: #b70202;
+}
+
+.blue-bx .info h3 {
+  color: #2c6dff;
+}
+
+.orange-bx .info h3 {
+  color: #ff6a07;
+}
+
+.defult-bx .info h3 {
+  color: #3639ae;
+}
+
+.red-bx .info h3 {
+  color: #ff0000;
+}
+
+.green-bx .info h3 {
+  color: #82c519;
+}
+
+.redark-bx .info h3 {
+  color: #b70202;
+}
