@@ -13,9 +13,17 @@
     background-color: #F6F7FB;
 }
 
+.containerTable{
+    display: flex;
+    margin-left: -40%;
+}
+
 .titleTable{
     background-color: var(--white);
     padding: 0px 20px;
+    color: #121960;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .infoTable{
@@ -63,12 +71,6 @@ input{
 .iconArrow{
     width: 13px;
     height: 15px;
-}
-
-p{
-    color: #121960;
-    font-weight: bold;
-    font-size: 1.5rem;
 }
 
 .pagination{

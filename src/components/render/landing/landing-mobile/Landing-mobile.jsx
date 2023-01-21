@@ -7,7 +7,7 @@ const LandingMobile = () => {
         <div className="landingMobileContainer">
             <div className="cuadrado">
                 <div className="text">
-                    <h1 className='textTitle'><b>Get the simple app for latest news</b></h1>
+                    <h4 className='textTitle'><b>Get the simple app for latest news</b></h4>
                     <h3 className='textParagraph'>Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold.</h3><br></br>
                     <button className="buttom">Download Now</button>
                 </div>

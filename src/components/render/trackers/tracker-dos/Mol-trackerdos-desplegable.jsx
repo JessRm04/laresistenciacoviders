@@ -15,13 +15,13 @@ function Desplegable() {
         },[]);
         
   return (
-    <div>
-       {data && (
-    <select id="my-select">
-  <option value="option1">{data.updated}</option>
-</select>
-)}
-</div>
+    <div id="my-select">
+      {data && (
+        <select id="my-select">
+          <option value="option1">{data.updated}</option>
+        </select>
+      )}
+    </div>
   )
 }
 

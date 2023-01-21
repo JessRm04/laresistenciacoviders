@@ -36,24 +36,16 @@ function App() {
             <Route path="/blog" element={<News />} />
             <Route path="/help" element={<Footer />} />
             {/* <Route path="/tracker" element={<TrackerRaiz />} /> */}
-            
             <Route path="/Trackerdos" element={<Trackerdos />} />
             <Route path="/TrackerTres" element={<TableTracker />} />
             <Route path="/TrackerCuatro" element={<TrackerCuatro />} />
             {/* <Route path='/TrackerCinco'/> */}
             <Route path="/TrackerSeis" element={<TrackerSeis />} />
             {/* <Route path='/TrackerSiete'/>
-                                          <Route path='/TrackerOcho'/> */}
+            <Route path='/TrackerOcho'/> */}
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
         </BrowserRouter>
-        {/* <div className="browsercontainer">
-          <TrackerRaiz />
-        </div> */}
-        {/* <Trackerdos />
-        <TableTracker data= {DataApi()}/>
-        <TrackerCuatro />
-        <TrackerDiecinueve/> */}
       </header>
     </div>
   );

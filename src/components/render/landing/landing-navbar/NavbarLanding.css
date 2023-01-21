@@ -1,13 +1,11 @@
-
 .coronavirus {
-    filter: invert(0.9) sepia(1);
+    /*filter: invert(0.9) sepia(1);*/
     width: 3vw;
     margin-top: 0;
     margin-bottom: 10%;
 }
 
 .covimap {
-    color: white;
     font-size: medium;
     margin-top: 0;
     margin-left: -15%;
@@ -15,44 +13,58 @@
 }
 
 .home {
-    margin-left: 80%;
+    margin-left: 55%;
 }
 
 .buttontracker {
-    border-radius: 20px;
-    height: 40px;
-    width: 100px;
-    background-color: blue;
-    border-color: blue;
-    margin-top: 0.5%;
+    border-radius: 25px;
+    width: 155px;
+    background-color: #3639AE;
+    border-color: #3639AE;
+}
+
+.buttontracker h5{
+    font-weight: 400;
 }
 
 #home {
-    color: white;
     font-size: larger;
 }
 
 #preventions {
-    color: white;
     font-size: larger;
 }
 
 #qurantines {
-    color: white;
     font-size: larger;
 }
 
 #pages {
-    color: white;
     font-size: larger;
 }
 
 #abouts {
-    color: white;
     font-size: larger;
 }
 
 #helps {
+    font-size: larger;
+}
+
+.nav-Bar{
+    background-color: transparent;
+}
+
+.nav-Bar-Scroll{
+    background-color: #FFFFFF;
+}
+
+.navbar-text{
     color: white;
+    font-size: larger;
+}
+
+.navbar-text-scrolled{
+    color:#515184;
     font-size: larger;
 }
