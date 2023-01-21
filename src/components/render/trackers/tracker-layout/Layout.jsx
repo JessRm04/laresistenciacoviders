@@ -14,7 +14,7 @@ import DynamicFeedOutlinedIcon from '@mui/icons-material/DynamicFeedOutlined';
 import MovingOutlinedIcon from '@mui/icons-material/MovingOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-import {useNavigate} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import './layout-styles.css' 
 import coronavirus from '../../../../assets/img/img/icons/coronavirus.png';
 //import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
@@ -26,7 +26,7 @@ const menuItems = [
     { 
     id: 1,
     icon: <PieChartOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerDos',
     },
     { 
     id: 2,
@@ -100,7 +100,7 @@ export default function Layout({children}) {
             classes={{paper: classes.drawerPaper}}
             >
                 <div>
-                    <img className="covidLogo" src={coronavirus} alt="covidlogo"></img>
+                    <Link to="/"><img className="covidLogo" src={coronavirus} alt="covidlogo"></img></Link>
                 </div>
                 <List>
                     {menuItems.map(item => (

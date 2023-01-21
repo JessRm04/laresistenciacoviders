@@ -20,10 +20,10 @@ const Symptom = () => {
                 <img src={bannerright} alt="banner-img" width="180px"/>
               </div>
   
-              <h3 className="fw-bold mb-3 text-center text-blue-primary">
+              <h3 className="fw-bold mb-3 text-center titleCard">
                 Anches and pains
               </h3>
-              <p className="mb-3 text-center text-blue-secondary">
+              <p className="mb-3 text-start text-blue-secondary">
                 Fever is a key symptom, experts say. Don't fixate on a number, but
                 khow it's really not a fever until your temperature reaches at
                 least 100
@@ -36,10 +36,10 @@ const Symptom = () => {
                 <img src={cough} alt="banner-img" />
               </div>
   
-              <h3 className="fw-bold mb-3 text-center text-blue-primary">
+              <h3 className="fw-bold mb-3 text-center titleCard">
                 Runny nose
               </h3>
-              <p className="mb-3 text-center text-blue-secondary">
+              <p className="mb-3 text-start text-blue-secondary">
                 People of all ages who experience fever and/or cough associated
                 withdifficulty breathing/shortness of breath
               </p>
@@ -51,10 +51,10 @@ const Symptom = () => {
                 <img src={sore} alt="banner-img" />
               </div>
   
-              <h3 className="fw-bold mb-3 text-center text-blue-primary">
+              <h3 className="fw-bold mb-3 text-center titleCard">
                 Sore throat
               </h3>
-              <p className="mb-3 text-center text-blue-secondary">
+              <p className="mb-3 text-start text-blue-secondary">
                 Older people, and those with underlying medical problems like high
                 blood pressure, heart and lung problems, diabetes, or cancer
               </p>

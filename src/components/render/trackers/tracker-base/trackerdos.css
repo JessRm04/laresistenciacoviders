@@ -20,6 +20,10 @@
     position: relative;
 }
 
+.containerTrackerDos{
+  display: flex;
+}
+
 .confirmed{
     max-width: 200px;
 }
@@ -34,7 +38,6 @@ h6{
     padding: 30px;
     display: block;
     float: right;
-    overflow: scroll;
     background-color: #F6F7FB;
 }
 .virus-v{
@@ -149,3 +152,6 @@ h2{
   margin-top: 10px;
 }
   
+#my-select{
+  margin-left: 10%;
+}

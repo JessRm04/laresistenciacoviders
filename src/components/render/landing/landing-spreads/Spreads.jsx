@@ -12,7 +12,7 @@ import spreadstos from '../../../../assets/img/img/icons/spreadstos.jpg';
 const Spreads = () => {
   return (
 
-<>
+    <>
       <section className="spreads mt-5 mb-5 container">
         <h3 className="spreadspeq text-center fs-5">Spreads</h3>
         <h2 className="spreadsxl text-center display-3 fw-bold">
@@ -24,7 +24,7 @@ const Spreads = () => {
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <img src={spreadsmocos} alt="banner-img" />
               </div>
-  
+
               <h3 className="fw-bold mb-3 text-center text-blue-primary">
                 Wear Facemask
               </h3>
@@ -38,7 +38,7 @@ const Spreads = () => {
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <img src={spreadsmedicarub} alt="banner-img" />
               </div>
-  
+
               <h3 className="fw-bold mb-3 text-center text-blue-primary">
                 Wash your hangs often
               </h3>
@@ -52,7 +52,7 @@ const Spreads = () => {
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <img src={spreadstos} alt="banner-img" />
               </div>
-  
+
               <h3 className="fw-bold mb-3 text-center text-blue-primary">
                 Keep social distance
               </h3>
@@ -63,11 +63,11 @@ const Spreads = () => {
             </div>
           </div>
           <div className="card-spreads col-md-6 col-lg-4 p-3 h-100">
-            <div className="spreadscard card p-3 shadow border-0">
+            <div className="spreadscard card p-3 shadow border-0 cardRow2">
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <img src={spreadsmask} alt="banner-img"/>
               </div>
-  
+
               <h3 className="fw-bold mb-3 text-center text-blue-primary">
                 Wear facemask
               </h3>
@@ -77,11 +77,11 @@ const Spreads = () => {
             </div>
           </div>
           <div className="card-spreads col-md-6 col-lg-4 p-3 h-100">
-            <div className="spreadscard card p-3 shadow border-0">
+            <div className="spreadscard card p-3 shadow border-0 cardRow2">
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <img src={spreadsmedica} alt="banner-img" />
               </div>
-  
+
               <h3 className="fw-bold mb-3 text-center text-blue-primary">
                 Wash your hangs often
               </h3>
@@ -91,11 +91,11 @@ const Spreads = () => {
             </div>
           </div>
           <div className="card-spreads col-md-6 col-lg-4 p-3 h-100">
-            <div className="spreadscard card p-3 shadow border-0">
+            <div className="spreadscard card p-3 shadow border-0 cardRow2">
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <img src={spreadsdesinfec} alt="banner-img" />
               </div>
-  
+
               <h3 className="fw-bold mb-3 text-center text-blue-primary">
                 Keep social distance
               </h3>
@@ -106,8 +106,8 @@ const Spreads = () => {
           </div>
         </div>
       </section>
-</>
-  )
+    </>
+  );
 }
 
 export default Spreads;
