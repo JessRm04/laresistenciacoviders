@@ -9,10 +9,12 @@ import icon6 from "../../assets/img/img/prevent/icon6.png"
 import icon7 from "../../assets/img/img/prevent/icon7.png"
 
 
+
 const PreventLanding = () => {
 
     
     return (
+        <>    
     <div className="pageContainer">
         <div className="header">
             <h3 className='prevent'>Prevent</h3>
@@ -31,6 +33,7 @@ const PreventLanding = () => {
             </div>
         </div>
     </div>
+    </>
     );
 }
 
