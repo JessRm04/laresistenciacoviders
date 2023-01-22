@@ -38,14 +38,12 @@ function App() {
             <Route path="/blog-details" element={<LandingMobile />} />
             <Route path="/blog" element={<News />} />
             <Route path="/help" element={<Footer />} />
-            {/* <Route path="/tracker" element={<TrackerRaiz />} /> */}
             <Route path="/Trackerdos" element={<Trackerdos />} />
             <Route path="/TrackerTres" element={<TableTracker />} />
             <Route path="/TrackerCuatro" element={<TrackerCuatro />} />
             <Route path='/TrackerCinco' element={<TrackerCinco/>}/>
             <Route path="/TrackerSeis" element={<TrackerSeis />} />
             <Route path='/TrackerSiete' element={<TrackerSiete/>}/>
-             {/*<Route path='/TrackerOcho' element={<TrackerSieteBis/>}/>*/}
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
         </BrowserRouter>

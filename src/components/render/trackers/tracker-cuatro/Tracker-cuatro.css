@@ -91,3 +91,7 @@
   overflow: scroll;
   background-color: #F6F7FB;
 }
+
+.browserContainer{
+  display: flex;
+}
