@@ -4,6 +4,8 @@ import covidblue from "../../../../assets/img/covidblue.svg";
 import covidred from "../../../../assets/img/covidred.svg";
 import covidorange from "../../../../assets/img/covidorange.svg";
 import covidgreen from "../../../../assets/img/covidgreen.svg";
+import Layout from "../tracker-layout/Layout";
+import TrackerDiecinueve from "../tracker-covid19/Tracker-covid-diecinueve";
 import DataApiUsa from "../../../../services/Servives-data-api-usa";
 
 
@@ -11,6 +13,11 @@ const TrackerSieteBis = () => {
     const responseData = DataApiUsa();
     
   return (
+    <div className='container-tracker-siete'>
+     <div>
+        <Layout />
+        <TrackerDiecinueve />
+      </div>
     <div className="chat-content continent-area active" id="continent" tabIndex="8" >
                 <div className="row">
                     <div className="col-xl-8 col-lg-6">
@@ -30,8 +37,8 @@ const TrackerSieteBis = () => {
                             <div className="col-xl-12 col-lg-12">
                                 <div className="country-datainfo">
                                     <h3 className="dez-title">
-										<div id="country_flag"><img src={responseData.countryInfo.flag}
-                                         alt={responseData.country} className="img-fluid mr-3" width="70"/></div>
+										{/* <div id="country_flag"><img src={responseData.countryInfo.flag}
+                                         alt={responseData.country} className="img-fluid mr-3" width="70"/></div> */}
 										<span id="country_name">USA</span>
 									 </h3>
                                 </div>
@@ -140,6 +147,7 @@ const TrackerSieteBis = () => {
                     </div>
                 </div>
 			</div>
+            </div>
   )
 }
 

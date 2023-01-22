@@ -46,7 +46,7 @@ function App() {
             <Route path='/TrackerCinco' element={<TrackerCinco/>}/>
             <Route path="/TrackerSeis" element={<TrackerSeis />} />
             <Route path='/TrackerSiete' element={<TrackerSiete/>}/>
-            {/* <Route path='/TrackerOcho'/> */}
+            <Route path='/TrackerOcho' element={<TrackerSieteBis/>}/>
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
         </BrowserRouter>

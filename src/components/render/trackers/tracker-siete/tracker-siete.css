@@ -1,3 +1,7 @@
+.container-tracker-siete{
+  display: flex;
+  width: 100%;
+}
 .track2 {
   width: 68vw;
   margin: 0 auto;

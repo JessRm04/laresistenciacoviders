@@ -14,15 +14,15 @@ const Spreads = () => {
   return (
 
     <>
-     <div class="page-nav padding-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="section-title text-center">
-                            <h2 class="text-white mb-3">Qurantine</h2>
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><Link to="/" class="text-white">Home</Link></li>
-                                <li class="list-inline-item"><Link to="qurantine" class="text-white">Qurantine</Link></li>
+     <div className="page-nav padding-100">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-xl-8">
+                        <div className="section-title text-center">
+                            <h2 className="text-white mb-3">Qurantine</h2>
+                            <ul className="list-inline">
+                                <li className="list-inline-item"><Link to="/" className="text-white">Home</Link></li>
+                                <li className="list-inline-item"><Link to="qurantine" className="text-white">Qurantine</Link></li>
                             </ul>
                         </div>
                     </div>
