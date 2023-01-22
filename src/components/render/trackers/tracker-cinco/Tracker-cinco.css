@@ -14,8 +14,6 @@
 .corona-update-in-tab .nav .nav-tabs ul li {
   border-bottom: 0;
   margin-bottom: 30px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .corona-update-in-tab .nav-tabs li a {
@@ -97,7 +95,7 @@
 }
 
 .icon:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 .icon img {
@@ -105,6 +103,7 @@
   height: 140px;
   position: relative;
   opacity: 0.1;
+  margin-left: 5rem;
 }
 
 .tab-pane{
@@ -125,7 +124,7 @@
 }
 
 .info{
-  margin-left: -12rem;
+  margin-left: -15rem;
 }
 
 .totalCases{
@@ -150,4 +149,10 @@
 
 .newDeaths{
   color:  rgb(170, 6, 6);
+}
+
+.nav .nav-tabs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
