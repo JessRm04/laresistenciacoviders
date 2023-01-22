@@ -18,10 +18,12 @@
   overflow: hidden;
   vertical-align: middle;
 }
+
 #continet {
   overflow: hidden;
   outline: none;
 }
+/*
 .container-tracker-siete {
   width: 70vw;
   margin: 0 auto;
@@ -30,7 +32,8 @@
   float: right;
   overflow: scroll;
   background-color: #f6f7fb;
-}
+}*/
+
 .main-admin .right-content .chat-content {
   -webkit-box-flex: 1;
   -webkit-flex: 1;

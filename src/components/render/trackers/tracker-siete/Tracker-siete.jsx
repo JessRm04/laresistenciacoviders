@@ -13,10 +13,11 @@ import DataApiUsa from "../../../../services/Servives-data-api-usa";
 const TrackerSiete = () => {
   const responseData = DataApiUsa();
   return (
-    <div className="">
+    <div className="container-tracker-siete">
+      <div className="">
         <Layout />
         <TrackerDiecinueve />
-      <div className="container-tracker-siete">
+      </div >
       <div>
         <img src={geo} className='mapamundi' alt='imagen mapa-mundi'/>
       </div>
@@ -171,7 +172,6 @@ const TrackerSiete = () => {
         </div>
       )}
       </div>
-    </div>
   );
 };
 
