@@ -6,7 +6,6 @@ import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-c
 import TrackerCinco from "./components/render/trackers/tracker-cinco/Tracker-cinco";
 import TrackerSeis from "./components/render/trackers/tracker-seis/Tracker_seis";
 import TrackerSiete from "./components/render/trackers/tracker-siete/Tracker-siete";
-import TrackerSieteBis from "./components/render/trackers/tracker-siete/Tracker-siete-bis";
 import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
 // import DataApi from './services/Services-data-api-countries';
 // import TrackerDiecinueve from "./components/render/trackers/tracker-covid19/Tracker-covid-diecinueve";
@@ -46,7 +45,7 @@ function App() {
             <Route path='/TrackerCinco' element={<TrackerCinco/>}/>
             <Route path="/TrackerSeis" element={<TrackerSeis />} />
             <Route path='/TrackerSiete' element={<TrackerSiete/>}/>
-            <Route path='/TrackerOcho' element={<TrackerSieteBis/>}/>
+             {/*<Route path='/TrackerOcho' element={<TrackerSieteBis/>}/>*/}
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
         </BrowserRouter>

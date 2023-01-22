@@ -3,36 +3,29 @@
   width: 100%;
 }
 .track2 {
-  width: 68vw;
+  width: 32vw;
   margin: 0 auto;
   padding: 30px;
   display: block;
   float: right;
   background-color: #f6f7fb;
+  margin-left: -1.7rem;
 }
 
 .mapamundi {
-  width: 60vw;
+  width: 40vw;
   height: auto;
   position: relative;
   overflow: hidden;
   vertical-align: middle;
+  margin-left: 0.5rem;
+  margin-top: 5rem;
 }
 
 #continet {
   overflow: hidden;
   outline: none;
 }
-/*
-.container-tracker-siete {
-  width: 70vw;
-  margin: 0 auto;
-  padding: 30px;
-  display: block;
-  float: right;
-  overflow: scroll;
-  background-color: #f6f7fb;
-}*/
 
 .main-admin .right-content .chat-content {
   -webkit-box-flex: 1;
@@ -218,4 +211,41 @@
 
 .redark-bx .info h3 {
   color: #b70202;
+}
+
+.container-mapa-mundi{
+  background-color: #f6f7fb;
+  margin-left: 8rem;
+}
+
+.fondo-mapa{
+  background-color: white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 40rem;
+  border-radius: 5px;
+}
+
+.container-mapa-mundi h4{
+  color: #121158;
+  font-size: 2rem;
+  background-color: white;
+  margin-left: 1rem;
+  height: 4rem;
+  border-radius: 5px;
+  margin-top: 2.5rem;
+  padding: 7px 25px;
+  width: 42vw;
+}
+
+.usa{
+  color: #121158;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.flag-usa{
+  width: 3rem;
+  margin-left: 0.5rem;
 }

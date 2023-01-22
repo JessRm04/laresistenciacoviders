@@ -9,6 +9,7 @@ import covidgreen from "../../../../assets/img/covidgreen.svg";
 import Layout from "../tracker-layout/Layout";
 import TrackerDiecinueve from "../tracker-covid19/Tracker-covid-diecinueve";
 import DataApiUsa from "../../../../services/Servives-data-api-usa";
+import flagUsa from "../../../../assets/img/img/icons/usa.png"
 
 const TrackerSiete = () => {
   const responseData = DataApiUsa();
@@ -18,11 +19,16 @@ const TrackerSiete = () => {
         <Layout />
         <TrackerDiecinueve />
       </div >
-      <div>
-        <img src={geo} className='mapamundi' alt='imagen mapa-mundi'/>
+      <div className="container-mapa-mundi">
+        <h4>World</h4>
+        <div className="fondo-mapa">
+          <img src={geo} className='mapamundi' alt='imagen mapa-mundi'/>
+        </div>
       </div>
       {responseData && (
         <div className="track2">
+          <img src={flagUsa} alt="usa" className="flag-usa"/>
+          <span className="usa">USA</span>
           <div className="container-colum">
             <div className="div1">
               <div className="casos">
