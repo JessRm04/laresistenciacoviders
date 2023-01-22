@@ -19,12 +19,12 @@ const TrackerCinco = () => {
             className="chat-content"
             id="country-wise"
             tabIndex="5"
-            style={{overflow:'hidden', outline:'none'}}
+            /*style={{overflow:'hidden', outline:'none'}}*/
           >
             <h1 className="stat-head">Covid-19 Country Wise - Tabs</h1>
             <div className="corona-update-in-tab">
-              <ul className="nav nav-tabs">
-                <li><MolTrackerCincoFlags /></li>
+              <ul id="nav-item">
+                <li><MolTrackerCincoFlags id='nav-item'/></li>
               </ul>
             </div>
             <div className="tab-content">
@@ -38,3 +38,4 @@ const TrackerCinco = () => {
 };
 
 export default TrackerCinco;
+
