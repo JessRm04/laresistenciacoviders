@@ -11,14 +11,13 @@
   }
 }
 
-.corona-update-in-tab .nav .nav-tabs ul li {
+.corona-update-in-tab #nav-item {
   border-bottom: 0;
   margin-bottom: 30px;
-  display: flex;
-  flex-wrap: wrap;
+  list-style: none;
 }
 
-.corona-update-in-tab .nav-tabs li a {
+.corona-update-in-tab #nav-item li a {
   padding: 10px 15px;
   color: #000;
   background: #fff;
@@ -73,21 +72,23 @@
 }
 
 @media only screen and (max-width: 1199px) {
-  .corona-update-in-tab .nav-tabs li a {
+  .corona-update-in-tab #nav-item li a {
     padding: 10px 10px;
   }
 }
-.corona-update-in-tab .nav-tabs li a img {
+.corona-update-in-tab #nav-item li a img {
   width: 22px;
   height: 22px;
   border-radius: 22px;
   margin-right: 8px;
 }
-.corona-update-in-tab .nav-tabs li a:hover {
+
+.corona-update-in-tab #nav-item li a:hover {
   color: #fff;
   background: #3639ae;
 }
-.corona-update-in-tab .nav-tabs li .active {
+
+.corona-update-in-tab #nav-item li .active {
   color: #fff;
   background: #3639ae;
 }
@@ -97,7 +98,7 @@
 }
 
 .icon:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 
 .icon img {
@@ -105,6 +106,7 @@
   height: 140px;
   position: relative;
   opacity: 0.1;
+  margin-left: 5rem;
 }
 
 .tab-pane{
@@ -125,7 +127,7 @@
 }
 
 .info{
-  margin-left: -12rem;
+  margin-left: -15rem;
 }
 
 .totalCases{
@@ -150,4 +152,13 @@
 
 .newDeaths{
   color:  rgb(170, 6, 6);
+}
+
+#nav-item {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.info h5{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
 }
