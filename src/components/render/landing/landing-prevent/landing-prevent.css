@@ -16,6 +16,7 @@
     border-color: transparent !important;
     margin-top: 5%;
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .iconA{
@@ -68,7 +69,6 @@
 }
 
 .paragraphPrevent{
-    margin-top: -5%;
     line-height: 1.75;
     color: #515184;  
     font-weight: 400; 

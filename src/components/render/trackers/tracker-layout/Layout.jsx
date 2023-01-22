@@ -14,10 +14,10 @@ import DynamicFeedOutlinedIcon from '@mui/icons-material/DynamicFeedOutlined';
 import MovingOutlinedIcon from '@mui/icons-material/MovingOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-import {useNavigate} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import './layout-styles.css' 
 import coronavirus from '../../../../assets/img/img/icons/coronavirus.png';
-import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
+//import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
 
 const drawerWidth = 80;
@@ -26,7 +26,7 @@ const menuItems = [
     { 
     id: 1,
     icon: <PieChartOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerDos',
     },
     { 
     id: 2,
@@ -61,13 +61,13 @@ const menuItems = [
     {
     id: 8,
     icon: <ChatBubbleOutlineOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerOcho',
     },
-    {
-    id: 9,
-    icon: <RadioButtonCheckedIcon className='lastIcon' style={{ color: "#3639ae" }}/>,
-    path: '/',
-    },
+    // {
+    // id: 9,
+    // icon: <RadioButtonCheckedIcon className='lastIcon' style={{ color: "#3639ae" }}/>,
+    // path: '/',
+    // },
 ]
 
 export default function Layout({children}) {
@@ -92,6 +92,7 @@ export default function Layout({children}) {
        const navigate = useNavigate();
 
     return (
+        <div className='left-aling'>
         <div className={classes.root}>
             <Drawer
             sx={classes.drawer}
@@ -100,8 +101,7 @@ export default function Layout({children}) {
             classes={{paper: classes.drawerPaper}}
             >
                 <div>
-                    <img className="covidLogo" src={coronavirus} alt="covidlogo" path={'/'}></img>
-                    
+                    <Link to="/"><img className="covidLogo" src={coronavirus} alt="covidlogo"></img></Link>
                 </div>
                 <List>
                     {menuItems.map(item => (
@@ -119,6 +119,7 @@ export default function Layout({children}) {
             <div className={classes.page}>
                 {children}
             </div>
+        </div>
         </div>
     )
 }

@@ -1,0 +1,76 @@
+.coronavirus {
+    /*filter: invert(0.9) sepia(1);*/
+    width: 3vw;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+.covimap {
+    font-size: medium;
+    margin-top: 0;
+    margin-left: -15%;
+    font-size: 30px;
+}
+
+.homes {
+    margin-left: 55%;
+}
+
+
+.buttontracker {
+    border-radius: 25px;
+    width: 155px;
+    background-color: #3639AE;
+    border-color: #3639AE;
+    height: 3rem;
+}
+
+.buttonText{
+    font-weight: 400;
+    margin-top: -7%;
+}
+
+#home {
+    font-size: larger;
+    color: white;
+}
+
+#preventions {
+    font-size: larger;
+}
+
+#qurantines {
+    font-size: larger;
+}
+
+#pages {
+    font-size: larger;
+    color: white;
+    vertical-align: middle;
+}
+
+#abouts {
+    font-size: larger;
+}
+
+#helps {
+    font-size: larger;
+}
+
+.nav-Bar{
+    background-color: transparent;
+}
+
+.nav-Bar-Scroll{
+    background-color: #FFFFFF;
+}
+
+.navbar-text{
+    color: white;
+    font-size: larger;
+}
+
+.navbar-text-scrolled{
+    color:#515184;
+    font-size: larger;
+}

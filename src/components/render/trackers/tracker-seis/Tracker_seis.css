@@ -1,13 +1,27 @@
 .grafica {
-    width: 50vw;
-    height: 50vh;
+    width: 33vw;
+    background-color: #FFFFFF
 }
 
 .container-grafica{
-    width: 68vw;
+    width: 75vw;
     margin: 0 auto;
     padding: 30px;
     display: block;
     float: right;
     background-color: #F6F7FB;
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grafica-container{
+    display: flex;
+    margin-left: 0rem;
+    height: 70%;
+}
+
+.grafica3, .grafica4{
+    margin-top: -15rem;
+    margin-top: 2rem;
 }
