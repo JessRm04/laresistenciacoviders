@@ -246,6 +246,7 @@ h5 {
 .img-geo {
   width: 35vw;
   height: auto;
+  display: block;
 }
 .container-country {
   display: flex;
