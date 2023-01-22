@@ -1,6 +1,6 @@
 .grafica {
     width: 33vw;
-    height: 70vh;
+    background-color: #FFFFFF
 }
 
 .container-grafica{
@@ -23,4 +23,5 @@
 
 .grafica3, .grafica4{
     margin-top: -15rem;
+    margin-top: 2rem;
 }
