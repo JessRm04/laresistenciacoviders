@@ -9,7 +9,7 @@ const MolTrackerCincoFlags = () => {
     .sort((a, b) => b.cases - a.cases)
     .slice(0, 9)
     .map((item) =>(
-      <div className="nav-item" key={item.countryInfo._id}>
+      <div id='nav-item' key={item.countryInfo._id}>
         <a data-toggle="tab" href={item.country} >
           <img
             alt={item.country}
@@ -24,3 +24,4 @@ const MolTrackerCincoFlags = () => {
 }
 
 export default MolTrackerCincoFlags;
+
