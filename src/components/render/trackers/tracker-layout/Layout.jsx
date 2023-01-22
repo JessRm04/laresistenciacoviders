@@ -17,7 +17,7 @@ import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutline
 import {Link, useNavigate} from 'react-router-dom';
 import './layout-styles.css' 
 import coronavirus from '../../../../assets/img/img/icons/coronavirus.png';
-import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
+//import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
 
 const drawerWidth = 80;
@@ -61,13 +61,13 @@ const menuItems = [
     {
     id: 8,
     icon: <ChatBubbleOutlineOutlinedIcon style={{ color: "#3639ae" }}/>,
-    path: '/',
+    path: '/TrackerOcho',
     },
-    {
-    id: 9,
-    icon: <RadioButtonCheckedIcon className='lastIcon' style={{ color: "#3639ae" }}/>,
-    path: '/',
-    },
+    // {
+    // id: 9,
+    // icon: <RadioButtonCheckedIcon className='lastIcon' style={{ color: "#3639ae" }}/>,
+    // path: '/',
+    // },
 ]
 
 export default function Layout({children}) {
@@ -92,6 +92,7 @@ export default function Layout({children}) {
        const navigate = useNavigate();
 
     return (
+        <div className='left-aling'>
         <div className={classes.root}>
             <Drawer
             sx={classes.drawer}
@@ -118,6 +119,7 @@ export default function Layout({children}) {
             <div className={classes.page}>
                 {children}
             </div>
+        </div>
         </div>
     )
 }

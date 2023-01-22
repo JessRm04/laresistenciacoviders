@@ -7,12 +7,28 @@ import spreadsmedica from '../../../../assets/img/img/icons/spreadsmedica.jpg';
 import spreadsmedicarub from '../../../../assets/img/img/icons/spreadsmedicarub.jpg';
 import spreadsmocos from '../../../../assets/img/img/icons/spreadsmocos.jpg';
 import spreadstos from '../../../../assets/img/img/icons/spreadstos.jpg';
+import { Link } from 'react-router-dom';
 
 
 const Spreads = () => {
   return (
 
     <>
+     <div class="page-nav padding-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="section-title text-center">
+                            <h2 class="text-white mb-3">Qurantine</h2>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><Link to="/" class="text-white">Home</Link></li>
+                                <li class="list-inline-item"><Link to="qurantine" class="text-white">Qurantine</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       <section className="spreads mt-5 mb-5 container">
         <h3 className="spreadspeq text-center fs-5">Spreads</h3>
         <h2 className="spreadsxl text-center display-3 fw-bold">

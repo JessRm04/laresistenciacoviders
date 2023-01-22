@@ -3,7 +3,7 @@ import "./App.css";
 //import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
 import Trackerdos from "./components/render/trackers/tracker-dos/Mol-trackerdos";
 import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
-// import TrackerCinco from "./components/render/trackers/tacker-cinco/Tracker-cinco";
+import TrackerCinco from "./components/render/trackers/tracker-cinco/Tracker-cinco";
 import TrackerSeis from "./components/render/trackers/tracker-seis/Tracker_seis";
 import TrackerSiete from "./components/render/trackers/tracker-siete/Tracker-siete";
 import TrackerSieteBis from "./components/render/trackers/tracker-siete/Tracker-siete-bis";
@@ -14,7 +14,7 @@ import Question from "./components/render/landing/landing-view-questions/landing
 import Washed from "./components/render/landing/landing-view-wash/landing-view-wash";
 import PreventLanding from "./components/moleculas/Mol-Landing-prevent";
 import News from "./components/render/landing/landing-news/News";
-import Symptom from "./components/render/landing/landing-symptom copy/Symptom";
+import Symptom from "./components/render/landing/landing-symptom/Symptom";
 import Spreads from "./components/render/landing/landing-spreads/Spreads";
 import Footer from "./components/render/landing/footer/Footer";
 import LandingMobile from "./components/render/landing/landing-mobile/Landing-mobile";
@@ -43,7 +43,7 @@ function App() {
             <Route path="/Trackerdos" element={<Trackerdos />} />
             <Route path="/TrackerTres" element={<TableTracker />} />
             <Route path="/TrackerCuatro" element={<TrackerCuatro />} />
-            <Route path='/TrackerSieteBis' element={<TrackerSieteBis/>}/>
+            <Route path='/TrackerCinco' element={<TrackerCinco/>}/>
             <Route path="/TrackerSeis" element={<TrackerSeis />} />
             <Route path='/TrackerSiete' element={<TrackerSiete/>}/>
             {/* <Route path='/TrackerOcho'/> */}
