@@ -26,7 +26,7 @@ const TrackerSiete = () => {
         </div>
       </div>
       {responseData && (
-        <div className="track2">
+        <div className="tracker-7">
           <img src={flagUsa} alt="usa" className="flag-usa"/>
           <span className="usa">USA</span>
           <div className="container-colum">

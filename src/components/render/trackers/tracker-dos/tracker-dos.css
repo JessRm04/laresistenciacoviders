@@ -38,7 +38,7 @@ h5 {
 }
 
 .track2 {
-  width: 68vw;
+  width: 74vw;
   padding: 5rem;
   float: right;
   background-color: #F6F7FB; 
@@ -284,4 +284,15 @@ h5 {
 
 .desplegable{
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mapa-mundi{
+  width: 40vw;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: 33rem;
+  margin-top: -38rem;
+  background-color: white;
 }

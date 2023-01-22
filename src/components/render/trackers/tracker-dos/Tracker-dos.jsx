@@ -9,7 +9,7 @@ const TrackerDos = () => {
   return (
     <div className='containerTrackerDos'>
       <Desplegable/>
-      <MolTrackerDosCountry/>
+      <TrackerDos/>
       <MolTrackerDosWorld/>
     </div>
   )

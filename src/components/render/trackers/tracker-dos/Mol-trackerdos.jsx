@@ -9,7 +9,7 @@ import Desplegable from './Mol-tracker-dos-desplegable';
 import DataApiAll from '../../../../services/Services-data-api-all';
 import Layout from '../tracker-layout/Layout';
 import TrackerDiecinueve from '../tracker-covid19/Tracker-covid-diecinueve';
-
+import geo from "../../../../assets/images/geo.png";
 
 const Trackerdos = () => {
 
@@ -94,8 +94,11 @@ const Trackerdos = () => {
                                 <img className="virus" src={covidred} alt="virus" width="100px" />
                             </div>
                         </div>
-                        </div>
-                        <div className='container-colum-h'>
+                    </div>
+                    <div className='container-Mapa'>
+                        <img src={geo} alt="mapa mundi" className="mapa-mundi"/>
+                    </div>
+                    <div className='container-colum-h'>
                         <div className='container-casos-h'>
                             <div className='virus-h'>
                                 <img className="virus" src={covidblue} alt="virus" width="40px" />

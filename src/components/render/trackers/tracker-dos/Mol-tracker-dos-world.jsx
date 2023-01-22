@@ -5,6 +5,7 @@ import covidgreen from '../../../../assets/img/covidgreen.svg';
 import telephone from '../../../../assets/img/telephone.svg';
 import '../tracker-dos/tracker-dos.css';
 import DataApiAll from '../../../../services/Services-data-api-all';
+import geo from "../../../../assets/images/geo.png";
 
 
 const MolTrackerDosWorld = () => {

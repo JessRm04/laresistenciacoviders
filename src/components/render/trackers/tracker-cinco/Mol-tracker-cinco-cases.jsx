@@ -23,7 +23,7 @@ const MolTrackerCincoCases = () => {
           <div className="updated-time row">
             <div className="col-md-4 col-lg-3 col-6">
               <div className="covid-widget-1 defult-bx">
-                <div className="icon totalCase">
+                <div className="icon-5 totalCase">
                   <img src={covidefult} alt=""/>
                 </div>
                 <div className="info">
@@ -34,7 +34,7 @@ const MolTrackerCincoCases = () => {
             </div>
             <div className="col-md-4 col-lg-3 col-6">
               <div className="covid-widget-1 red-bx">
-                <div className="icon">
+                <div className="icon-5">
                   <img src={covidred} alt="" />
                 </div>
                 <div className="info totalDeaths">
@@ -45,7 +45,7 @@ const MolTrackerCincoCases = () => {
             </div>
             <div className="col-md-4 col-lg-3 col-6">
               <div className="covid-widget-1 green-bx">
-                <div className="icon">
+                <div className="icon-5">
                   <img src={covidgreen} alt="" />
                 </div>
                 <div className="info totalRecovered">
@@ -56,7 +56,7 @@ const MolTrackerCincoCases = () => {
             </div>
             <div className="col-md-4 col-lg-3 col-6">
               <div className="covid-widget-1 blue-bx">
-                <div className="icon">
+                <div className="icon-5">
                   <img src={covidblue} alt="" />
                 </div>
                 <div className="info totalActive">
@@ -67,7 +67,7 @@ const MolTrackerCincoCases = () => {
             </div>
             <div className="col-md-4 col-lg-3 col-6">
               <div className="covid-widget-1 orange-bx">
-                <div className="icon">
+                <div className="icon-5">
                   <img src={covidorange} alt="" />
                 </div>
                 <div className="info newCases">
@@ -78,7 +78,7 @@ const MolTrackerCincoCases = () => {
             </div>
             <div className="col-md-4 col-lg-3 col-6">
               <div className="covid-widget-1 redark-bx">
-                <div className="icon">
+                <div className="icon-5">
                   <img src={coviddark} alt="" />
                 </div>
                 <div className="info newDeaths">

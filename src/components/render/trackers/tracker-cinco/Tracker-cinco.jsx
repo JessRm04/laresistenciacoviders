@@ -13,13 +13,12 @@ const TrackerCinco = () => {
         <Layout />
         <TrackerDiecinueve />
       </div>
-      <div className="table-Container">
+      <div className="container-tracker-5">
         <div className="main-admin">
           <div
             className="chat-content"
             id="country-wise"
             tabIndex="5"
-            /*style={{overflow:'hidden', outline:'none'}}*/
           >
             <h1 className="stat-head">Covid-19 Country Wise - Tabs</h1>
             <div className="corona-update-in-tab">

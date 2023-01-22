@@ -93,20 +93,20 @@
   background: #3639ae;
 }
 
-.icon {
+.icon-5 {
   transition: transform 1s;
 }
 
-.icon:hover {
+.icon-5:hover {
   transform: rotate(360deg);
 }
 
-.icon img {
+.icon-5 img {
   width: 140px;
   height: 140px;
   position: relative;
   opacity: 0.1;
-  margin-left: 5rem;
+  margin-left: 6rem;
 }
 
 .tab-pane{
@@ -118,16 +118,17 @@
   width: 100%;  
 }
 
-.table-Container{
-  width: 68vw;
+.container-tracker-5{
+  width: 74vw;
   margin: 0 auto;
   padding: 30px;
   float: right;
   background-color: #F6F7FB;
+  margin-left: 8rem;
 }
 
 .info{
-  margin-left: -5rem;
+  margin-left: -15rem;
 }
 
 .totalCases{
