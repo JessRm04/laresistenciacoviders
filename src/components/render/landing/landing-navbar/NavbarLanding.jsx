@@ -45,7 +45,7 @@ function NavbarLanding() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link><h3 className={`covimap navbar-text ${navText ? 'navbar-text-scrolled' : ''}`}>COVIMAP</h3></Nav.Link>
-              <NavDropdown title="Home" id='home' className={`home navbar-desplegable ${navDesplegable ? 'navbar-text-scrolled' : ''}`}>
+              <NavDropdown title="Home" id='home' className={`homes navbar-desplegable ${navDesplegable ? 'navbar-text-scrolled' : ''}`}>
                 <NavDropdown.Item href="/#">Home One</NavDropdown.Item>
                 <NavDropdown.Item href="/#">
                   Home Two
@@ -84,7 +84,7 @@ function NavbarLanding() {
               </NavDropdown>
               <Nav.Link as={Link} to="prevention" id='preventions' className={`navbar-text ${navText ? 'navbar-text-scrolled' : ''}`}>Prevention</Nav.Link>
               <Nav.Link as={Link} to="qurantine" id='qurantines' className={`navbar-text ${navText ? 'navbar-text-scrolled' : ''}`}>Qurantine</Nav.Link>
-              <NavDropdown title="Pages" id="pages" className={`navbar-text ${navText ? 'navbar-text-scrolled' : ''}`}>
+              <NavDropdown title="Pages" id="pages" className={`home navbar-desplegable ${navDesplegable ? 'navbar-text-scrolled' : ''}`}>
                 <NavDropdown.Item as={Link} to="hand-wash">Hand Wash</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="social-distance">Social Distance</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="blog">Blog</NavDropdown.Item>
