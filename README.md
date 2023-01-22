@@ -42,4 +42,4 @@ Click [here](https://disease.sh)
 * [Aida Sousa](https://github.com/AidaSousa) Developer
 
 ## License :closed_lock_with_key:
-© [COVIDERS](aquí va enlace netlify)
+© [COVIDERS](https://lrcoviders.netlify.app/)
