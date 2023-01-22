@@ -12,7 +12,6 @@ import DynamicFeedOutlinedIcon from '@mui/icons-material/DynamicFeedOutlined';
 import MovingOutlinedIcon from '@mui/icons-material/MovingOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-//import {useNavigate} from 'react-router-dom';
 import '../NavbarStyles.css' 
 import coronavirus from '../../assets/img/coronavirus.png';
 import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
@@ -77,7 +76,6 @@ export default function Layout({children}) {
         },
       }
 
-      //const navigate = useNavigate();
 
     return (
         <div className={classes.root}>
@@ -94,7 +92,6 @@ export default function Layout({children}) {
                     {menuItems.map(item => (
                     <ListItem className='listItem'
                     button
-                   // onClick={() => navigate(item.path)}
                     >
                         <ListItemIcon className='icon'>{item.icon}</ListItemIcon>
                     </ListItem>

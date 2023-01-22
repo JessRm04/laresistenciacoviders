@@ -3,9 +3,7 @@ import Drawer from '@mui/material/Drawer';
 import { flexbox } from '@mui/system';
 import List from '@mui/material/List'; //ul
 import ListItem from '@mui/material/ListItem'; //li
-//import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
-//import ListItemText from '@mui/material/ListItemText';
 import PieChartOutlinedIcon from '@mui/icons-material/PieChartOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
@@ -17,8 +15,6 @@ import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutline
 import {Link, useNavigate} from 'react-router-dom';
 import './layout-styles.css' 
 import coronavirus from '../../../../assets/img/img/icons/coronavirus.png';
-//import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
-
 
 const drawerWidth = 80;
 
@@ -63,11 +59,6 @@ const menuItems = [
     icon: <ChatBubbleOutlineOutlinedIcon style={{ color: "#3639ae" }}/>,
     path: '/TrackerOcho',
     },
-    // {
-    // id: 9,
-    // icon: <RadioButtonCheckedIcon className='lastIcon' style={{ color: "#3639ae" }}/>,
-    // path: '/',
-    // },
 ]
 
 export default function Layout({children}) {

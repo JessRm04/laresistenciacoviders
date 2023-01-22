@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-//import TrackerRaiz from "./components/render/trackers/tracker-raiz/Tracker-raiz";
 import Trackerdos from "./components/render/trackers/tracker-dos/Mol-trackerdos";
 import TrackerCuatro from "./components/render/trackers/tracker-cuatro/Tracker-cuatro";
 import TrackerCinco from "./components/render/trackers/tracker-cinco/Tracker-cinco";
 import TrackerSeis from "./components/render/trackers/tracker-seis/Tracker_seis";
 import TrackerSiete from "./components/render/trackers/tracker-siete/Tracker-siete";
 import TableTracker from './components/moleculas/mol-track-tres-table/Mol-track-tres-table';
-// import DataApi from './services/Services-data-api-countries';
-// import TrackerDiecinueve from "./components/render/trackers/tracker-covid19/Tracker-covid-diecinueve";
 import Question from "./components/render/landing/landing-view-questions/landing-view-question";
 import Washed from "./components/render/landing/landing-view-wash/landing-view-wash";
 import PreventLanding from "./components/moleculas/Mol-Landing-prevent";
