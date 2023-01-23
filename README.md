@@ -17,7 +17,7 @@ This project was created to inform about all the data related to COVID-19 from a
 ![This is an image](./src/assets/img/img/icons/faqs-spreads.png)
 ![This is an image](./src/assets/img/img/icons/wash-spreads.png)
 ![This is an image](./src/assets/img/img/icons/mobile-spreads.png)
-![This is an image](./src/assets/img/img/icons/news-spreads.png)
+![This is an image](./src/assets/img/img/icons/new-spreads.png)
 ![This is an image](./src/assets/img/img/icons/footer-spreads.png)
 ![This is an image](./src/assets/img/img/icons/tracker2.png)
 ![This is an image](./src/assets/img/img/icons/tracker3.png)
