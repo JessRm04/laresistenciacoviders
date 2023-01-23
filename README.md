@@ -10,7 +10,7 @@ This project was created to inform about all the data related to COVID-19 from a
 ### This is the Covider's Logo
 ![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
 ### These are the page views:
-![This is an image](./src/assets/img/img/icons/landihng-navbar.png)
+![This is an image](./src/assets/img/img/icons/landing-navbar.png)
 ![This is an image](./src/assets/img/img/icons/landing-symptom.png)
 ![This is an image](./src/assets/img/img/icons/landing-prevent.png)
 ![This is an image](./src/assets/img/img/icons/landing-spreads.png)
