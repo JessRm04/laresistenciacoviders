@@ -9,6 +9,21 @@ This project was created to inform about all the data related to COVID-19 from a
 ## Screenshots :desktop_computer:
 ### This is the Covider's Logo
 ![This is an image](./src/assets/img/img/icons/Logo-Coviders.png)
+### These are the page views:
+![This is an image](./src/assets/img/img/icons/landing-navbar.png)
+![This is an image](./src/assets/img/img/icons/landing-symptom.png)
+![This is an image](./src/assets/img/img/icons/landing-prevent.png)
+![This is an image](./src/assets/img/img/icons/landing-spreads.png)
+![This is an image](./src/assets/img/img/icons/faqs-spreads.png)
+![This is an image](./src/assets/img/img/icons/wash-spreads.png)
+![This is an image](./src/assets/img/img/icons/mobile-spreads.png)
+![This is an image](./src/assets/img/img/icons/news-spreads.png)
+![This is an image](./src/assets/img/img/icons/footer-spreads.png)
+![This is an image](./src/assets/img/img/icons/tracker2.png)
+![This is an image](./src/assets/img/img/icons/tracker3.png)
+![This is an image](./src/assets/img/img/icons/tracker5.png)
+![This is an image](./src/assets/img/img/icons/tracker6.png)
+![This is an image](./src/assets/img/img/icons/tracker7.png)
 
 ## Tech/framework used :electric_plug:
 * **HTML** - utilizado para crear la estructura básica de la página web
